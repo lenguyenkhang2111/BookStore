@@ -244,7 +244,10 @@ namespace BookStore.Migrations
                     Description = table.Column<string>(type: "TEXT", nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
-                    CategoryId = table.Column<int>(type: "INTEGER", nullable: true)
+                    CategoryId = table.Column<int>(type: "INTEGER", nullable: true),
+                    Author = table.Column<string>(type: "TEXT", nullable: false),
+                    DiscountPercentage = table.Column<int>(type: "INTEGER", nullable: false),
+                    DatePublished = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
