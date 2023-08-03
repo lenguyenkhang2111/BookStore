@@ -19,4 +19,13 @@ public class Book
 
     public Category? Category { get; set; }
 
+    public required string Author { get; set; }
+
+    [Range(0, 100)]
+    public int DiscountPercentage { get; set; } = 0;
+
+    [DataType(DataType.Date), Display(Name = "Date Published")]
+    [DisplayFormat(DataFormatString = "{0:yyyy}", ApplyFormatInEditMode = true)]
+    public required string DatePublished { get; set; }
+
 }
