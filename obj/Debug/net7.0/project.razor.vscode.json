@@ -12918,6 +12918,53 @@
         }
       },
       {
+        "HashCode": 515716147,
+        "Kind": "ITagHelper",
+        "Name": "BookStore.TagHelpers.NoReloadLinkTagHelper",
+        "AssemblyName": "BookStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "a",
+            "Attributes": [
+              {
+                "Name": "asp-controller"
+              },
+              {
+                "Name": "asp-action"
+              },
+              {
+                "Name": "no-link"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-controller",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Controller"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BookStore.TagHelpers.NoReloadLinkTagHelper",
+          "Common.TypeNameIdentifier": "NoReloadLinkTagHelper",
+          "Common.TypeNamespace": "BookStore.TagHelpers",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
         "HashCode": 1039247134,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
@@ -18673,6 +18720,16 @@
     {
       "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\Book\\Index.cshtml",
+      "TargetPath": "Views\\Book\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\Book\\Detail.cshtml",
+      "TargetPath": "Views\\Book\\Detail.cshtml",
       "FileKind": "mvc"
     }
   ],
