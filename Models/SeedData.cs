@@ -21,6 +21,8 @@ namespace SportsStore.Models
                     Title = "Book 1",
                     Description = "This is book 1 description",
                     Price = 19.99m,
+                    DatePublished = "2023",
+                    Author = "Recommend"
 
                 },
                 new Book
@@ -28,6 +30,8 @@ namespace SportsStore.Models
                     Title = "Book 2",
                     Description = "This is book 2 description",
                     Price = 29.99m,
+                    DatePublished = "2023",
+                    Author = "Recommend"
                 }
                 );
                 context.SaveChanges();
