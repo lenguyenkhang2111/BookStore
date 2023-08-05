@@ -1,7 +1,7 @@
 using BookStore.Data;
 using BookStore.Models;
 using Microsoft.EntityFrameworkCore;
-namespace BookStoreStore.Models
+namespace BookStore.Models
 {
     public class SeedData
     {
@@ -30,6 +30,22 @@ namespace BookStoreStore.Models
                     Title = "Book 2",
                     Description = "This is book 2 description",
                     Price = 29.99m,
+                    DatePublished = "2023",
+                    Author = "Recommend"
+                },
+                new Book
+                {
+                    Title = "Book 3",
+                    Description = "This is book 3 description",
+                    Price = 39.99m,
+                    DatePublished = "2023",
+                    Author = "Recommend"
+                },
+                new Book
+                {
+                    Title = "Book 4",
+                    Description = "This is book 4 description",
+                    Price = 49.99m,
                     DatePublished = "2023",
                     Author = "Recommend"
                 }

@@ -1,7 +1,7 @@
 using BookStore.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using SportsStore.Models;
+using BookStore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
