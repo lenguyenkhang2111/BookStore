@@ -32,4 +32,5 @@ public class Book
 
     public decimal FinalPrice => Price - Price * DiscountPercentage / 100;
 
+
 }

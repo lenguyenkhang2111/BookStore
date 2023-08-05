@@ -36,6 +36,22 @@ namespace SportsStore.Models
                 );
                 context.SaveChanges();
             }
+            if (!context.Categories.Any())
+            {
+                context.Categories.AddRange(
+                new Category
+                {
+                    CategoryName = "Romance",
+                    BookCount = 2
+                },
+                new Category
+                {
+                    CategoryName = "Education",
+                    BookCount = 5
+                }
+                );
+                context.SaveChanges();
+            }
         }
     }
 }

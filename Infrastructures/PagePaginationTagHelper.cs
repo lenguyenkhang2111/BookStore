@@ -49,8 +49,23 @@ public class PaginationTagHelper : TagHelper
             ulTag.InnerHtml.AppendHtml(prevLiTag);
 
 
+
             // Add Page number links
-            for (int i = 1; i <= PageModel.TotalPages; i++)
+            int startPage = Math.Max(1, PageModel.CurrentPage - 2);
+            int endPage = Math.Min(PageModel.TotalPages, startPage + 5);
+
+            if (startPage > 1)
+            {
+                // Add ellipsis before the first page link
+                TagBuilder ellipsisLiTag = new("li");
+                TagBuilder ellipsisATag = new("a");
+                ellipsisATag.InnerHtml.AppendHtml("...");
+                ellipsisLiTag.AddCssClass("page-item");
+                ellipsisLiTag.InnerHtml.AppendHtml(ellipsisATag);
+                ulTag.InnerHtml.AppendHtml(ellipsisLiTag);
+            }
+
+            for (int i = startPage; i <= endPage; i++)
             {
                 TagBuilder liTag = new("li");
                 TagBuilder aTag = new("a");
@@ -66,6 +81,17 @@ public class PaginationTagHelper : TagHelper
                 }
                 liTag.InnerHtml.AppendHtml(aTag);
                 ulTag.InnerHtml.AppendHtml(liTag);
+            }
+
+            if (endPage < PageModel.TotalPages)
+            {
+                // Add ellipsis after the last page link
+                TagBuilder ellipsisLiTag = new("li");
+                TagBuilder ellipsisATag = new("a");
+                ellipsisATag.InnerHtml.AppendHtml("...");
+                ellipsisLiTag.AddCssClass("page-item");
+                ellipsisLiTag.InnerHtml.AppendHtml(ellipsisATag);
+                ulTag.InnerHtml.AppendHtml(ellipsisLiTag);
             }
 
             // Add "Total Pages" indicator

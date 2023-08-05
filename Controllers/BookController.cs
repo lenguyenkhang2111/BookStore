@@ -16,19 +16,27 @@ public class BookController : Controller
         this.context = context;
     }
     public ViewResult Index(Category? category, int bookPage = 1)
-               => View(new BookListViewModel
-               {
-                   Books = context.Books
-                   .Where(b => category == null || b.Category == category)
-                   .OrderBy(b => b.Id)
-                   .Skip((bookPage - 1) * PageSize)
-                   .Take(PageSize),
-                   PagingInfo = new PagingInfo
-                   {
-                       CurrentPage = bookPage,
-                       ItemsPerPage = PageSize,
-                       TotalItems = 15
-                   },
-                   CurrentCategory = category
-               });
+    {
+        return View(new BookListViewModel
+        {
+            Books = context.Books
+            .Where(b => category == null || b.Category == category)
+            .OrderBy(b => b.Id)
+            .Skip((bookPage - 1) * PageSize)
+            .Take(PageSize),
+            PagingInfo = new PagingInfo
+            {
+                CurrentPage = bookPage,
+                ItemsPerPage = PageSize,
+                TotalItems = 100
+            },
+            CurrentCategory = category,
+            Categories = context.Categories.Select(c => new Category
+            {
+                Id = c.Id,
+                CategoryName = c.CategoryName,
+                BookCount = context.Books.Count(book => book.Category != null && book.Category == c)
+            })
+        });
+    }
 }
