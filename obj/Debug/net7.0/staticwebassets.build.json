@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rogmsdyxd+dotsgoKhLEJL8MMZ+nKVVDrWPEOji/ZRA=",
+  "Hash": "n7L1itefXamcaQLgF+51s5c04asBQstnTrqPXr5Ztnw=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -25889,23 +25889,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\popup\\quickView.html",
-      "SourceId": "BookStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
-      "BasePath": "_content/BookStore",
-      "RelativePath": "popup/quickView.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\popup\\quickView.html"
     }
   ]
 }
