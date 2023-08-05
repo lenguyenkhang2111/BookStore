@@ -1,7 +1,7 @@
 using BookStore.Data;
 using BookStore.Models;
 using Microsoft.EntityFrameworkCore;
-namespace SportsStore.Models
+namespace BookStoreStore.Models
 {
     public class SeedData
     {
