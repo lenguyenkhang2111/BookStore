@@ -33,12 +33,7 @@ public class BookController : Controller
                 TotalItems = context.Books.Count()
             },
             CurrentCategoryId = categoryId,
-            Categories = context.Categories.Select(c => new Category
-            {
-                Id = c.Id,
-                CategoryName = c.CategoryName,
-                BookCount = context.Books.Count(book => book.Category != null && book.Category == c)
-            })
+            Categories = context.Categories.Include(c => c.Books)
         });
     }
 }

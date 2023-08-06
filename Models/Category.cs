@@ -8,6 +8,7 @@ public class Category
 
     public required string CategoryName { get; set; }
 
-    public int BookCount { get; set; } = 0;
+    public ICollection<Book>? Books { get; set; }
+
 
 }

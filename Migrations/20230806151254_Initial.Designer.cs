@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-    [Migration("20230805223209_Initial")]
+    [Migration("20230806151254_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -105,9 +105,6 @@ namespace BookStore.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("BookCount")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("CategoryName")
@@ -411,7 +408,7 @@ namespace BookStore.Migrations
             modelBuilder.Entity("BookStore.Models.Book", b =>
                 {
                     b.HasOne("BookStore.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Books")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -544,6 +541,11 @@ namespace BookStore.Migrations
             modelBuilder.Entity("BookStore.Models.Cart", b =>
                 {
                     b.Navigation("CartItems");
+                });
+
+            modelBuilder.Entity("BookStore.Models.Category", b =>
+                {
+                    b.Navigation("Books");
                 });
 
             modelBuilder.Entity("BookStore.Models.Order", b =>

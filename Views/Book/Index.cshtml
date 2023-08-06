@@ -111,7 +111,7 @@
                 <div class="sidebar sidebar-shop">
                     <div class="widget widget-clean">
                         <label>Filters:</label>
-                        <a href="#" class="sidebar-filter-clear">Clean All</a>
+                        <a asp-controller="Book" asp-action="Index" class="sidebar-filter-clear">Clean All</a>
                     </div><!-- End .widget widget-clean -->
 
                     <div class="widget widget-collapsible">
@@ -137,7 +137,7 @@
                                                         for="cat-@c.Id">@c.CategoryName</label>
                                                 </form>
                                             </div><!-- End .custom-checkbox -->
-                                            <span class="item-count">@c.BookCount</span>
+                                            <span class="item-count">@c.Books?.Count()</span>
                                         </div>
                                     }
                                 </div><!-- End .filter-items -->
