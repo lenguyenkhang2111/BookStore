@@ -22,6 +22,15 @@ $(document).ready(function () {
         closestFilterItem.prependTo(closestFilterItem.parent());
     });
 
+    $("select[name='sortby']").change(function () {
+        // Lấy giá trị đã chọn
+        var selectedValue = $(this).val();
+        $("form[name='sortby-form']").attr("asp-route-sortby", selectedValue);
+        $("form[name='sortby-form']").submit();
+    });
+
+
+
     // Header Search Toggle
 
     var $searchWrapper = $('.header-search-wrapper'),
@@ -146,6 +155,8 @@ $(document).ready(function () {
     $('.sidebar-filter-clear').on('click', function (e) {
         $('.sidebar-shop').find('input').prop('checked', false);
     });
+
+
 
     // Popup - Iframe Video - Map etc.
     if ($.fn.magnificPopup) {

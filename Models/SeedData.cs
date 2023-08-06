@@ -26,6 +26,87 @@ namespace BookStore.Models
                 context.Books.AddRange(
                 new Book
                 {
+                    Title = "B Book",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "A Book",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "C Book",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2022",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2021",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "1998",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
+                    Title = "Book 1",
+                    Description = "This is book 1 description",
+                    Price = 19.99m,
+                    YearPublished = "2023",
+                    Author = "Loyadt Kasuchi",
+                    Category = romance
+                },
+                new Book
+                {
                     Title = "Book 1",
                     Description = "This is book 1 description",
                     Price = 19.99m,

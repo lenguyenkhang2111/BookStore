@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-    [Migration("20230806151254_Initial")]
+    [Migration("20230806201846_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

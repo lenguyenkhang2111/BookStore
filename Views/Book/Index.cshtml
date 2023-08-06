@@ -30,11 +30,16 @@
                         <div class="toolbox-sort">
                             <label for="sortby">Sort by:</label>
                             <div class="select-custom">
-                                <select name="sortby" id="sortby" class="form-control">
-                                    <option value="popularity" selected="selected">Most Popular</option>
-                                    <option value="rating">Most Rated</option>
-                                    <option value="date">Date</option>
-                                </select>
+                                <form name="sortby-form" asp-controller="Book" asp-action="Index"
+                                    asp-route-categoryId="@Model?.CurrentCategoryId"
+                                    asp-route-bookPage="@Model?.PagingInfo?.CurrentPage"
+                                    asp-route-sortby="Model?.CurrentSortby">
+                                    <select name="sortby" id="sortby" class="form-control">
+                                        <option value="Name" selected="@(Model.CurrentSortby == "Name")">Name</option>
+                                        <option value="Year" selected="@(Model.CurrentSortby == "Year")">Year</option>
+                                        <option value="Id" selected="@(Model.CurrentSortby == "Id")">Id</option>
+                                    </select>
+                                </form>
                             </div>
                         </div><!-- End .toolbox-sort -->
 
@@ -75,9 +80,7 @@
                                 <div class="col-lg-6">
                                     <div class="product-body product-action-inner">
                                         <h3 class="product-title text-danger mb-1" style="font-size: large;"><a
-                                                href="product.html">Brown
-                                                paperbag waist
-                                                pencil skirt</a></h3><!-- End .product-title -->
+                                                href="product.html">@p.Title</a></h3><!-- End .product-title -->
                                         <!-- End .product-cat -->
                                         <div class="product-cat mb-1" style="color: #ef837b;">
                                             <a href="#"><i class="bi bi-tag-fill"> Category: </i>
@@ -103,7 +106,7 @@
 
                 <!--Pagination link-->
                 <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
-                    page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
+                    page-url-sortby="Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
             </div><!-- End .col-lg-9 -->
 
 
@@ -129,7 +132,8 @@
                                     {
                                         <div class="filter-item">
                                             <div class="custom-control custom-checkbox">
-                                                <form asp-controller="Book" asp-action="Index" asp-route-categoryId="@c.Id">
+                                                <form asp-controller="Book" asp-action="Index" asp-route-categoryId="@c.Id"
+                                                    asp-route-sortby="Model?.CurrentSortby">
                                                     <input @(c.Id == Model?.CurrentCategoryId ? "checked" : "")
                                                         type="checkbox" class="custom-control-input" id="cat-@c.Id"
                                                         data-auto-submit>
