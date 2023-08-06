@@ -6,7 +6,7 @@ public class BookListViewModel
 {
     public IEnumerable<Book> Books { get; set; } = Enumerable.Empty<Book>();
     public PagingInfo PagingInfo { get; set; } = new();
-    public Category? CurrentCategory { get; set; }
+    public int? CurrentCategoryId { get; set; }
 
     public IEnumerable<Category> Categories { get; set; } = Enumerable.Empty<Category>();
 }

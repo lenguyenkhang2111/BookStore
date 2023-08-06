@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using BookStore.Models;
 using BookStore.Data;
 using BookStore.Models.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Controllers;
 
@@ -15,12 +16,13 @@ public class BookController : Controller
     {
         this.context = context;
     }
-    public ViewResult Index(Category? category, int bookPage = 1)
+    public ViewResult Index(int? categoryId, int bookPage = 1)
     {
         return View(new BookListViewModel
         {
             Books = context.Books
-            .Where(b => category == null || b.Category == category)
+            .Include(b => b.Category)
+            .Where(b => categoryId == null || b.Category.Id == categoryId)
             .OrderBy(b => b.Id)
             .Skip((bookPage - 1) * PageSize)
             .Take(PageSize),
@@ -28,9 +30,9 @@ public class BookController : Controller
             {
                 CurrentPage = bookPage,
                 ItemsPerPage = PageSize,
-                TotalItems = 100
+                TotalItems = context.Books.Count()
             },
-            CurrentCategory = category,
+            CurrentCategoryId = categoryId,
             Categories = context.Categories.Select(c => new Category
             {
                 Id = c.Id,

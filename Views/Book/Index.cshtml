@@ -40,71 +40,70 @@
 
                     </div><!-- End .toolbox-right -->
                 </div><!-- End .toolbox -->
+                @foreach (var p in Model?.Books ?? Enumerable.Empty<Book>())
+                {
+                    <div class="products mb-3">
+                        <div class="product product-list">
+                            <div class="row">
+                                <div class="col-6 col-lg-3">
+                                    <figure class="product-media">
+                                        <span class="product-label label-new">New</span>
+                                        <a href="product.html">
+                                            <img src="assets/images/products/product-4.jpg" alt="Product image"
+                                                class="product-image">
+                                        </a>
+                                    </figure><!-- End .product-media -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
 
-                <div class="products mb-3">
-                    <div class="product product-list">
-                        <div class="row">
-                            <div class="col-6 col-lg-3">
-                                <figure class="product-media">
-                                    <span class="product-label label-new">New</span>
-                                    <a href="product.html">
-                                        <img src="assets/images/products/product-4.jpg" alt="Product image"
-                                            class="product-image">
-                                    </a>
-                                </figure><!-- End .product-media -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
+                                <div class="col-6 col-lg-3 order-lg-last">
+                                    <div class="product-list-action">
+                                        <div class="product-price font-weight-bold justify-content-center">
+                                            $@p.FinalPrice
+                                        </div><!-- End .product-price -->
 
-                            <div class="col-6 col-lg-3 order-lg-last">
-                                <div class="product-list-action">
-                                    <div class="product-price font-weight-bold justify-content-center">
-                                        $60.00
-                                    </div><!-- End .product-price -->
+                                        <div class="product-action justify-content-center">
+                                            <p class="btn-product btn-quickview" title="Quick view">
+                                                <span class="text-nowrap" style="font-size: 1.4rem;">Published
+                                                    <b>@p.YearPublished</b></span>
+                                            </p>
+                                        </div><!-- End .product-action -->
 
-                                    <div class="product-action justify-content-center">
-                                        <p class="btn-product btn-quickview" title="Quick view">
-                                            <span class="text-nowrap" style="font-size: 1.4rem;">Published
-                                                <b>2023</b></span>
-                                        </p>
-                                    </div><!-- End .product-action -->
+                                        <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                    </div><!-- End .product-list-action -->
+                                </div><!-- End .col-sm-6 col-lg-3 -->
 
-                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                </div><!-- End .product-list-action -->
-                            </div><!-- End .col-sm-6 col-lg-3 -->
+                                <div class="col-lg-6">
+                                    <div class="product-body product-action-inner">
+                                        <h3 class="product-title text-danger mb-1" style="font-size: large;"><a
+                                                href="product.html">Brown
+                                                paperbag waist
+                                                pencil skirt</a></h3><!-- End .product-title -->
+                                        <!-- End .product-cat -->
+                                        <div class="product-cat mb-1" style="color: #ef837b;">
+                                            <a href="#"><i class="bi bi-tag-fill"> Category: </i>
+                                                @p.Category?.CategoryName</a>
+                                        </div>
 
-                            <div class="col-lg-6">
-                                <div class="product-body product-action-inner">
-                                    <h3 class="product-title text-danger mb-1" style="font-size: large;"><a
-                                            href="product.html">Brown
-                                            paperbag waist
-                                            pencil skirt</a></h3><!-- End .product-title -->
-                                    <!-- End .product-cat -->
-                                    <div class="product-cat mb-1" style="color: #ef837b;">
-                                        <a href="#"><i class="bi bi-tag-fill"> Category: </i> Women</a>
-                                    </div>
+                                        <a href="#" class="product-author mb-1">
+                                            <i class="bi bi-people-fill"> Author: @p.Author</i>
+                                        </a>
+                                        <div class="product-content mb-0">
+                                            <p class="mb-1">Lorem ipsum dolor sit amet, consectetuer adipiscingelit.
+                                                Phasellus hendrerit. Pellentesque </p>
+                                        </div><!-- End .product-content -->
+                                    </div><!-- End .product-body -->
+                                </div><!-- End .col-lg-6 -->
+                            </div><!-- End .row -->
+                        </div><!-- End .product -->
 
-                                    <a href="#" class="product-author mb-1">
-                                        <i class="bi bi-people-fill"> Author: haha</i>
-                                    </a>
-                                    <div class="product-content mb-0">
-                                        <p class="mb-1">Lorem ipsum dolor sit amet, consectetuer adipiscingelit.
-                                            Phasellus hendrerit. Pellentesque </p>
-                                    </div><!-- End .product-content -->
-
-
-
-
-
-                                </div><!-- End .product-body -->
-                            </div><!-- End .col-lg-6 -->
-                        </div><!-- End .row -->
-                    </div><!-- End .product -->
-
-                </div><!-- End .products -->
+                    </div>
+                }
+                <!-- End .products -->
 
 
                 <!--Pagination link-->
-                <nav aria-label="Page navigation" page-model="@Model.PagingInfo" page-action="Index"
-                    page-url-category="@Model.CurrentCategory!"></nav>
+                <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
+                    page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
             </div><!-- End .col-lg-9 -->
 
 
@@ -130,8 +129,13 @@
                                     {
                                         <div class="filter-item">
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="cat-@c.Id">
-                                                <label class="custom-control-label" for="cat-@c.Id">@c.CategoryName</label>
+                                                <form asp-controller="Book" asp-action="Index" asp-route-categoryId="@c.Id">
+                                                    <input @(c.Id == Model?.CurrentCategoryId ? "checked" : "")
+                                                        type="checkbox" class="custom-control-input" id="cat-@c.Id"
+                                                        data-auto-submit>
+                                                    <label class="custom-control-label"
+                                                        for="cat-@c.Id">@c.CategoryName</label>
+                                                </form>
                                             </div><!-- End .custom-checkbox -->
                                             <span class="item-count">@c.BookCount</span>
                                         </div>
@@ -140,8 +144,6 @@
                             </div><!-- End .widget-body -->
                         </div><!-- End .collapse -->
                     </div><!-- End .widget -->
-
-
 
 
 

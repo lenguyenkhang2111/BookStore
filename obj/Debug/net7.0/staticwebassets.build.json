@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n7L1itefXamcaQLgF+51s5c04asBQstnTrqPXr5Ztnw=",
+  "Hash": "JcQFXHZe92xuF+G79l2w+SQkCv0+kbmWEQc4e/z5Uek=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -25566,23 +25566,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.waypoints.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\js\\main.js",
-      "SourceId": "BookStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
-      "BasePath": "_content/BookStore",
-      "RelativePath": "assets/js/main.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
       "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",

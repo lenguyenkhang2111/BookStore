@@ -27,12 +27,8 @@ namespace BookStore.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("CategoryId")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("INTEGER");
-
-                    b.Property<string>("DatePublished")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
@@ -47,6 +43,10 @@ namespace BookStore.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("YearPublished")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -409,7 +409,9 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("CategoryId");
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Category");
                 });
