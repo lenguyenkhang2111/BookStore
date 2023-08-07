@@ -45,7 +45,7 @@
 
                     </div><!-- End .toolbox-right -->
                 </div><!-- End .toolbox -->
-                @foreach (var p in Model?.Books ?? Enumerable.Empty<Book>())
+                @foreach (var b in Model?.Books ?? Enumerable.Empty<Book>())
                 {
                     <div class="products mb-3">
                         <div class="product product-list">
@@ -63,32 +63,33 @@
                                 <div class="col-6 col-lg-3 order-lg-last">
                                     <div class="product-list-action">
                                         <div class="product-price font-weight-bold justify-content-center">
-                                            $@p.FinalPrice
+                                            $@b.FinalPrice
                                         </div><!-- End .product-price -->
 
                                         <div class="product-action justify-content-center">
                                             <p class="btn-product btn-quickview" title="Quick view">
                                                 <span class="text-nowrap" style="font-size: 1.4rem;">Published
-                                                    <b>@p.YearPublished</b></span>
+                                                    <b>@b.YearPublished</b></span>
                                             </p>
                                         </div><!-- End .product-action -->
 
-                                        <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                        <a asp-asp-controller="Cart" asp-action="AddToCart" asp-route-bookID="@b.Id"
+                                            class="btn-product btn-cart"><span>add to cart</span></a>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
 
                                 <div class="col-lg-6">
                                     <div class="product-body product-action-inner">
                                         <h3 class="product-title text-danger mb-1" style="font-size: large;"><a
-                                                href="product.html">@p.Title</a></h3><!-- End .product-title -->
+                                                href="product.html">@b.Title</a></h3><!-- End .product-title -->
                                         <!-- End .product-cat -->
                                         <div class="product-cat mb-1" style="color: #ef837b;">
                                             <a href="#"><i class="bi bi-tag-fill"> Category: </i>
-                                                @p.Category?.CategoryName</a>
+                                                @b.Category?.CategoryName</a>
                                         </div>
 
                                         <a href="#" class="product-author mb-1">
-                                            <i class="bi bi-people-fill"> Author: @p.Author</i>
+                                            <i class="bi bi-people-fill"> Author: @b.Author</i>
                                         </a>
                                         <div class="product-content mb-0">
                                             <p class="mb-1">Lorem ipsum dolor sit amet, consectetuer adipiscingelit.
