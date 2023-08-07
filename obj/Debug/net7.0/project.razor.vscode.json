@@ -12918,9 +12918,9 @@
         }
       },
       {
-        "HashCode": 327339086,
+        "HashCode": -467166899,
         "Kind": "ITagHelper",
-        "Name": "BookStore.TagHelpers.NoReloadLinkTagHelper",
+        "Name": "BookStore.Infrastructures.NoReloadLinkTagHelper",
         "AssemblyName": "BookStore",
         "CaseSensitive": false,
         "TagMatchingRules": [
@@ -12958,9 +12958,60 @@
           }
         ],
         "Metadata": {
-          "Common.TypeName": "BookStore.TagHelpers.NoReloadLinkTagHelper",
+          "Common.TypeName": "BookStore.Infrastructures.NoReloadLinkTagHelper",
           "Common.TypeNameIdentifier": "NoReloadLinkTagHelper",
-          "Common.TypeNamespace": "BookStore.TagHelpers",
+          "Common.TypeNamespace": "BookStore.Infrastructures",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
+        "HashCode": 1882922547,
+        "Kind": "ITagHelper",
+        "Name": "BookStore.Infrastructures.PaginationTagHelper",
+        "AssemblyName": "BookStore",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "nav",
+            "Attributes": [
+              {
+                "Name": "page-model"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-model",
+            "TypeName": "BookStore.Models.ViewModels.PagingInfo",
+            "Metadata": {
+              "Common.PropertyName": "PageModel"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-action",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "PageAction"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-url-values",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "IndexerNamePrefix": "page-url-",
+            "IndexerTypeName": "System.Object",
+            "Metadata": {
+              "Common.PropertyName": "PageUrlValues"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BookStore.Infrastructures.PaginationTagHelper",
+          "Common.TypeNameIdentifier": "PaginationTagHelper",
+          "Common.TypeNamespace": "BookStore.Infrastructures",
           "Runtime.Name": "ITagHelper"
         }
       },
