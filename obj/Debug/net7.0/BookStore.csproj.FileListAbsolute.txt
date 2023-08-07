@@ -438,3 +438,4 @@ C:\Users\THE HAO PC\Desktop\BookStore\obj\Debug\net7.0\refint\BookStore.dll
 C:\Users\THE HAO PC\Desktop\BookStore\obj\Debug\net7.0\BookStore.pdb
 C:\Users\THE HAO PC\Desktop\BookStore\obj\Debug\net7.0\BookStore.genruntimeconfig.cache
 C:\Users\THE HAO PC\Desktop\BookStore\obj\Debug\net7.0\ref\BookStore.dll
+c:\Users\THE HAO PC\Desktop\BookStore\bin\Debug\net7.0\Newtonsoft.Json.dll
