@@ -3,12 +3,19 @@
 namespace BookStore.Models;
 
 public class CartItem
-{
-    public int Id { get; set; }
+    {
+        public int Id { get; set; }
 
-    public required Cart Cart { get; set; }
+        public Cart Cart { get; set; }
+        public CartItem(Cart cart)
+        {
+            Cart = cart;
+        }
+        public CartItem()
+        {
+        }
 
-    public required Book Book { get; set; }
+        public Book Book { get; set; }
 
-    public int Quantity { get; set; }
-}
+        public int Quantity { get; set; }
+    }
