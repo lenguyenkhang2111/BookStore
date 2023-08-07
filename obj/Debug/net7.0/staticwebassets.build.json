@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mR4O+NJGtfs++3/xQp9d8yV7MTQyPyo5T+29NVyHfnI=",
+  "Hash": "JcQFXHZe92xuF+G79l2w+SQkCv0+kbmWEQc4e/z5Uek=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -25568,24 +25568,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\main.js",
-      "SourceId": "BookStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\",
-      "BasePath": "_content/BookStore",
-      "RelativePath": "assets/js/main.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\",
@@ -25889,23 +25872,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\popup\\quickView.html",
-      "SourceId": "BookStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\",
-      "BasePath": "_content/BookStore",
-      "RelativePath": "popup/quickView.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\popup\\quickView.html"
     }
   ]
 }

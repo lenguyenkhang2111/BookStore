@@ -21,9 +21,4 @@ public class StoreDbContext : IdentityDbContext<IdentityUser>
     public DbSet<OrderItem> OrderItems { get; set; }
 
 
-    
-
-
-
-
 }
