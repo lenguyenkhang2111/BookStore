@@ -70,7 +70,24 @@
                                             </div><!-- End .header-menu -->
                                         </div>
                                     </li>
-                                    <li><a href="#signin-modal" data-toggle="modal">Sign in / Sign up</a></li>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <!-- Hiển thị khi người dùng đã đăng nhập -->
+                                        <li class="nav-item">
+                                        <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
+                                            <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post">
+
+                                                <button type="submit" class="nav-link btn btn-link">Logout</button>
+                                            </form>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <!-- Hiển thị khi người dùng chưa đăng nhập -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" asp-controller="Account" asp-action="Register">Login/Sign up</a>
+                                        </li>
+                                    }
                                 </ul>
                             </li>
                         </ul><!-- End .top-menu -->

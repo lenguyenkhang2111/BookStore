@@ -1,4 +1,5 @@
 using BookStore.Data;
+using BookStore.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SportsStore.Models;
@@ -11,9 +12,13 @@ builder.Services.AddDbContext<StoreDbContext>(opts =>
 {
     opts.UseSqlite(builder.Configuration.GetConnectionString("BookStoreSQLiteConnection"));
 });
-builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<StoreDbContext>();
+builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<StoreDbContext>();
 
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+});
 
 var app = builder.Build();
 
@@ -29,7 +34,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

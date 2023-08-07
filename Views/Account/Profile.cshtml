@@ -1,0 +1,16 @@
+﻿@model ProfileViewModel
+@{
+    Layout = null;
+}
+
+<h2>User Profile</h2>
+<hr />
+<div>
+    <p><strong>Full Name:</strong> @Model.FullName</p>
+    <p><strong>Address:</strong> @Model.HomeAddress</p>
+    <p><strong>Email:</strong> @User.Identity.Name</p>
+    <!-- Display other properties as needed -->
+    <li><a asp-controller="Account" asp-action="EditProfile">Edit Profile</a></li>
+
+</div>
+
