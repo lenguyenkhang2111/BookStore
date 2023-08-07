@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QXMitTRzmtGIyGDVuiDtesCx1dq/2t5n2rgKY37WrYoK4mkc1Ci3cRhVZCVcCy5q9J5263qUG3qdxOPNutPJyA==",
+  "dgSpecHash": "aupuqqA9prceL9S8UXZHCwrrGfsCzgBtOhUrrfY+RHUl/cl6gTmiUCO9bTtE0lGjRsiNQ4fK+uu86p64swQj8g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

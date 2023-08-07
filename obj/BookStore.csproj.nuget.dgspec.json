@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {}
+    "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {
+    "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
