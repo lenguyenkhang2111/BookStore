@@ -8,7 +8,10 @@ namespace BookStore.Data;
 public class StoreDbContext : IdentityDbContext<IdentityUser>
 {
     public StoreDbContext(DbContextOptions<StoreDbContext> options) : base(options) { }
-
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+    }
     public DbSet<Book> Books { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<CategoryRequest> CategoryRequests { get; set; }
