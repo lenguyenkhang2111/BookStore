@@ -17,7 +17,9 @@ public class Book
     public string? ImageUrl { get; set; }
 
     public Category? Category { get; set; }
+    
 
+    [Required(ErrorMessage = "Author is required")]
     public required string Author { get; set; }
 
     [Range(0, 100)]
@@ -32,4 +34,5 @@ public class Book
 
     public decimal FinalPrice => Price - Price * DiscountPercentage / 100;
 
+    
 }
