@@ -5773,11 +5773,7 @@
       "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.min.js"
     },
     {
-      "Id": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\main.js",
-      "PackagePath": "staticwebassets\\assets\\js\\main.js"
-    },
-    {
-      "Id": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
+      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\nouislider.min.js"
     },
     {
@@ -5847,10 +5843,6 @@
     {
       "Id": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
-    },
-    {
-      "Id": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\popup\\quickView.html",
-      "PackagePath": "staticwebassets\\popup\\quickView.html"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BookStore.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -16,10 +16,11 @@ public class Book
 
     public string? ImageUrl { get; set; }
 
-    public Category? Category { get; set; }
-    
+    [ForeignKey("Category")]
+    public int CategoryId { get; set; }
 
-    [Required(ErrorMessage = "Author is required")]
+    public required Category Category { get; set; }
+
     public required string Author { get; set; }
 
     [Range(0, 100)]
@@ -27,12 +28,11 @@ public class Book
 
     [DataType(DataType.Date), Display(Name = "Date Published")]
     [DisplayFormat(DataFormatString = "{0:yyyy}", ApplyFormatInEditMode = true)]
-    public required string DatePublished { get; set; }
+    public required string YearPublished { get; set; }
 
     [Display(Name = "Final Price")]
     [DisplayFormat(DataFormatString = "{0:C}")]
-
     public decimal FinalPrice => Price - Price * DiscountPercentage / 100;
 
-    
+
 }

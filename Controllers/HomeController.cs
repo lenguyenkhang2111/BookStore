@@ -1,16 +1,17 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BookStore.Models;
+using BookStore.Data;
 
 namespace BookStore.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private StoreDbContext context;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(StoreDbContext context)
     {
-        _logger = logger;
+        this.context = context;
     }
 
     public IActionResult Index()
