@@ -6,6 +6,8 @@ public class OrderItem
 
     public int Quantity { get; set; }
 
+
+    public int BookId { get; set; }
     public required Book Book { get; set; }
 
     public required Order Order { get; set; }
