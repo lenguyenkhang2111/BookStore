@@ -142,7 +142,7 @@ namespace BookStore.Migrations
 
             modelBuilder.Entity("BookStore.Models.Order", b =>
                 {
-                    b.Property<int>("OrderId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
@@ -153,7 +153,7 @@ namespace BookStore.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("OrderId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
@@ -169,7 +169,7 @@ namespace BookStore.Migrations
                     b.Property<int>("BookId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("OrderId")
+                    b.Property<int>("OrderID")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Quantity")
@@ -179,7 +179,7 @@ namespace BookStore.Migrations
 
                     b.HasIndex("BookId");
 
-                    b.HasIndex("OrderId");
+                    b.HasIndex("OrderID");
 
                     b.ToTable("OrderItems");
                 });
@@ -475,7 +475,7 @@ namespace BookStore.Migrations
 
                     b.HasOne("BookStore.Models.Order", "Order")
                         .WithMany("OrderItems")
-                        .HasForeignKey("OrderId")
+                        .HasForeignKey("OrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
