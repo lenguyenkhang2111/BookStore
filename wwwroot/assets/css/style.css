@@ -8035,7 +8035,8 @@ p {
 }
 
 .product.product-list .btn-product.btn-crud.btn-delete::before {
-    content: '\e812'
+    content: "\f34c";
+    font-family: "LineAwesome" !important;
 }
 
 .product.product-list .btn-product.btn-crud.btn-edit {
@@ -8050,7 +8051,8 @@ p {
 }
 
 .product.product-list .btn-product.btn-crud.btn-edit::before {
-    content: '\e812'
+    content: "\f1c1"
+
 }
 
 .product.product-list .btn-product.btn-crud span {

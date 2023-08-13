@@ -5793,34 +5793,6 @@
       "PackagePath": "staticwebassets\\assets\\main.js"
     },
     {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\css\\line-awesome.min.css",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\css\\line-awesome.min.css"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesome0176.eot",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesome0176.eot"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.eot",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.eot"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.svg",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.svg"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.ttf",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.ttf"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff"
-    },
-    {
-      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff2",
-      "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff2"
-    },
-    {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
