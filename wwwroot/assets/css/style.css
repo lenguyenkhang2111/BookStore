@@ -8011,6 +8011,69 @@ p {
     margin-right: 0
 }
 
+.product.product-list .btn-product.btn-crud {
+    border: 0.1rem solid;
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all .35s ease
+}
+
+.product.product-list .btn-product.btn-crud.btn-delete {
+    border-color: #f44336;
+    color: #f44336;
+}
+
+.product.product-list .btn-product.btn-crud.btn-delete:hover,
+.product.product-list .btn-product.btn-crud.btn-delete:focus {
+    color: #fff;
+    background-color: #f44336;
+}
+
+.product.product-list .btn-product.btn-crud.btn-delete::before {
+    content: '\e812'
+}
+
+.product.product-list .btn-product.btn-crud.btn-edit {
+    border-color: #42b983;
+    color: #42b983;
+}
+
+.product.product-list .btn-product.btn-crud.btn-edit:hover,
+.product.product-list .btn-product.btn-crud.btn-edit:focus {
+    color: #fff;
+    background-color: #42b983;
+}
+
+.product.product-list .btn-product.btn-crud.btn-edit::before {
+    content: '\e812'
+}
+
+.product.product-list .btn-product.btn-crud span {
+    font-size: 1.3rem
+}
+
+
+.product.product-list .btn-product.btn-crud:hover span,
+.product.product-list .btn-product.btn-crud:focus span {
+    box-shadow: none
+}
+
+.product.product-list .btn-product.btn-crud.disabled {
+    color: #ccc;
+    border-color: #ebebeb;
+    background-color: #fafafa
+}
+
+.product.product-list .btn-product.btn-crud.disabled:before {
+    display: none
+}
+
+
+
 .btn-product {
     color: #c96;
     position: relative;
@@ -8025,6 +8088,8 @@ p {
     flex-grow: 1;
     flex-basis: 0
 }
+
+
 
 .btn-product+.btn-product {
     border-left: .1rem dotted #e5e5e5

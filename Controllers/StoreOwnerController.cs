@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BookStore.Models;
 using BookStore.Data;
@@ -7,12 +7,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Controllers;
 
-public class BookController : Controller
+public class StoreOwnerController : Controller
 {
     private StoreDbContext context;
     public int PageSize = 6;
 
-    public BookController(StoreDbContext context)
+    public StoreOwnerController(StoreDbContext context)
     {
         this.context = context;
     }
@@ -65,6 +65,55 @@ public class BookController : Controller
         return View(book);
     }
 
+    [HttpPost]
+    public async Task<IActionResult> Create([FromForm] Book book)
+    {
+
+        if (ModelState.IsValid)
+        {
+            context.Books.Add(book);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+        return Error(book);
+    }
+
+    public async Task<IActionResult> Edit([FromForm] Book book)
+    {
+        if (ModelState.IsValid)
+        {
+            context.Books.Update(book);
+            await context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        return Error();
+    }
+
+
+
+    public async Task<IActionResult> Delete(int id)
+    {
+        Book? book = await context.Books.FindAsync(id);
+        if (book != null)
+        {
+            context.Books.Remove(book);
+            await context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+        return Error(book);
+    }
+
+    private IActionResult Error(Book? book = null)
+    {
+        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        {
+            ViewBag.ErrorMessage = error.ErrorMessage;
+        }
+        return View("Index", book);
+    }
 }
 
 
