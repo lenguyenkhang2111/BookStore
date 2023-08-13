@@ -39,11 +39,12 @@ public class BookController : Controller
             {
                 CurrentPage = bookPage,
                 ItemsPerPage = PageSize,
-                TotalItems = categoryId == null ? context.Books.Count() : context.Books.Where(b => b.Category.Id == categoryId).Count(),
+                TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
             Categories = context.Categories.Include(c => c.Books),
-            CurrentSortby = sortby
+            CurrentSortby = sortby,
+
         });
     }
 

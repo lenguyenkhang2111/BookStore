@@ -8019,7 +8019,8 @@ p {
     line-height: 1;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    transition: all .35s ease
+    transition: all .35s ease;
+    cursor: pointer;
 }
 
 .product.product-list .btn-product.btn-crud.btn-delete {
@@ -8055,7 +8056,6 @@ p {
 .product.product-list .btn-product.btn-crud span {
     font-size: 1.3rem
 }
-
 
 .product.product-list .btn-product.btn-crud:hover span,
 .product.product-list .btn-product.btn-crud:focus span {

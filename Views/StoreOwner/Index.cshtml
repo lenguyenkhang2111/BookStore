@@ -22,7 +22,8 @@
                 <div class="toolbox">
                     <div class="toolbox-left">
                         <div class="toolbox-info">
-                            Showing <span>9 of 56</span> Products
+                            Showing <span>@Model?.PagingInfo?.CurrentPageBooksTotal of @Model?.Books.Count()</span>
+                            Books
                         </div><!-- End .toolbox-info -->
                     </div><!-- End .toolbox-left -->
 
@@ -35,9 +36,9 @@
                                     asp-route-bookPage="@Model?.PagingInfo?.CurrentPage"
                                     asp-route-sortby="Model?.CurrentSortby">
                                     <select name="sortby" id="sortby" class="form-control">
-                                        <option value="Name" selected="@(Model.CurrentSortby == "Name")">Name</option>
-                                        <option value="Year" selected="@(Model.CurrentSortby == "Year")">Year</option>
-                                        <option value="Id" selected="@(Model.CurrentSortby == "Id")">Id</option>
+                                        <option value="Name" selected="@(Model?.CurrentSortby == "Name")">Name</option>
+                                        <option value="Year" selected="@(Model?.CurrentSortby == "Year")">Year</option>
+                                        <option value="Id" selected="@(Model?.CurrentSortby == "Id")">Id</option>
                                     </select>
                                 </form>
                             </div>
@@ -74,12 +75,14 @@
                                         </div><!-- End .product-action -->
 
                                         <div class="d-flex">
-                                            <a asp-asp-controller="StoreOwner" asp-action="AddToCart"
-                                                asp-route-bookID="@b.Id"
-                                                class="btn-product btn-crud btn-edit"><span>Edit</span></a>
-                                            <a asp-asp-controller="StoreOwner" asp-action="AddToCart"
-                                                asp-route-bookID="@b.Id"
-                                                class="btn-product btn-crud btn-delete"><span>Delete</span></a>
+                                            <btn asp-asp-controller="StoreOwner" asp-action="AddToCart"
+                                                asp-route-bookID="@b.Id" class="btn-product btn-crud btn-edit mr-2">
+                                                <span>Edit</span>
+                                            </btn>
+                                            <btn asp-asp-controller="StoreOwner" asp-action="AddToCart"
+                                                asp-route-bookID="@b.Id" class="btn-product btn-crud btn-delete">
+                                                <span>Delete</span>
+                                            </btn>
                                         </div>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->

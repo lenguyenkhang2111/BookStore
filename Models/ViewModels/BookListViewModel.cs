@@ -11,4 +11,5 @@ public class BookListViewModel
     public IEnumerable<Category> Categories { get; set; } = Enumerable.Empty<Category>();
 
     public string? CurrentSortby { get; set; }
+
 }

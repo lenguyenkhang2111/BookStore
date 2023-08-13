@@ -22,7 +22,8 @@
                 <div class="toolbox">
                     <div class="toolbox-left">
                         <div class="toolbox-info">
-                            Showing <span>9 of 56</span> Products
+                            Showing <span>@Model?.Books.Count() of @Model?.PagingInfo?.TotalItems</span>
+                            Books
                         </div><!-- End .toolbox-info -->
                     </div><!-- End .toolbox-left -->
 
