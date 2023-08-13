@@ -25,6 +25,13 @@
                             Showing <span>@Model?.Books.Count() of @Model?.PagingInfo?.TotalItems</span>
                             Books
                         </div><!-- End .toolbox-info -->
+
+                        <btn style="cursor: pointer;" class="btn btn-info ml-4">
+                            <i class="bi bi-plus-circle-fill"></i>
+                            <span>Add new book</span>
+                        </btn>
+
+
                     </div><!-- End .toolbox-left -->
 
                     <div class="toolbox-right">
@@ -156,6 +163,11 @@
                                     }
                                 </div><!-- End .filter-items -->
                             </div><!-- End .widget-body -->
+                            <a asp-controller="ControllerName" asp-action="ActionName" class="btn btn-warning ml-4"
+                                role="button">
+                                <i class="bi bi-plus-circle-fill"></i>
+                                <span>Request new category</span>
+                            </a>
                         </div><!-- End .collapse -->
                     </div><!-- End .widget -->
 
