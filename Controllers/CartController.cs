@@ -1,122 +1,154 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using BookStore.Models;
-using Newtonsoft.Json;
-using System.ComponentModel.DataAnnotations;
+﻿using System.Linq;
 using BookStore.Data;
+using BookStore.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Controllers
 {
-
     public class CartController : Controller
     {
-        private readonly StoreDbContext context;
+        private readonly StoreDbContext _context;
 
         public CartController(StoreDbContext context)
         {
-            this.context = context;
+            _context = context;
         }
 
-        //     public IActionResult Index()
-        //     {
-        //         var books = context.Books.ToList();
-        //         return View(books);
-        //     }
-
-
-        //     public IActionResult AddToCart(int bookID)
-        //     {
-        //         var book = context.Books
-        //             .FirstOrDefault(b => b.Id == bookID);
-
-        //         if (book == null)
-        //             return NotFound("Empty");
-
-        //         // Xử lý đưa vào Cart ...
-        //         var cart = GetCartItems();
-        //         var cartitem = cart.Find(b => b.Id == bookID);
-        //         if (cartitem != null)
-        //         {
-        //             // Đã tồn tại, tăng thêm 1
-        //             cartitem.Quantity++;
-        //         }
-        //         else
-        //         {
-        //             // Thêm mới
-        //             cart.Add(new CartItem() { Quantity = 1, Book = book });
-        //         }
-        //         // Lưu cart vào Session
-        //         SaveCartSession(cart);
-        //         return RedirectToAction(nameof(Cart));
-        //     }
-
-        //     /// xóa item trong cart
-
-        //     public IActionResult RemoveCart([FromRoute]int bookid)
-        //     {
-        //         // Xử lý xóa một mục của Cart ...
-        //         return RedirectToAction(nameof(Cart));
-        //     }
-
-
-        //     [HttpPost]
-        //     public IActionResult UpdateCart([FromForm]int bookid, [FromForm]int quantity)
-        //     {
-        //         // Cập nhật Cart thay đổi số lượng quantity ...
-
-        //         return RedirectToAction(nameof(Cart));
-        //     }
-
-        //     // Hiện thị giỏ hàng
-
-        //     public IActionResult Cart()
-        //     {
-        //         return View();
-        //     }
-
-        //     [Route("/checkout")]
-        //     public IActionResult CheckOut()
-        //     {
-        //         // Xử lý khi đặt hàng
-        //         return View();
-        //     }
-
-        //     // Key lưu chuỗi json của Cart
-        //     public const string CARTKEY = "cart";
-
-        //     // Lấy cart từ Session (danh sách CartItem)
-        //     List<CartItem> GetCartItems()
-        //     {
-        //         var session = HttpContext.Session;
-        //         string jsoncart = sesf type 'System.InvalidOperationException' occurred in Microsoft.AspNetCore.Http.dll but was not handled in user code: 'Session has not been configured for this application or request.'sion.GetString(CARTKEY);
-        //         if (jsoncart != null)
-        //         {
-        //             return JsonConvert.DeserializeObject<List<CartItem>>(jsoncart);
-        //         }
-        //         return new List<CartItem>();
-        //     }
-
-        //     // Xóa cart khỏi session
-        //     void ClearCart()
-        //     {
-        //         var session = HttpContext.Session;
-        //         session.Remove(CARTKEY);
-        //     }
-
-        //     // Lưu Cart (Danh sách CartItem) vào session
-        //     void SaveCartSession(List<CartItem> ls)
-        //     {
-        //         var session = HttpContext.Session;
-        //         string jsoncart = JsonConvert.SerializeObject(ls);
-        //         session.SetString(CARTKEY, jsoncart);
-        //     }
-        // }
-        public ViewResult OrderHistory()
+        // Thêm vào giỏ hàng
+        public IActionResult AddToCart(int bookId, int quantity)
         {
-            return View();
+            var book = _context.Books.Find(bookId);
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            var cart = GetCart();
+            var cartItem = cart.CartItems.FirstOrDefault(item => item.BookId == bookId);
+
+            if (cartItem == null)
+            {
+                cartItem = new CartItem
+                {
+                    CartId = cart.Id,
+                    BookId = bookId,
+                    Quantity = quantity
+                };
+                _context.CartItems.Add(cartItem);
+            }
+            else
+            {
+                cartItem.Quantity += quantity;
+                _context.CartItems.Update(cartItem);
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
         }
 
+        // Xóa giỏ hàng
+        public IActionResult ClearCart()
+        {
+            var cart = GetCart();
+            _context.CartItems.RemoveRange(cart.CartItems);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        // Xóa khỏi giỏ hàng
+        public IActionResult RemoveFromCart(int cartItemId)
+        {
+            var cartItem = _context.CartItems.Find(cartItemId);
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.CartItems.Remove(cartItem);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        // Tăng số lượng
+        public IActionResult IncreaseQuantity(int cartItemId)
+        {
+            var cartItem = _context.CartItems.Find(cartItemId);
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+
+            cartItem.Quantity++;
+            _context.CartItems.Update(cartItem);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        // Giảm số lượng
+        public IActionResult ReduceQuantity(int cartItemId)
+        {
+            var cartItem = _context.CartItems.Find(cartItemId);
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+
+            if (cartItem.Quantity > 1)
+            {
+                cartItem.Quantity--;
+                _context.CartItems.Update(cartItem);
+            }
+            else
+            {
+                _context.CartItems.Remove(cartItem);
+            }
+
+            _context.SaveChanges();
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        // Lấy giỏ hàng của người dùng hiện tại
+        private Cart GetCart()
+        {
+            var userId = _context.Users.FirstOrDefault(user => user.UserName == User.Identity.Name)?.Id;
+
+            var cart = _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Book)
+                .FirstOrDefault(c => c.User.Id == userId);
+
+            if (cart == null)
+            {
+                cart = new Cart
+                {
+                    User = _context.Users.Find(userId)
+                };
+                _context.Carts.Add(cart);
+                _context.SaveChanges();
+            }
+
+            return cart;
+        }
+        // Lấy tổng số lượng sách trong giỏ hàng
+        private int GetTotal()
+        {
+            var cart = GetCart();
+            if (cart != null)
+            {
+                return cart.CartItems.Sum(item => item.Quantity);
+            }
+            return 0;
+        }
+        // Tiếp tục mua sắm
+        public IActionResult ContinueShopping()
+        {
+            return RedirectToAction("Index", "Products");
+        }
     }
 }
