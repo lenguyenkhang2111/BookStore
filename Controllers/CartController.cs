@@ -1,11 +1,13 @@
 ﻿using System.Linq;
 using BookStore.Data;
 using BookStore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Controllers
 {
+    [Authorize]
     public class CartController : Controller
     {
         private readonly StoreDbContext _context;
@@ -31,8 +33,8 @@ namespace BookStore.Controllers
             {
                 cartItem = new CartItem
                 {
-                    CartId = cart.Id,
-                    BookId = bookId,
+                    Cart = cart,
+                    Book = book,
                     Quantity = quantity
                 };
                 _context.CartItems.Add(cartItem);
@@ -45,7 +47,7 @@ namespace BookStore.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Xóa giỏ hàng
@@ -55,7 +57,7 @@ namespace BookStore.Controllers
             _context.CartItems.RemoveRange(cart.CartItems);
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Xóa khỏi giỏ hàng
@@ -70,7 +72,7 @@ namespace BookStore.Controllers
             _context.CartItems.Remove(cartItem);
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Tăng số lượng
@@ -86,7 +88,7 @@ namespace BookStore.Controllers
             _context.CartItems.Update(cartItem);
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Giảm số lượng
@@ -110,7 +112,7 @@ namespace BookStore.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Lấy giỏ hàng của người dùng hiện tại
@@ -121,13 +123,14 @@ namespace BookStore.Controllers
             var cart = _context.Carts
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Book)
-                .FirstOrDefault(c => c.User.Id == userId);
+                .FirstOrDefault(c => c.UserId == int.Parse(userId));
 
             if (cart == null)
             {
                 cart = new Cart
                 {
-                    User = _context.Users.Find(userId)
+                    UserId = int.Parse(userId),
+                    CartItems = new List<CartItem>()
                 };
                 _context.Carts.Add(cart);
                 _context.SaveChanges();

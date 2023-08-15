@@ -28,17 +28,23 @@ namespace BookStore.Controllers
                 return RedirectToAction("Index", "Cart");
             }
 
-            var orderItems = cart.CartItems.Select(ci => new OrderItem
-            {
-                BookId = ci.BookId,
-                Quantity = ci.Quantity
-            }).ToList();
-
             var order = new Order
             {
-                User = cart.User,
-                OrderItems = orderItems
+                UserId = cart.UserId,
+                OrderItems = cart.CartItems.Select(ci => new OrderItem
+                {
+                    Order = null, // Set Order property to null here
+                    Book = null,
+                    BookId = ci.BookId,
+                    Quantity = ci.Quantity
+                }).ToList()
             };
+
+            foreach (var orderItem in order.OrderItems)
+            {
+                orderItem.Order = order; // Assign the order to each order item
+                orderItem.Book = _context.Books.Find(orderItem.BookId);
+            }
 
             _context.Orders.Add(order);
             _context.SaveChanges();
@@ -60,7 +66,7 @@ namespace BookStore.Controllers
                 return RedirectToAction("Index", "Cart");
             }
 
-            // Thực hiện các bước thanh toán (ví dụ: xử lý thanh toán qua cổng thanh toán bên thứ ba)
+            // Thực hiện các bước thanh toán 
 
             // Đánh dấu đơn hàng đã thanh toán
             MarkOrderAsPaid();
@@ -87,7 +93,7 @@ namespace BookStore.Controllers
         {
             var cart = GetCart();
             var order = _context.Orders.Include(o => o.OrderItems)
-                                       .FirstOrDefault(o => o.User.Id == cart.User.Id && o.OrderItems.Any());
+                                       .FirstOrDefault(o => o.UserId == cart.UserId && o.OrderItems.Any());
 
             if (order != null)
             {
@@ -99,18 +105,19 @@ namespace BookStore.Controllers
         // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()
         {
-            var userId = _context.Users.FirstOrDefault(user => user.UserName == User.Identity.Name)?.Id;
+            var userId = _context.Users.FirstOrDefault(user => user.UserName == User.Identity.Name)?.Id.ToString();
 
             var cart = _context.Carts
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Book)
-                .FirstOrDefault(c => c.User.Id == userId);
+                .FirstOrDefault(c => c.UserId == int.Parse(userId));
 
             if (cart == null)
             {
                 cart = new Cart
                 {
-                    User = _context.Users.Find(userId)
+                    UserId = int.Parse(userId),
+                    CartItems = new List<CartItem>()
                 };
                 _context.Carts.Add(cart);
                 _context.SaveChanges();

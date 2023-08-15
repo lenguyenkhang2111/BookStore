@@ -6,7 +6,7 @@ public class Order
 
     public DateTime OrderDate { get; set; } = DateTime.Now;
 
-    public required User User { get; set; }
+    public int UserId { get; set; }
 
     public required List<OrderItem> OrderItems { get; set; }
 }
