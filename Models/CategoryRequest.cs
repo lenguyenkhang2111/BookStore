@@ -10,8 +10,8 @@ public class CategoryRequest
 
     public DateTime RequestDate { get; set; } = DateTime.Now;
 
-    public required User StoreOwner { get; set; }
 
+    public required int StoreOwnerId { get; set; }
 
 
     public bool IsApproved { get; set; }
