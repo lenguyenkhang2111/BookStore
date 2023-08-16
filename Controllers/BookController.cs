@@ -48,22 +48,29 @@ public class BookController : Controller
         });
     }
 
-    public async Task<IActionResult> Details(int? bookId)
+    // public async Task<IActionResult> Details(int? bookId)
+    // {
+    //     if (bookId == null)
+    //     {
+    //         return RedirectToAction("Index");
+    //     }
+
+    //     var book = await context.Books
+    //         .Include(b => b.Category)
+    //         .FirstOrDefaultAsync(b => b.Id == bookId);
+
+    //     if (book == null)
+    //     {
+    //         return NotFound();
+    //     }
+
+    //     return View(book);
+    // }
+
+    public ViewResult Detail()
     {
-        if (bookId == null)
-        {
-            return RedirectToAction("Index");
-        }
 
-        var book = await context.Books
-            .FirstOrDefaultAsync(b => b.Id == bookId);
-
-        if (book == null)
-        {
-            return NotFound();
-        }
-
-        return View(book);
+        return View();
     }
 
 

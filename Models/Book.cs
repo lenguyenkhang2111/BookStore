@@ -10,7 +10,9 @@ public class Book
     [MaxLength(100)]
     public required string Title { get; set; }
 
-    [MaxLength(400)]
+    [MaxLength(300)]
+    public string? ShortReview { get; set; }
+
     public string? Description { get; set; }
 
     [DataType(DataType.Currency), Column(TypeName = "decimal(18,2)"), DisplayFormat(DataFormatString = "{0:C}")]

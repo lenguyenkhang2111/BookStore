@@ -1,0 +1,96 @@
+@model Book
+
+<nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
+    <div class="container d-flex align-items-center">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Book</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Details</li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+<div class="page-content">
+    <div class="container">
+        <div class="product-details-top">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product-gallery product-gallery-vertical">
+                        <div class="product-main-image">
+                            <img id="product-zoom" src="~/assets/images/products/single/1.jpg"
+                                data-zoom-image="~/assets/images/products/single/1-big.jpg" alt="product image">
+                        </div><!-- End .product-main-image -->
+
+                    </div><!-- End .product-gallery -->
+                </div><!-- End .col-md-6 -->
+                <div class="col-md-6">
+                    <div class="product-details">
+                        <h1 class="product-title">Dark yellow lace cut out swing dress</h1>
+                        <!-- End .product-title -->
+                        <div class="product-price">
+                            $84.00
+                        </div><!-- End .product-price -->
+
+                        <div class="product-content">
+                            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
+                                metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.
+                            </p>
+                        </div><!-- End .product-content -->
+
+
+                        <div class="details-filter-row details-row-size">
+                            <btn class="btn btn-link pl-0" style="color: #ef837b;">Author: </btn>
+                            <btn class="btn btn-outline-dark btn-round">
+                                <i class="bi bi-people-fill"> Darwin </i>
+                            </btn>
+                        </div><!-- End .details-filter-row -->
+                        <div class="details-filter-row details-row-size">
+                            <btn class="btn btn-link pl-0" style="color: #ef837b;">Category: </btn>
+                            <btn class="btn btn-outline-dark btn-round"> <i class="bi bi-tag-fill"> Romance </i>
+                            </btn>
+                        </div><!-- End .details-filter-row -->
+                        <div class="details-filter-row details-row-size">
+                            <btn class="btn btn-link pl-0" style="color: #ef837b;">Published Year: </btn>
+                            <btn class="btn btn-outline-dark btn-round">
+                                <i class="bi bi-flag-fill"> 2023 </i>
+                            </btn>
+                        </div><!-- End .details-filter-row -->
+                        <div class="product-details-action d-flex justify-content-center">
+                            <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                        </div><!-- End .product-details-action -->
+
+                        <div class="product-details-footer">
+                            <div class="social-icons social-icons-sm mx-auto">
+                                <span class="social-label">Share:</span>
+                                <a class="social-icon" title="Facebook" target="_blank"><i
+                                        class="icon-facebook-f"></i></a>
+                                <a class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+                                <a class="social-icon" title="Instagram" target="_blank"><i
+                                        class="icon-instagram"></i></a>
+                                <a class="social-icon" title="Pinterest" target="_blank"><i
+                                        class="icon-pinterest"></i></a>
+                            </div>
+                        </div><!-- End .product-details-footer -->
+                    </div><!-- End .product-details -->
+                </div><!-- End .col-md-6 -->
+            </div><!-- End .row -->
+        </div><!-- End .product-details-top -->
+        <div class="product-details-tab">
+            <ul class="nav nav-pills justify-content-center" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="product-desc-link" data-toggle="tab" href="#product-desc-tab"
+                        role="tab" aria-controls="product-desc-tab" aria-selected="true">Description</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="product-desc-tab" role="tabpanel"
+                    aria-labelledby="product-desc-link">
+                    <div class="product-desc-content">
+                        <p>Description</p>
+                    </div><!-- End .product-desc-content -->
+                </div><!-- .End .tab-pane -->
+            </div><!-- End .tab-content -->
+        </div><!-- End .product-details-tab -->
+
+    </div><!-- End .container -->
+</div><!-- End .page-content -->
