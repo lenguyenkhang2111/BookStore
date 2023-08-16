@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using BookStore.Models.ViewModels;
 
-namespace BookStore.Infrastructures;
+namespace BookStore.Utility;
 [HtmlTargetElement("nav", Attributes = "page-model")]
 public class PaginationTagHelper : TagHelper
 {

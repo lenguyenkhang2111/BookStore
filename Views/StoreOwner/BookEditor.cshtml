@@ -6,14 +6,13 @@
             <div class="form-tab">
                 <ul class="nav nav-pills nav-fill" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#addBook" role="tab"
-                            aria-controls="addBook" aria-selected="true">@Model?.FormName</a>
+                        <a class="nav-link active" role="tab">@Model?.FormName</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="tab-content-5">
-                    <div class="tab-pane fade show active" id="addBook" role="tabpanel" aria-labelledby="signin-tab">
-                        <form asp-controller="StoreOwner" asp-action="@Model?.Action" method="POST">
-
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" role="tabpanel">
+                        <form asp-controller="StoreOwner" asp-action="@Model?.Action" method="POST"
+                            enctype="multipart/form-data">
                             @if (Model?.Action == "Edit")
                             {
                                 <div class="input-group input-group-lg mt-1 mb-2">
@@ -122,13 +121,13 @@
 
                             <div class="input-group input-group-lg mt-1 mb-2">
                                 <div class="input-group-prepend">
-                                    <label asp-for="Book!.ImageUrl"
+                                    <label asp-for="Book!.ImageFile"
                                         class="input-group-text bg-primary text-white input-group-elements-lg"><i
                                             class="bi bi-image"> Image</i></label>
                                 </div>
-                                <input asp-for="Book!.ImageUrl" type="file"
+                                <input asp-for="Book!.ImageFile" type="file" accept=".jpg, .jpeg, .png, .webp"
                                     class="form-control input-group-elements-lg">
-                                <span asp-validation-for="Book!.ImageUrl"
+                                <span asp-validation-for="Book!.ImageFile"
                                     class="invalid-feedback custom-invalid-feedback">
                                 </span>
                             </div>
@@ -157,3 +156,4 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+

@@ -60,7 +60,7 @@
                     </div><!-- End .toolbox-right -->
                 </div><!-- End .toolbox -->
                 @foreach (var b in Model?.Books ?? Enumerable.Empty<Book>())
-                    {
+                {
                     <div class="products mb-3">
                         <div class="product product-list">
                             <div class="row">
@@ -68,7 +68,7 @@
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
                                         <a href="product.html">
-                                            <img src="assets/images/products/product-4.jpg" alt="Product image"
+                                            <img src="~/upload/images/@b.ImageUrl" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -142,13 +142,13 @@
                             </div>
                         </div>
                     </div>
-                    }
-                    <!-- End .products -->
+                }
+                <!-- End .products -->
 
 
-                    <!--Pagination link-->
-                    <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
-                        page-url-sortby="@Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
+                <!--Pagination link-->
+                <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
+                    page-url-sortby="@Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
             </div><!-- End .col-lg-9 -->
 
 
@@ -171,13 +171,12 @@
                             <div class="widget-body">
                                 <div class="filter-items filter-items-count">
                                     @foreach (Category c in Model?.Categories ?? Enumerable.Empty<Category>())
-                                        {
+                                    {
                                         <div class="filter-item">
                                             <div class="custom-control custom-checkbox">
                                                 <form asp-controller="StoreOwner" asp-action="Index"
-                                                    asp-route-categoryId="@c.Id"
-                                                    asp-route-sortby="@Model?.CurrentSortby">
-                                                    <input @(c.Id==Model?.CurrentCategoryId ? "checked" : "" )
+                                                    asp-route-categoryId="@c.Id" asp-route-sortby="@Model?.CurrentSortby">
+                                                    <input @(c.Id == Model?.CurrentCategoryId ? "checked" : "")
                                                         type="checkbox" class="custom-control-input" id="cat-@c.Id"
                                                         data-auto-submit>
                                                     <label class="custom-control-label"
@@ -186,7 +185,7 @@
                                             </div><!-- End .custom-checkbox -->
                                             <span class="item-count">@c.Books?.Count()</span>
                                         </div>
-                                        }
+                                    }
                                 </div><!-- End .filter-items -->
                             </div><!-- End .widget-body -->
                             <a asp-controller="ControllerName" asp-action="ActionName" class="btn btn-warning ml-4"

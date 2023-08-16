@@ -17,6 +17,11 @@ public class Book
     [Range(0, double.MaxValue, ErrorMessage = "Price must be a non-negative value.")]
     public required decimal Price { get; set; }
 
+
+    [Display(Name = "Image")]
+    [NotMapped]
+    public IFormFile? ImageFile { get; set; }
+
     public string? ImageUrl { get; set; }
 
     public int CategoryId { get; set; }

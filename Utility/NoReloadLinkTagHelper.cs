@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace BookStore.Infrastructures;
+namespace BookStore.Utility;
 
 [HtmlTargetElement("a", Attributes = "asp-controller, asp-action, no-link")]
 public class NoReloadLinkTagHelper : TagHelper

@@ -9,16 +9,16 @@ namespace BookStore.Controllers;
 
 public class StoreOwnerController : Controller
 {
-    private StoreDbContext context;
+    private StoreDbContext _context;
     public int PageSize = 6;
 
     public StoreOwnerController(StoreDbContext context)
     {
-        this.context = context;
+        _context = context;
     }
     public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
     {
-        IQueryable<Book> booksQuery = context.Books
+        IQueryable<Book> booksQuery = _context.Books
         .Include(b => b.Category)
         .Where(b => categoryId == null || b.CategoryId == categoryId);
         booksQuery = sortby switch
@@ -41,7 +41,7 @@ public class StoreOwnerController : Controller
                 TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
-            Categories = context.Categories.Include(c => c.Books),
+            Categories = _context.Categories.Include(c => c.Books),
             CurrentSortby = sortby,
         });
     }
@@ -54,7 +54,7 @@ public class StoreOwnerController : Controller
         TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
         return View("BookEditor", new BookEditorViewModel
         {
-            Categories = context.Categories
+            Categories = _context.Categories
         });
     }
 
@@ -63,21 +63,28 @@ public class StoreOwnerController : Controller
     {
         if (ModelState.IsValid)
         {
-            context.Books.Add(book);
-            await context.SaveChangesAsync();
+            string? uploadedFileName = await UploadImageAsync(book.ImageFile);
+
+            if (!string.IsNullOrEmpty(uploadedFileName))
+            {
+                book.ImageUrl = uploadedFileName;
+            }
+
+            _context.Books.Add(book);
+            await _context.SaveChangesAsync();
             return RedirectWithReturnUrl("Goodjob!", "You added a book!", "success");
         }
-        return View("BookEditor", ViewModelFactory.Create(book, context.Categories));
+        return View("BookEditor", ViewModelFactory.Create(book, _context.Categories));
     }
 
     [HttpGet]
     public async Task<IActionResult> Edit(int bookId)
     {
-        Book? book = await context.Books.FindAsync(bookId);
+        Book? book = await _context.Books.FindAsync(bookId);
 
         if (book != null)
         {
-            BookEditorViewModel model = ViewModelFactory.Edit(book, context.Categories);
+            BookEditorViewModel model = ViewModelFactory.Edit(book, _context.Categories);
             TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
             return View("BookEditor", model);
         }
@@ -91,27 +98,60 @@ public class StoreOwnerController : Controller
     {
         if (ModelState.IsValid)
         {
-            context.Books.Update(book);
-            await context.SaveChangesAsync();
+            string? uploadedFileName = await UploadImageAsync(book.ImageFile);
+            if (!string.IsNullOrEmpty(uploadedFileName))
+            {
+                // Delete existing image
+                if (!string.IsNullOrEmpty(book.ImageUrl))
+                {
+                    string oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\upload", "images", book.ImageUrl);
+                    if (System.IO.File.Exists(oldImagePath))
+                    {
+                        System.IO.File.Delete(oldImagePath);
+                    }
+                }
+                book.ImageUrl = uploadedFileName;
+            }
+
+            _context.Books.Update(book);
+            await _context.SaveChangesAsync();
             return RedirectWithReturnUrl("Goodjob!", "You updated a book!", "success");
         }
-        return View("BookEditor", ViewModelFactory.Edit(book, context.Categories));
+        return View("BookEditor", ViewModelFactory.Edit(book, _context.Categories));
     }
 
 
 
     public async Task<IActionResult> Delete(int bookId)
     {
-        Book? book = await context.Books.FindAsync(bookId);
+        Book? book = await _context.Books.FindAsync(bookId);
         if (book != null)
         {
             TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
-            context.Books.Remove(book);
-            await context.SaveChangesAsync();
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
             return RedirectWithReturnUrl("Goodjob!", "You deleted a book!", "success");
         }
-        return RedirectWithReturnUrl("Failed!", "Cannot delete a book because error!f", "error");
+        return RedirectWithReturnUrl("Failed!", "Cannot delete this book because error!", "error");
     }
+
+
+
+    private async Task<string?> UploadImageAsync(IFormFile? imageFile)
+    {
+        if (imageFile != null && imageFile.Length > 0)
+        {
+            string uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
+            string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\upload", "images", uniqueFileName);
+            using (var stream = new FileStream(imagePath, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(stream);
+            }
+            return uniqueFileName;
+        }
+        return null;
+    }
+
 
 
     private IActionResult RedirectWithReturnUrl(string title, string description, string state)
@@ -119,7 +159,9 @@ public class StoreOwnerController : Controller
         string? returnUrl = TempData["ReturnUrl"] as string;
 
         TempData.Remove("ReturnUrl");
-        SweetAlertSend(title, description, state);
+        TempData["SweetAlert_Title"] = title;
+        TempData["SweetAlert_Description"] = description;
+        TempData["SweetAlert_State"] = state;
         if (!string.IsNullOrEmpty(returnUrl))
         {
             return Redirect(returnUrl);
@@ -128,12 +170,12 @@ public class StoreOwnerController : Controller
         return RedirectToAction("Index");
     }
 
-    private void SweetAlertSend(string title, string description, string state)
-    {
-        TempData["SweetAlert_Title"] = title;
-        TempData["SweetAlert_Description"] = description;
-        TempData["SweetAlert_State"] = state;
-    }
+    // private void SweetAlertSend(string title, string description, string state)
+    // {
+    //     TempData["SweetAlert_Title"] = title;
+    //     TempData["SweetAlert_Description"] = description;
+    //     TempData["SweetAlert_State"] = state;
+    // }
 
 }
 
