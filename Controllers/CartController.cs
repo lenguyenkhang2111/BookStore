@@ -2,6 +2,7 @@
 using BookStore.Data;
 using BookStore.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,29 +12,35 @@ namespace BookStore.Controllers
     public class CartController : Controller
     {
         private readonly StoreDbContext _context;
+        private readonly UserManager<User> _userManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CartController(StoreDbContext context)
+        public CartController(StoreDbContext context, UserManager<User> userManager,
+             IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpContextAccessor = httpContextAccessor;
+            _userManager = userManager;
         }
 
         // Thêm vào giỏ hàng
-        public IActionResult AddToCart(int bookId, int quantity)
+        public IActionResult AddToCart(int bookID, int quantity)
         {
-            var book = _context.Books.Find(bookId);
+            var book = _context.Books.Find(bookID);
             if (book == null)
             {
                 return NotFound();
             }
 
-            var cart = GetCart();
-            var cartItem = cart.CartItems.FirstOrDefault(item => item.BookId == bookId);
+            Cart cart = GetCart();
+
+            var cartItem = cart?.CartItems?.FirstOrDefault(item => item.BookId == bookID);
 
             if (cartItem == null)
             {
                 cartItem = new CartItem
                 {
-                    Cart = cart,
+                    Cart = cart!,
                     Book = book,
                     Quantity = quantity
                 };
@@ -47,17 +54,17 @@ namespace BookStore.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return View("/Views/Cart/Index.cshtml");
         }
 
         // Xóa giỏ hàng
         public IActionResult ClearCart()
         {
             var cart = GetCart();
-            _context.CartItems.RemoveRange(cart.CartItems);
+            _context.CartItems.RemoveRange(cart!.CartItems!);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return View("/Views/Cart/Index.cshtml"); ;
         }
 
         // Xóa khỏi giỏ hàng
@@ -68,11 +75,14 @@ namespace BookStore.Controllers
             {
                 return NotFound();
             }
+            else
+            {
+                _context.CartItems.Remove(cartItem);
+            }
 
-            _context.CartItems.Remove(cartItem);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return View("/Views/Cart/Index.cshtml"); ;
         }
 
         // Tăng số lượng
@@ -88,7 +98,7 @@ namespace BookStore.Controllers
             _context.CartItems.Update(cartItem);
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return View("/Views/Cart/Index.cshtml"); ;
         }
 
         // Giảm số lượng
@@ -112,24 +122,24 @@ namespace BookStore.Controllers
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index");
+            return View("/Views/Cart/Index.cshtml"); ;
         }
 
         // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()
         {
-            var userId = _context.Users.FirstOrDefault(user => user.UserName == User.Identity.Name)?.Id;
+            var userId = GetUserId();
 
-            var cart = _context.Carts
+            Cart cart = _context.Carts
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Book)
-                .FirstOrDefault(c => c.UserId == int.Parse(userId));
+                .FirstOrDefault(c => c.UserId == userId);
 
             if (cart == null)
             {
                 cart = new Cart
                 {
-                    UserId = int.Parse(userId),
+                    UserId = userId,
                     CartItems = new List<CartItem>()
                 };
                 _context.Carts.Add(cart);
@@ -137,6 +147,12 @@ namespace BookStore.Controllers
             }
 
             return cart;
+        }
+        private string GetUserId()
+        {
+            var principal = _httpContextAccessor?.HttpContext?.User;
+            string userId = _userManager.GetUserId(principal);
+            return userId;
         }
         // Lấy tổng số lượng sách trong giỏ hàng
         private int GetTotal()
@@ -151,7 +167,7 @@ namespace BookStore.Controllers
         // Tiếp tục mua sắm
         public IActionResult ContinueShopping()
         {
-            return RedirectToAction("Index", "Products");
+            return View("/Views/Book/Index.cshtml");
         }
     }
 }

@@ -1,0 +1,33 @@
+@model Cart
+<!-- Add to Cart -->
+<form action="/Cart/AddToCart" method="post">
+    <input type="hidden" name="bookID" value="1" /> <!-- Replace with the actual book ID -->
+    <input type="number" name="quantity" value="1" /> <!-- Replace with the desired quantity -->
+    <button type="submit">Add to Cart</button>
+</form>
+
+<!-- Clear Cart -->
+<form action="/Cart/ClearCart" method="post">
+    <button type="submit">Clear Cart</button>
+</form>
+
+<!-- Remove from Cart -->
+<form action="/Cart/RemoveFromCart" method="post">
+    <input type="hidden" name="cartItemId" value="1" /> <!-- Replace with the actual cart item ID -->
+    <button type="submit">Remove from Cart</button>
+</form>
+
+<!-- Increase Quantity -->
+<form action="/Cart/IncreaseQuantity" method="post">
+    <input type="hidden" name="cartItemId" value="1" /> <!-- Replace with the actual cart item ID -->
+    <button type="submit">Increase Quantity</button>
+</form>
+
+<!-- Reduce Quantity -->
+<form action="/Cart/ReduceQuantity" method="post">
+    <input type="hidden" name="cartItemId" value="1" /> <!-- Replace with the actual cart item ID -->
+    <button type="submit">Reduce Quantity</button>
+</form>
+
+<!-- Continue Shopping -->
+<a href="/Products/Index">Continue Shopping</a>

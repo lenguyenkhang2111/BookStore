@@ -5,22 +5,29 @@ using BookStore.Data;
 using BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace BookStore.Controllers
 {
     public class OrderController : Controller
     {
         private readonly StoreDbContext _context;
+        private readonly UserManager<User> _userManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public OrderController(StoreDbContext context)
+        public OrderController(StoreDbContext context, UserManager<User> userManager,
+             IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
+            _httpContextAccessor = httpContextAccessor;
+            _userManager = userManager;
+
         }
 
         // Tạo đơn hàng
         public IActionResult CreateOrder()
         {
-            var cart = GetCart();
+            Cart cart = GetCart();
 
             if (cart.CartItems.Count == 0)
             {
@@ -60,7 +67,7 @@ namespace BookStore.Controllers
         {
             var cart = GetCart();
 
-            if (cart.CartItems.Count == 0)
+            if (cart?.CartItems?.Count == 0)
             {
                 // Khi giỏ hàng trống, không thể thanh toán
                 return RedirectToAction("Index", "Cart");
@@ -83,7 +90,7 @@ namespace BookStore.Controllers
         // Xóa giỏ hàng
         private void ClearCart()
         {
-            var cart = GetCart();
+            Cart cart = GetCart();
             _context.CartItems.RemoveRange(cart.CartItems);
             _context.SaveChanges();
         }
@@ -91,7 +98,7 @@ namespace BookStore.Controllers
         // Đánh dấu đơn hàng đã thanh toán
         private void MarkOrderAsPaid()
         {
-            var cart = GetCart();
+            Cart cart = GetCart();
             var order = _context.Orders.Include(o => o.OrderItems)
                                        .FirstOrDefault(o => o.UserId == cart.UserId && o.OrderItems.Any());
 
@@ -105,18 +112,18 @@ namespace BookStore.Controllers
         // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()
         {
-            var userId = _context.Users.FirstOrDefault(user => user.UserName == User.Identity.Name)?.Id.ToString();
+            var userId = GetUserId();
 
-            var cart = _context.Carts
+            Cart cart = _context.Carts
                 .Include(c => c.CartItems)
                 .ThenInclude(ci => ci.Book)
-                .FirstOrDefault(c => c.UserId == int.Parse(userId));
+                .FirstOrDefault(c => c.UserId == userId);
 
             if (cart == null)
             {
                 cart = new Cart
                 {
-                    UserId = int.Parse(userId),
+                    UserId = userId,
                     CartItems = new List<CartItem>()
                 };
                 _context.Carts.Add(cart);
@@ -124,6 +131,22 @@ namespace BookStore.Controllers
             }
 
             return cart;
+        }
+        private string GetUserId()
+        {
+            var principal = _httpContextAccessor?.HttpContext?.User;
+            string userId = _userManager.GetUserId(principal);
+            return userId;
+        }
+        // Lấy tổng số lượng sách trong giỏ hàng
+        private int GetTotal()
+        {
+            var cart = GetCart();
+            if (cart != null)
+            {
+                return cart.CartItems.Sum(item => item.Quantity);
+            }
+            return 0;
         }
     }
 }

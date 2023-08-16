@@ -64,11 +64,10 @@ namespace BookStore.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("UserId")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Carts");
                 });
@@ -148,11 +147,10 @@ namespace BookStore.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserId")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Orders");
                 });
@@ -396,15 +394,6 @@ namespace BookStore.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("BookStore.Models.Cart", b =>
-                {
-                    b.HasOne("BookStore.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("BookStore.Models.CartItem", b =>
                 {
                     b.HasOne("BookStore.Models.Book", "Book")
@@ -431,15 +420,6 @@ namespace BookStore.Migrations
                         .HasForeignKey("StoreOwnerId");
 
                     b.Navigation("StoreOwner");
-                });
-
-            modelBuilder.Entity("BookStore.Models.Order", b =>
-                {
-                    b.HasOne("BookStore.Models.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("BookStore.Models.OrderItem", b =>
