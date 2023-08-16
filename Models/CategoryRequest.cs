@@ -12,7 +12,6 @@ public class CategoryRequest
 
 
     public required int StoreOwnerId { get; set; }
-    public required User StoreOwner { get; set; }
 
 
     public bool IsApproved { get; set; }

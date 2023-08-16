@@ -20,15 +20,14 @@ public class StoreOwnerController : Controller
     {
         IQueryable<Book> booksQuery = context.Books
         .Include(b => b.Category)
-        .Where(b => categoryId == null || b.Category.Id == categoryId);
+        .Where(b => categoryId == null || b.CategoryId == categoryId);
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
             "Year" => booksQuery.OrderBy(b => b.YearPublished),
             "Id" => booksQuery.OrderBy(b => b.Id),
-            _ => booksQuery.OrderBy(b => b.Id),
+            _ => booksQuery.OrderBy(b => b.Title),
         };
-
 
         return View(new BookListViewModel
         {
@@ -47,73 +46,97 @@ public class StoreOwnerController : Controller
         });
     }
 
-    public async Task<IActionResult> Details(int? bookId)
+
+
+    [HttpGet]
+    public ViewResult Create()
     {
-        if (bookId == null)
+        TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
+        return View("BookEditor", new BookEditorViewModel
         {
-            return RedirectToAction("Index");
-        }
-
-        var book = await context.Books
-            .FirstOrDefaultAsync(b => b.Id == bookId);
-
-        if (book == null)
-        {
-            return NotFound();
-        }
-
-        return View(book);
+            Categories = context.Categories
+        });
     }
 
     [HttpPost]
     public async Task<IActionResult> Create([FromForm] Book book)
     {
-
         if (ModelState.IsValid)
         {
             context.Books.Add(book);
             await context.SaveChangesAsync();
-
-            return RedirectToAction("Index");
+            return RedirectWithReturnUrl("Goodjob!", "You added a book!", "success");
         }
-        return Error(book);
+        return View("BookEditor", ViewModelFactory.Create(book, context.Categories));
     }
 
+    [HttpGet]
+    public async Task<IActionResult> Edit(int bookId)
+    {
+        Book? book = await context.Books.FindAsync(bookId);
+
+        if (book != null)
+        {
+            BookEditorViewModel model = ViewModelFactory.Edit(book, context.Categories);
+            TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
+            return View("BookEditor", model);
+        }
+        return RedirectWithReturnUrl("Failed", "Cannot edit this book!", "error");
+    }
+
+
+
+    [HttpPost]
     public async Task<IActionResult> Edit([FromForm] Book book)
     {
         if (ModelState.IsValid)
         {
             context.Books.Update(book);
             await context.SaveChangesAsync();
-
-            return RedirectToAction("Index");
+            return RedirectWithReturnUrl("Goodjob!", "You updated a book!", "success");
         }
-
-        return Error();
+        return View("BookEditor", ViewModelFactory.Edit(book, context.Categories));
     }
 
 
 
-    public async Task<IActionResult> Delete(int id)
+    public async Task<IActionResult> Delete(int bookId)
     {
-        Book? book = await context.Books.FindAsync(id);
+        Book? book = await context.Books.FindAsync(bookId);
         if (book != null)
         {
+            TempData["ReturnUrl"] = HttpContext.Request.Headers["Referer"].ToString();
             context.Books.Remove(book);
             await context.SaveChangesAsync();
-            return RedirectToAction("Index");
+            return RedirectWithReturnUrl("Goodjob!", "You deleted a book!", "success");
         }
-        return Error(book);
+        return RedirectWithReturnUrl("Failed!", "Cannot delete a book because error!f", "error");
     }
 
-    private IActionResult Error(Book? book = null)
+
+    private IActionResult RedirectWithReturnUrl(string title, string description, string state)
     {
-        foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+        string? returnUrl = TempData["ReturnUrl"] as string;
+
+        TempData.Remove("ReturnUrl");
+        SweetAlertSend(title, description, state);
+        if (!string.IsNullOrEmpty(returnUrl))
         {
-            ViewBag.ErrorMessage = error.ErrorMessage;
+            return Redirect(returnUrl);
         }
-        return View("Index", book);
+
+        return RedirectToAction("Index");
     }
+
+    private void SweetAlertSend(string title, string description, string state)
+    {
+        TempData["SweetAlert_Title"] = title;
+        TempData["SweetAlert_Description"] = description;
+        TempData["SweetAlert_State"] = state;
+    }
+
 }
+
+
 
 

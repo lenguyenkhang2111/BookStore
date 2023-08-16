@@ -20,13 +20,13 @@ public class BookController : Controller
     {
         IQueryable<Book> booksQuery = context.Books
         .Include(b => b.Category)
-        .Where(b => categoryId == null || b.Category.Id == categoryId);
+        .Where(b => categoryId == null || b.CategoryId == categoryId);
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
             "Year" => booksQuery.OrderBy(b => b.YearPublished),
             "Id" => booksQuery.OrderBy(b => b.Id),
-            _ => booksQuery.OrderBy(b => b.Id),
+            _ => booksQuery.OrderBy(b => b.Title),
         };
 
 
@@ -65,6 +65,10 @@ public class BookController : Controller
 
         return View(book);
     }
+
+
+
+
 
 }
 

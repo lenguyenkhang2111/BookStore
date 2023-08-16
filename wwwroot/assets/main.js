@@ -5,6 +5,17 @@ $(document).ready(function () {
     owlCarousels();
     quantityInputs();
 
+
+    // //Showing modal when is invalid
+    // $('.modal').each(function () {
+    //     var modal = $(this);
+    //     var validationErrors = modal.find('.modal-body .form-box .form-tab .tab-content .tab-pane form .input-group [data-valmsg-replace="true"]').text();
+
+    //     if (validationErrors && validationErrors.trim().length > 0) {
+    //         modal.modal('show');
+    //     }
+    // });
+
     //Checkbox filter
     $(".custom-control-input").change(function () {
         if (this.hasAttribute('data-auto-submit')) {

@@ -1,5 +1,8 @@
 @model BookListViewModel
 
+<!-- Add the following script to show modal on error -->
+
+
 <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
     <div class="container">
         <h1 class="page-title">All<span>Books</span></h1>
@@ -26,10 +29,11 @@
                             Books
                         </div><!-- End .toolbox-info -->
 
-                        <btn style="cursor: pointer;" class="btn btn-info ml-4">
+                        <a style="cursor: pointer;" class="btn btn-info ml-4" asp-controller="StoreOwner"
+                            asp-action="Create" role="button">
                             <i class="bi bi-plus-circle-fill"></i>
                             <span>Add new book</span>
-                        </btn>
+                        </a>
 
 
                     </div><!-- End .toolbox-left -->
@@ -38,14 +42,16 @@
                         <div class="toolbox-sort">
                             <label for="sortby">Sort by:</label>
                             <div class="select-custom">
-                                <form name="sortby-form" asp-controller="Book" asp-action="Index"
+                                <form name="sortby-form" asp-controller="StoreOwner" asp-action="Index"
                                     asp-route-categoryId="@Model?.CurrentCategoryId"
                                     asp-route-bookPage="@Model?.PagingInfo?.CurrentPage"
-                                    asp-route-sortby="Model?.CurrentSortby">
+                                    asp-route-sortby="@Model?.CurrentSortby">
                                     <select name="sortby" id="sortby" class="form-control">
-                                        <option value="Name" selected="@(Model?.CurrentSortby == "Name")">Name</option>
-                                        <option value="Year" selected="@(Model?.CurrentSortby == "Year")">Year</option>
-                                        <option value="Id" selected="@(Model?.CurrentSortby == "Id")">Id</option>
+                                        <option value="Name" selected="@(Model?.CurrentSortby! == " Name")">Name
+                                        </option>
+                                        <option value="Year" selected="@(Model?.CurrentSortby! == " Year")">Year
+                                        </option>
+                                        <option value="Id" selected="@(Model?.CurrentSortby! == " Id")">Id</option>
                                     </select>
                                 </form>
                             </div>
@@ -54,7 +60,7 @@
                     </div><!-- End .toolbox-right -->
                 </div><!-- End .toolbox -->
                 @foreach (var b in Model?.Books ?? Enumerable.Empty<Book>())
-                {
+                    {
                     <div class="products mb-3">
                         <div class="product product-list">
                             <div class="row">
@@ -82,14 +88,16 @@
                                         </div><!-- End .product-action -->
 
                                         <div class="d-flex">
-                                            <btn asp-asp-controller="StoreOwner" asp-action="AddToCart"
-                                                asp-route-bookID="@b.Id" class="btn-product btn-crud btn-edit mr-2">
+                                            <a asp-controller="StoreOwner" asp-action="Edit" asp-route-bookId="@b.Id"
+                                                class="btn-product btn-crud btn-edit mr-2" role="button">
                                                 <span>Edit</span>
-                                            </btn>
-                                            <btn asp-asp-controller="StoreOwner" asp-action="AddToCart"
-                                                asp-route-bookID="@b.Id" class="btn-product btn-crud btn-delete">
+                                            </a>
+                                            <a asp-controller="StoreOwner" asp-action="Delete" asp-route-bookID="@b.Id"
+                                                class="btn-product btn-crud btn-delete" data-toggle="modal"
+                                                data-target="#delete-@b.Id" role="button">
                                                 <span>Delete</span>
-                                            </btn>
+                                            </a>
+
                                         </div>
                                     </div><!-- End .product-list-action -->
                                 </div><!-- End .col-sm-6 col-lg-3 -->
@@ -115,15 +123,32 @@
                                 </div><!-- End .col-lg-6 -->
                             </div><!-- End .row -->
                         </div><!-- End .product -->
-
                     </div>
-                }
-                <!-- End .products -->
+
+                    <div class="modal fade" id="delete-@b.Id" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Are you sure to delete this product?</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-footer">
+                                    <a type="button" asp-controller="StoreOwner" asp-action="Delete"
+                                        asp-route-bookID="@b.Id" class="btn btn-info">Yes</a>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                    <!-- End .products -->
 
 
-                <!--Pagination link-->
-                <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
-                    page-url-sortby="Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
+                    <!--Pagination link-->
+                    <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
+                        page-url-sortby="@Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
             </div><!-- End .col-lg-9 -->
 
 
@@ -131,7 +156,7 @@
                 <div class="sidebar sidebar-shop">
                     <div class="widget widget-clean">
                         <label>Filters:</label>
-                        <a asp-controller="Book" asp-action="Index" class="sidebar-filter-clear">Clean All</a>
+                        <a asp-controller="StoreOwner" asp-action="Index" class="sidebar-filter-clear">Clean All</a>
                     </div><!-- End .widget widget-clean -->
 
                     <div class="widget widget-collapsible">
@@ -146,12 +171,13 @@
                             <div class="widget-body">
                                 <div class="filter-items filter-items-count">
                                     @foreach (Category c in Model?.Categories ?? Enumerable.Empty<Category>())
-                                    {
+                                        {
                                         <div class="filter-item">
                                             <div class="custom-control custom-checkbox">
-                                                <form asp-controller="Book" asp-action="Index" asp-route-categoryId="@c.Id"
-                                                    asp-route-sortby="Model?.CurrentSortby">
-                                                    <input @(c.Id == Model?.CurrentCategoryId ? "checked" : "")
+                                                <form asp-controller="StoreOwner" asp-action="Index"
+                                                    asp-route-categoryId="@c.Id"
+                                                    asp-route-sortby="@Model?.CurrentSortby">
+                                                    <input @(c.Id==Model?.CurrentCategoryId ? "checked" : "" )
                                                         type="checkbox" class="custom-control-input" id="cat-@c.Id"
                                                         data-auto-submit>
                                                     <label class="custom-control-label"
@@ -160,7 +186,7 @@
                                             </div><!-- End .custom-checkbox -->
                                             <span class="item-count">@c.Books?.Count()</span>
                                         </div>
-                                    }
+                                        }
                                 </div><!-- End .filter-items -->
                             </div><!-- End .widget-body -->
                             <a asp-controller="ControllerName" asp-action="ActionName" class="btn btn-warning ml-4"
@@ -170,9 +196,6 @@
                             </a>
                         </div><!-- End .collapse -->
                     </div><!-- End .widget -->
-
-
-
                 </div><!-- End .sidebar sidebar-shop -->
             </aside><!-- End .col-lg-3 -->
         </div><!-- End .row -->

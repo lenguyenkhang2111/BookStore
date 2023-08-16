@@ -1,4 +1,5 @@
 ﻿using BookStore.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BookStore.Models.ViewModels;
 
@@ -11,5 +12,7 @@ public class BookListViewModel
     public IEnumerable<Category> Categories { get; set; } = Enumerable.Empty<Category>();
 
     public string? CurrentSortby { get; set; }
+
+
 
 }

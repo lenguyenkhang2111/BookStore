@@ -227,6 +227,10 @@ a:focus {
     color: #ccc !important
 }
 
+.text-white {
+    color: #fff
+}
+
 .lead {
     font-size: 1.6rem;
     font-weight: 400;
@@ -10258,6 +10262,10 @@ textarea.form-control {
     border-bottom-right-radius: 30px
 }
 
+.input-group-elements-lg {
+    font-size: 1.6rem !important;
+}
+
 label {
     color: #666;
     font-weight: 300;
@@ -10516,6 +10524,11 @@ small.form-text {
 
 .cta-desc {
     margin-bottom: 1.5rem
+}
+
+.invalid-feedback.custom-invalid-feedback {
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .cta-horizontal .form-control {

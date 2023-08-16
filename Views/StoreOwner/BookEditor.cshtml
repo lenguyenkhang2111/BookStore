@@ -1,0 +1,159 @@
+@model BookEditorViewModel
+<div class="login-page bg-image pt-8 pb-8 pt-md-12 pb-md-12 pt-lg-17 pb-lg-17"
+    style="background-image: url('/assets/images/backgrounds/login-bg.jpg')">
+    <div class="container">
+        <div class="form-box">
+            <div class="form-tab">
+                <ul class="nav nav-pills nav-fill" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#addBook" role="tab"
+                            aria-controls="addBook" aria-selected="true">@Model?.FormName</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="tab-content-5">
+                    <div class="tab-pane fade show active" id="addBook" role="tabpanel" aria-labelledby="signin-tab">
+                        <form asp-controller="StoreOwner" asp-action="@Model?.Action" method="POST">
+
+                            @if (Model?.Action == "Edit")
+                            {
+                                <div class="input-group input-group-lg mt-1 mb-2">
+                                    <div class="input-group-prepend">
+                                        <label asp-for="Book!.Id"
+                                            class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                                class="bi bi-bookmark-check"> Id</i></label>
+                                    </div>
+                                    <input asp-for="Book!.Id" class="form-control input-group-elements-lg " readonly>
+                                </div>
+                            }
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.Title"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-bookmark-check"> Title</i></label>
+                                </div>
+                                <input asp-for="Book!.Title" type="te xt" class="form-control input-group-elements-lg "
+                                    placeholder="Enter title" required>
+                                <span asp-validation-for="Book!.Title" class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <span asp-validation-for="Book!.CategoryId" class="text-danger"></span>
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.CategoryId"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-tags"> Category</i></label>
+                                </div>
+                                <select asp-for="Book!.CategoryId" class="custom-select input-group-elements-lg">
+                                    @foreach (Category c in Model?.Categories ?? Enumerable.Empty<Category>())
+                                    {
+                                        <option value="@c.Id">@c.CategoryName</option>
+                                    }
+                                </select>
+                                <span asp-validation-for="Book!.CategoryId"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class=" input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.Description"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-bookmark-check"> Description</i> </label>
+                                </div>
+                                <textarea asp-for="Book!.Description" type="text"
+                                    class="form-control input-group-elements-lg" required></textarea>
+                                <span asp-validation-for="Book!.Description"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.Price"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-coin"> Price</i></label>
+                                </div>
+                                <input asp-for="Book!.Price" type="number" class="form-control input-group-elements-lg"
+                                    placeholder="Enter price" required>
+                                <span asp-validation-for="Book!.Price" class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.Author"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-person-fill"> Author</i></label>
+                                </div>
+                                <input asp-for="Book!.Author" type="text" class="form-control input-group-elements-lg"
+                                    placeholder="Enter author name" required>
+                                <span asp-validation-for="Book!.Author"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.YearPublished"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-calendar-check"> Published Year</i></label>
+                                </div>
+                                <input asp-for="Book!.YearPublished" type="number"
+                                    class="form-control input-group-elements-lg" placeholder="Enter published year"
+                                    required>
+                                <span asp-validation-for="Book!.YearPublished"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.DiscountPercentage"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-percent"> Discount</i></label>
+                                </div>
+                                <input asp-for="Book!.DiscountPercentage" type="number" value="0"
+                                    class="form-control input-group-elements-lg" placeholder="Enter % discount">
+                                <span asp-validation-for="Book!.DiscountPercentage"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.ImageUrl"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-image"> Image</i></label>
+                                </div>
+                                <input asp-for="Book!.ImageUrl" type="file"
+                                    class="form-control input-group-elements-lg">
+                                <span asp-validation-for="Book!.ImageUrl"
+                                    class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <!-- End .form-group -->
+                            <div class="form-footer row justify-content-end">
+                                <button type="submit" class="btn btn-outline-info">
+                                    <span>Submit</span>
+                                </button>
+                                <button aria-label="Close" class="btn btn-outline-danger">
+                                    <span>Close</span>
+                                </button>
+                            </div>
+                            <!-- End .form-footer -->
+                        </form>
+                    </div>
+                    <!-- .End .tab-pane -->
+                </div>
+                <!-- End .tab-content -->
+            </div>
+            <!-- End .form-tab -->
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

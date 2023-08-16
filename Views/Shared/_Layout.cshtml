@@ -949,7 +949,6 @@
 
 
 
-
     <!-- Plugins JS File -->
     <script src="~/assets/js/jquery.min.js"></script>
     <script src="~/assets/js/bootstrap.bundle.min.js"></script>
@@ -957,6 +956,18 @@
     <script src="~/assets/js/jquery.waypoints.min.js"></script>
     <script src="~/assets/js/superfish.min.js"></script>
     <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            if ('@TempData.ContainsKey("SweetAlert_Title")' === 'True' && '@TempData.ContainsKey("SweetAlert_Description")' === 'True' && '@TempData.ContainsKey("SweetAlert_State")' === 'True') {
+                var title = '@TempData["SweetAlert_Title"]';
+                var description = '@TempData["SweetAlert_Description"]';
+                var state = '@TempData["SweetAlert_State"]';
+                swal(title, description, state);
+            }
+        });
+    </script>
+
     <!-- Main JS File -->
     <script src="~/assets/main.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
