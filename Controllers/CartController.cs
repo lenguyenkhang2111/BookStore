@@ -23,6 +23,14 @@ namespace BookStore.Controllers
             _userManager = userManager;
         }
 
+        // View cart
+        public ViewResult Index()
+        {
+            Cart cart = GetCart();
+
+            return View("/Views/Cart/Index.cshtml", cart);
+        }
+
         // Thêm vào giỏ hàng
         public IActionResult AddToCart(int bookID, int quantity)
         {
@@ -54,17 +62,19 @@ namespace BookStore.Controllers
 
             _context.SaveChanges();
 
-            return View("/Views/Cart/Index.cshtml");
+            return RedirectToAction("Index");
         }
 
         // Xóa giỏ hàng
         public IActionResult ClearCart()
         {
             var cart = GetCart();
-            _context.CartItems.RemoveRange(cart!.CartItems!);
-            _context.SaveChanges();
-
-            return View("/Views/Cart/Index.cshtml"); ;
+            if (cart != null)
+            {
+                _context.CartItems.RemoveRange(cart.CartItems);
+                _context.SaveChanges();
+            }
+            return View("/Views/Cart/Index.cshtml");
         }
 
         // Xóa khỏi giỏ hàng
@@ -72,57 +82,48 @@ namespace BookStore.Controllers
         {
             var cartItem = _context.CartItems.Find(cartItemId);
             if (cartItem == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                _context.CartItems.Remove(cartItem);
-            }
+                if (cartItem != null)
+                {
+                    _context.CartItems.Remove(cartItem);
+                    _context.SaveChanges();
+                }
 
-            _context.SaveChanges();
-
-            return View("/Views/Cart/Index.cshtml"); ;
+            return RedirectToAction("Index");
         }
 
         // Tăng số lượng
         public IActionResult IncreaseQuantity(int cartItemId)
         {
             var cartItem = _context.CartItems.Find(cartItemId);
-            if (cartItem == null)
+            if (cartItem != null)
             {
-                return NotFound();
+                cartItem.Quantity++;
+                _context.CartItems.Update(cartItem);
+                _context.SaveChanges();
             }
 
-            cartItem.Quantity++;
-            _context.CartItems.Update(cartItem);
-            _context.SaveChanges();
-
-            return View("/Views/Cart/Index.cshtml"); ;
+            return RedirectToAction("Index");
         }
 
         // Giảm số lượng
         public IActionResult ReduceQuantity(int cartItemId)
         {
             var cartItem = _context.CartItems.Find(cartItemId);
-            if (cartItem == null)
+            if (cartItem != null)
             {
-                return NotFound();
+                if (cartItem.Quantity > 1)
+                {
+                    cartItem.Quantity--;
+                    _context.CartItems.Update(cartItem);
+                }
+                else
+                {
+                    _context.CartItems.Remove(cartItem);
+                }
+                _context.SaveChanges();
             }
 
-            if (cartItem.Quantity > 1)
-            {
-                cartItem.Quantity--;
-                _context.CartItems.Update(cartItem);
-            }
-            else
-            {
-                _context.CartItems.Remove(cartItem);
-            }
-
-            _context.SaveChanges();
-
-            return View("/Views/Cart/Index.cshtml"); ;
+            return RedirectToAction("Index"); ;
         }
 
         // Lấy giỏ hàng của người dùng hiện tại
@@ -147,6 +148,7 @@ namespace BookStore.Controllers
             }
 
             return cart;
+
         }
         private string GetUserId()
         {
