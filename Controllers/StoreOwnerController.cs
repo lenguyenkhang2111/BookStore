@@ -5,17 +5,21 @@ using BookStore.Data;
 using BookStore.Models.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.Controllers;
 
 public class StoreOwnerController : Controller
 {
     private StoreDbContext _context;
+    private readonly UserManager<User> _userManager;
     public int PageSize = 6;
 
-    public StoreOwnerController(StoreDbContext context)
+    public StoreOwnerController(StoreDbContext context, UserManager<User> userManager)
     {
         _context = context;
+        _userManager = userManager;
     }
     public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
     {
@@ -137,12 +141,18 @@ public class StoreOwnerController : Controller
     }
 
     [HttpGet]
-    public ViewResult CategoryRequest()
+    [Authorize]
+    public async Task<IActionResult> CategoryRequest()
     {
+        if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            User? user = await _userManager.FindByNameAsync(User!.Identity!.Name!);
+        }
         return View();
     }
 
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> CategoryRequest([FromForm] CategoryRequest categoryRequest)
     {
         string Name = categoryRequest.CategoryName;
