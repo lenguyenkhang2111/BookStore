@@ -24226,6 +24226,11 @@
       "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Account\\EditProfile.cshtml",
       "TargetPath": "Views\\Account\\EditProfile.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Order\\Index.cshtml",
+      "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
