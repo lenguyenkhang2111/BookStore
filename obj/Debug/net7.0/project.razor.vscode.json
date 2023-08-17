@@ -24251,6 +24251,11 @@
       "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Order\\OrderHistory.cshtml",
       "TargetPath": "Views\\Order\\OrderHistory.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Home\\Help.cshtml",
+      "TargetPath": "Views\\Home\\Help.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
