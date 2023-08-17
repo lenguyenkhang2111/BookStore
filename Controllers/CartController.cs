@@ -74,19 +74,18 @@ namespace BookStore.Controllers
                 _context.CartItems.RemoveRange(cart.CartItems);
                 _context.SaveChanges();
             }
-            return View("/Views/Cart/Index.cshtml");
+            return RedirectToAction("Index");
         }
 
         // Xóa khỏi giỏ hàng
         public IActionResult RemoveFromCart(int cartItemId)
         {
             var cartItem = _context.CartItems.Find(cartItemId);
-            if (cartItem == null)
-                if (cartItem != null)
-                {
-                    _context.CartItems.Remove(cartItem);
-                    _context.SaveChanges();
-                }
+            if (cartItem != null)
+            {
+                _context.CartItems.Remove(cartItem);
+                _context.SaveChanges();
+            }
 
             return RedirectToAction("Index");
         }
