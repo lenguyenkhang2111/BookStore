@@ -12,12 +12,13 @@ builder.Services.AddDbContext<StoreDbContext>(opts =>
     opts.UseSqlite(builder.Configuration.GetConnectionString("BookStoreSQLiteConnection"));
 });
 builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<StoreDbContext>();
-
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Account/Login";
     options.AccessDeniedPath = "/Account/AccessDenied";
 });
+
+
 
 var app = builder.Build();
 

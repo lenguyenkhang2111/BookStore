@@ -20,15 +20,13 @@ public class BookController : Controller
     {
         IQueryable<Book> booksQuery = context.Books
         .Include(b => b.Category)
-        .Where(b => categoryId == null || b.Category.Id == categoryId);
-
-
+        .Where(b => categoryId == null || b.CategoryId == categoryId);
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
             "Year" => booksQuery.OrderBy(b => b.YearPublished),
             "Id" => booksQuery.OrderBy(b => b.Id),
-            _ => booksQuery.OrderBy(b => b.Id),
+            _ => booksQuery.OrderBy(b => b.Title),
         };
 
 
@@ -41,22 +39,24 @@ public class BookController : Controller
             {
                 CurrentPage = bookPage,
                 ItemsPerPage = PageSize,
-                TotalItems = categoryId == null ? context.Books.Count() : context.Books.Where(b => b.Category.Id == categoryId).Count(),
+                TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
             Categories = context.Categories.Include(c => c.Books),
-            CurrentSortby = sortby
+            CurrentSortby = sortby,
+
         });
     }
 
-    public async Task<IActionResult> Details(int? bookId)
+    public async Task<IActionResult> Detail(int? bookId)
     {
         if (bookId == null)
         {
             return RedirectToAction("Index");
         }
 
-        var book = await context.Books
+        Book? book = await context.Books
+            .Include(b => b.Category)
             .FirstOrDefaultAsync(b => b.Id == bookId);
 
         if (book == null)
@@ -66,39 +66,6 @@ public class BookController : Controller
 
         return View(book);
     }
-
 }
 
 
-//  public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
-//     {
-//         IQueryable<Book> booksQuery = context.Books
-//         .Include(b => b.Category)
-//         .Where(b => categoryId == null || b.Category.Id == categoryId);
-
-//         booksQuery = sortby switch
-//         {
-//             "Name" => booksQuery.OrderBy(b => b.Title),
-//             "Year" => booksQuery.OrderBy(b => b.YearPublished),
-//             "Id" => booksQuery.OrderBy(b => b.Id),
-//             _ => booksQuery.OrderBy(b => b.Id),
-//         };
-
-//         return View(new BookListViewModel
-//         {
-//             Books = context.Books
-//             .Include(b => b.Category)
-//             .Where(b => categoryId == null || b.Category.Id == categoryId)
-//             .OrderBy(b => b.Id)
-//             .Skip((bookPage - 1) * PageSize)
-//             .Take(PageSize),
-//             PagingInfo = new PagingInfo
-//             {
-//                 CurrentPage = bookPage,
-//                 ItemsPerPage = PageSize,
-//                 TotalItems = context.Books.Count()
-//             },
-//             CurrentCategoryId = categoryId,
-//             Categories = context.Categories.Include(c => c.Books)
-//         });
-//     }
