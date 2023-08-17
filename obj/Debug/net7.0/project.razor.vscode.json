@@ -24148,11 +24148,6 @@
   "RootNamespace": "BookStore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Cart\\OrderHistory.cshtml",
-      "TargetPath": "Views\\Cart\\OrderHistory.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -24230,6 +24225,11 @@
     {
       "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Order\\Index.cshtml",
       "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\THE HAO PC\\Desktop\\BookStore\\Views\\Order\\OrderHistory.cshtml",
+      "TargetPath": "Views\\Order\\OrderHistory.cshtml",
       "FileKind": "mvc"
     }
   ]

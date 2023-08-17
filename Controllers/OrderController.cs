@@ -154,5 +154,16 @@ namespace BookStore.Controllers
             }
             return 0;
         }
+        public IActionResult OrderHistory()
+        {
+            var userId = GetUserId();
+            var orders = _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Book)
+                .Where(o => o.UserId == userId)
+                .ToList();
+
+            return View(orders);
+        }
     }
 }
