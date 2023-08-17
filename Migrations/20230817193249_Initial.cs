@@ -30,13 +30,10 @@ namespace BookStore.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
-========
                     FullName = table.Column<string>(type: "TEXT", nullable: false),
                     HomeAddress = table.Column<string>(type: "TEXT", nullable: false),
                     Email = table.Column<string>(type: "TEXT", maxLength: 256, nullable: false),
                     ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                     UserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
                     NormalizedEmail = table.Column<string>(type: "TEXT", maxLength: 256, nullable: true),
@@ -62,11 +59,7 @@ namespace BookStore.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
-                    UserId = table.Column<int>(type: "INTEGER", nullable: false)
-========
                     UserId = table.Column<string>(type: "TEXT", nullable: false)
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                 },
                 constraints: table =>
                 {
@@ -87,13 +80,13 @@ namespace BookStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
                 name: "CategoryRequests",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     CategoryName = table.Column<string>(type: "TEXT", nullable: false),
+                    Description = table.Column<string>(type: "TEXT", nullable: false),
                     RequestDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     StoreOwnerId = table.Column<int>(type: "INTEGER", nullable: false),
                     IsApproved = table.Column<bool>(type: "INTEGER", nullable: false)
@@ -104,19 +97,13 @@ namespace BookStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-========
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                 name: "Orders",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     OrderDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
-                    UserId = table.Column<int>(type: "INTEGER", nullable: false)
-========
                     UserId = table.Column<string>(type: "TEXT", nullable: false)
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                 },
                 constraints: table =>
                 {
@@ -230,30 +217,6 @@ namespace BookStore.Migrations
                 });
 
             migrationBuilder.CreateTable(
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
-========
-                name: "CategoryRequests",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
-                    CategoryName = table.Column<string>(type: "TEXT", nullable: false),
-                    RequestDate = table.Column<DateTime>(type: "TEXT", nullable: false),
-                    StoreOwnerId = table.Column<string>(type: "TEXT", nullable: true),
-                    IsApproved = table.Column<bool>(type: "INTEGER", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CategoryRequests", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_CategoryRequests_AspNetUsers_StoreOwnerId",
-                        column: x => x.StoreOwnerId,
-                        principalTable: "AspNetUsers",
-                        principalColumn: "Id");
-                });
-
-            migrationBuilder.CreateTable(
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                 name: "Books",
                 columns: table => new
                 {
@@ -387,14 +350,6 @@ namespace BookStore.Migrations
                 column: "CartId");
 
             migrationBuilder.CreateIndex(
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.cs
-========
-                name: "IX_CategoryRequests_StoreOwnerId",
-                table: "CategoryRequests",
-                column: "StoreOwnerId");
-
-            migrationBuilder.CreateIndex(
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.cs
                 name: "IX_OrderItems_BookId",
                 table: "OrderItems",
                 column: "BookId");
@@ -440,9 +395,6 @@ namespace BookStore.Migrations
 
             migrationBuilder.DropTable(
                 name: "Carts");
-
-            migrationBuilder.DropTable(
-                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Books");

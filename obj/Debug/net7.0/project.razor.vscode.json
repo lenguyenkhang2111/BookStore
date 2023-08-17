@@ -24266,6 +24266,11 @@
       "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\Order\\comment3.cshtml",
       "TargetPath": "Views\\Order\\comment3.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\StoreOwner\\CategoryRequest.cshtml",
+      "TargetPath": "Views\\StoreOwner\\CategoryRequest.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

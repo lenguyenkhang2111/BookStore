@@ -8,6 +8,8 @@ public class CategoryRequest
 
     public required string CategoryName { get; set; }
 
+    public required string Description { get; set; }
+
     public DateTime RequestDate { get; set; } = DateTime.Now;
 
 

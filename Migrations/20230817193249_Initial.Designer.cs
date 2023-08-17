@@ -11,11 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.Designer.cs
-    [Migration("20230817185815_Initial")]
-========
-    [Migration("20230815095508_Initial")]
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.Designer.cs
+    [Migration("20230817193249_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -75,8 +71,9 @@ namespace BookStore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -132,19 +129,18 @@ namespace BookStore.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<bool>("IsApproved")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("TEXT");
 
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.Designer.cs
                     b.Property<int>("StoreOwnerId")
                         .HasColumnType("INTEGER");
-========
-                    b.Property<string>("StoreOwnerId")
-                        .HasColumnType("TEXT");
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.Designer.cs
 
                     b.HasKey("Id");
 
@@ -160,8 +156,9 @@ namespace BookStore.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -317,73 +314,6 @@ namespace BookStore.Migrations
                     b.ToTable("AspNetRoleClaims", (string)null);
                 });
 
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.Designer.cs
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("TEXT");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex");
-
-                    b.ToTable("AspNetUsers", (string)null);
-                });
-
-========
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.Designer.cs
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -493,18 +423,6 @@ namespace BookStore.Migrations
                     b.Navigation("Cart");
                 });
 
-<<<<<<<< HEAD:Migrations/20230817185815_Initial.Designer.cs
-========
-            modelBuilder.Entity("BookStore.Models.CategoryRequest", b =>
-                {
-                    b.HasOne("BookStore.Models.User", "StoreOwner")
-                        .WithMany()
-                        .HasForeignKey("StoreOwnerId");
-
-                    b.Navigation("StoreOwner");
-                });
-
->>>>>>>> origin/Hao:Migrations/20230815095508_Initial.Designer.cs
             modelBuilder.Entity("BookStore.Models.OrderItem", b =>
                 {
                     b.HasOne("BookStore.Models.Book", "Book")
