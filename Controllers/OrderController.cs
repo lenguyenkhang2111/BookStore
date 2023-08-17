@@ -65,7 +65,7 @@ namespace BookStore.Controllers
             // Xóa giỏ hàng sau khi tạo đơn hàng
             ClearCart();
 
-            return RedirectToAction("Index");
+            return RedirectToAction("OrderHistory");
         }
 
         // Thanh toán

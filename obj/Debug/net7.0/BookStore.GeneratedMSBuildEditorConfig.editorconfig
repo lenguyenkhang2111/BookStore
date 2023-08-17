@@ -44,12 +44,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/THE HAO PC/Desktop/BookStore/Views/Cart/comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxjb21tZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/THE HAO PC/Desktop/BookStore/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/THE HAO PC/Desktop/BookStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudDMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/THE HAO PC/Desktop/BookStore/Views/Order/Index.cshtml]

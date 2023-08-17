@@ -1,0 +1,50 @@
+@model BookStore.Models.Cart
+
+@{
+    ViewData["Title"] = "Order";
+}
+
+<h2>Order</h2>
+
+@if (Model.CartItems != null && Model.CartItems.Any())
+{
+    <h3>Cart Items:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cartItem in Model.CartItems)
+            {
+                <tr>
+                    <td><img src="assets/images/products/table/product-1.jpg" alt="Product Image" class="img-fluid"
+                            style="max-width: 100px;" /></td>
+                    <td>@cartItem.Book.Title</td>
+                    <td>@cartItem.Quantity</td>
+                    <td>@cartItem.Book.Price</td>
+                    <td>@(cartItem.Quantity * cartItem.Book.Price)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h3>Total: @Model.CartItems.Sum(item => item.Quantity * item.Book.Price)</h3>
+
+    <form method="post" action="/Order/CreateOrder">
+        <input type="submit" value="Create Order" class="btn btn-primary" />
+    </form>
+    <a href="/Order/OrderHistory" class="btn btn-secondary">Order History</a> <!-- Button Order History -->
+
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+
+<a href="/Cart">Back to Cart</a>
