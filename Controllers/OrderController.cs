@@ -23,6 +23,12 @@ namespace BookStore.Controllers
             _userManager = userManager;
 
         }
+        public ViewResult Index()
+        {
+            Cart cart = GetCart();
+
+            return View("/Views/Order/Index.cshtml", cart);
+        }
 
         // Tạo đơn hàng
         public IActionResult CreateOrder()
@@ -59,7 +65,7 @@ namespace BookStore.Controllers
             // Xóa giỏ hàng sau khi tạo đơn hàng
             ClearCart();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index");
         }
 
         // Thanh toán
