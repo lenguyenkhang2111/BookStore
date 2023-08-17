@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {}
+    "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {
+    "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
-        "packagesPath": "C:\\Users\\KHANG\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\KHANG\\Desktop\\BookStore\\obj\\",
+        "projectPath": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\THE HAO PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
