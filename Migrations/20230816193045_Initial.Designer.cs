@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-    [Migration("20230816161206_Initial")]
+    [Migration("20230816193045_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -34,7 +34,6 @@ namespace BookStore.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(400)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("DiscountPercentage")
@@ -45,6 +44,10 @@ namespace BookStore.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ShortReview")
+                        .HasMaxLength(300)
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .IsRequired()

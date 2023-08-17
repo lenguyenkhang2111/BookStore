@@ -219,7 +219,8 @@ namespace BookStore.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Title = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
-                    Description = table.Column<string>(type: "TEXT", maxLength: 400, nullable: true),
+                    ShortReview = table.Column<string>(type: "TEXT", maxLength: 300, nullable: true),
+                    Description = table.Column<string>(type: "TEXT", nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ImageUrl = table.Column<string>(type: "TEXT", nullable: true),
                     CategoryId = table.Column<int>(type: "INTEGER", nullable: false),

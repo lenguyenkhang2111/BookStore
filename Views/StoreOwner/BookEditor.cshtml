@@ -30,9 +30,22 @@
                                         class="input-group-text bg-primary text-white input-group-elements-lg"><i
                                             class="bi bi-bookmark-check"> Title</i></label>
                                 </div>
-                                <input asp-for="Book!.Title" type="te xt" class="form-control input-group-elements-lg "
+                                <input asp-for="Book!.Title" type="text" class="form-control input-group-elements-lg "
                                     placeholder="Enter title" required>
                                 <span asp-validation-for="Book!.Title" class="invalid-feedback custom-invalid-feedback">
+                                </span>
+                            </div>
+
+                            <div class="input-group input-group-lg mt-1 mb-2">
+                                <div class="input-group-prepend">
+                                    <label asp-for="Book!.ShortReview"
+                                        class="input-group-text bg-primary text-white input-group-elements-lg"><i
+                                            class="bi bi-eye"> Short Review</i></label>
+                                </div>
+                                <input asp-for="Book!.ShortReview" type="text"
+                                    class="form-control input-group-elements-lg " placeholder="Enter title" required>
+                                <span asp-validation-for="Book!.ShortReview"
+                                    class="invalid-feedback custom-invalid-feedback">
                                 </span>
                             </div>
 

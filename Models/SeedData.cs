@@ -27,7 +27,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "B Book",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -36,7 +36,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "A Book",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -45,7 +45,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "C Book",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -54,7 +54,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2022",
                     Author = "Loyadt Kasuchi",
@@ -63,7 +63,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2021",
                     Author = "Loyadt Kasuchi",
@@ -72,7 +72,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "1998",
                     Author = "Loyadt Kasuchi",
@@ -81,7 +81,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -90,7 +90,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -99,7 +99,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -108,7 +108,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 1",
-                    Description = "This is book 1 description",
+                    ShortReview = "This is book 1 description",
                     Price = 19.99m,
                     YearPublished = "2023",
                     Author = "Loyadt Kasuchi",
@@ -117,7 +117,7 @@ namespace BookStore.Models
                 new Book
                 {
                     Title = "Book 2",
-                    Description = "This is book 2 description",
+                    ShortReview = "This is book 2 description",
                     Price = 29.99m,
                     YearPublished = "2022",
                     Author = "Rutawani Sibachao",

@@ -48,14 +48,15 @@ public class BookController : Controller
         });
     }
 
-    public async Task<IActionResult> Details(int? bookId)
+    public async Task<IActionResult> Detail(int? bookId)
     {
         if (bookId == null)
         {
             return RedirectToAction("Index");
         }
 
-        var book = await context.Books
+        Book? book = await context.Books
+            .Include(b => b.Category)
             .FirstOrDefaultAsync(b => b.Id == bookId);
 
         if (book == null)
@@ -65,11 +66,6 @@ public class BookController : Controller
 
         return View(book);
     }
-
-
-
-
-
 }
 
 

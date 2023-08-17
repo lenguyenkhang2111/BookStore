@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k6S7yGkYeW3TCFw6SH5B0e+04clPA+ITLACDCg/3Pv4=",
+  "Hash": "P3puIRsqNBY9qIoIYP9PcgQFg+jpM5Mh7HfYxHwmp0U=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -10640,6 +10640,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "upload/images/3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "upload/images/3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\images\\3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg"
     }
   ]
 }
