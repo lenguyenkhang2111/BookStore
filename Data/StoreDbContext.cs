@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BookStore.Data;
 
-public class StoreDbContext : IdentityDbContext<IdentityUser>
+public class StoreDbContext : IdentityDbContext<User>
 {
     public StoreDbContext(DbContextOptions<StoreDbContext> options) : base(options) { }
 
