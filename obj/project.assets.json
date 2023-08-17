@@ -4847,11 +4847,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ADMIN\\Downloads\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\BookStore-1\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\BookStore.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\BookStore-1\\BookStore.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\BookStore-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
