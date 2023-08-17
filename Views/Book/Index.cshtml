@@ -54,8 +54,8 @@
                                 <div class="col-6 col-lg-3">
                                     <figure class="product-media">
                                         <span class="product-label label-new">New</span>
-                                        <a href="product.html">
-                                            <img src="assets/images/products/product-4.jpg" alt="Product image"
+                                        <a asp-controller="Book" asp-action="Detail" asp-route-bookId="@b.Id">
+                                            <img src="~/upload/images/@b.ImageUrl" alt="Product image"
                                                 class="product-image">
                                         </a>
                                     </figure><!-- End .product-media -->
@@ -82,14 +82,16 @@
                                 <div class="col-lg-6">
                                     <div class="product-body product-action-inner">
                                         <h3 class="product-title text-danger mb-1" style="font-size: large;"><a
-                                                href="product.html">@b.Title</a></h3><!-- End .product-title -->
+                                                asp-controller="Book" asp-action="Detail"
+                                                asp-route-bookId="@b.Id">@b.Title</a></h3>
+                                        <!-- End .product-title -->
                                         <!-- End .product-cat -->
                                         <div class="product-cat mb-1" style="color: #ef837b;">
-                                            <a href="#"><i class="bi bi-tag-fill"> Category: </i>
+                                            <a href=""><i class="bi bi-tag-fill"> Category: </i>
                                                 @b.Category?.CategoryName</a>
                                         </div>
 
-                                        <a href="#" class="product-author mb-1">
+                                        <a href="" class="product-author mb-1">
                                             <i class="bi bi-people-fill"> Author: @b.Author</i>
                                         </a>
                                         <div class="product-content mb-0">

@@ -166,17 +166,8 @@ public class StoreOwnerController : Controller
         {
             return Redirect(returnUrl);
         }
-
         return RedirectToAction("Index");
     }
-
-    // private void SweetAlertSend(string title, string description, string state)
-    // {
-    //     TempData["SweetAlert_Title"] = title;
-    //     TempData["SweetAlert_Description"] = description;
-    //     TempData["SweetAlert_State"] = state;
-    // }
-
 }
 
 

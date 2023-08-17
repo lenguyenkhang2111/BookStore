@@ -32,8 +32,7 @@
                         </div><!-- End .product-price -->
 
                         <div class="product-content">
-                            <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
-                                metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.
+                            <p>@Model.ShortReview
                             </p>
                         </div><!-- End .product-content -->
 
@@ -41,22 +40,24 @@
                         <div class="details-filter-row details-row-size">
                             <btn class="btn btn-link pl-0" style="color: #ef837b;">Author: </btn>
                             <btn class="btn btn-outline-dark btn-round">
-                                <i class="bi bi-people-fill"> Darwin </i>
+                                <i class="bi bi-people-fill"> @Model?.Author </i>
                             </btn>
                         </div><!-- End .details-filter-row -->
                         <div class="details-filter-row details-row-size">
                             <btn class="btn btn-link pl-0" style="color: #ef837b;">Category: </btn>
-                            <btn class="btn btn-outline-dark btn-round"> <i class="bi bi-tag-fill"> Romance </i>
+                            <btn class="btn btn-outline-dark btn-round"> <i class="bi bi-tag-fill">
+                                    @Model?.Category?.CategoryName </i>
                             </btn>
                         </div><!-- End .details-filter-row -->
                         <div class="details-filter-row details-row-size">
                             <btn class="btn btn-link pl-0" style="color: #ef837b;">Published Year: </btn>
                             <btn class="btn btn-outline-dark btn-round">
-                                <i class="bi bi-flag-fill"> 2023 </i>
+                                <i class="bi bi-flag-fill"> @Model?.YearPublished </i>
                             </btn>
                         </div><!-- End .details-filter-row -->
                         <div class="product-details-action d-flex justify-content-center">
-                            <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                            <a asp-asp-controller="Cart" asp-action="AddToCart" asp-route-bookID="@Model?.Id"
+                                class="btn-product btn-cart"><span>add to cart</span></a>
                         </div><!-- End .product-details-action -->
 
                         <div class="product-details-footer">
@@ -86,7 +87,7 @@
                 <div class="tab-pane fade show active" id="product-desc-tab" role="tabpanel"
                     aria-labelledby="product-desc-link">
                     <div class="product-desc-content">
-                        <p>Description</p>
+                        <p>@Model?.Description</p>
                     </div><!-- End .product-desc-content -->
                 </div><!-- .End .tab-pane -->
             </div><!-- End .tab-content -->
