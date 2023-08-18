@@ -1,0 +1,101 @@
+﻿@model Cart
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
+		<div class="container">
+			<h1 class="page-title">Shopping Cart<span>Shop</span></h1>
+		</div><!-- End .container -->
+	</div><!-- End .page-header -->
+	<nav aria-label="breadcrumb" class="breadcrumb-nav">
+		<div class="container">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item"><a href="#">Shop</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+			</ol>
+		</div><!-- End .container -->
+	</nav><!-- End .breadcrumb-nav -->
+</head>
+
+<body>
+
+	<div class="container">
+		@if (Model.CartItems != null && Model.CartItems.Any())
+		{
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Image</th>
+						<th>Title</th>
+						<th>Quantity</th>
+						<th>Price</th>
+						<th>Total</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model.CartItems)
+					{
+						<tr>
+							<td><img src="assets/images/products/table/product-1.jpg" alt="Product Image" class="img-fluid"
+									style="max-width: 100px;" /></td>
+							<td>@item.Book.Title</td>
+							<td>@item.Quantity</td>
+							<td>@item.Book.Price</td>
+							<td>@(item.Quantity * item.Book.Price)</td>
+
+							<td>
+								<form method="post" action="/Cart/IncreaseQuantity">
+									<input type="hidden" name="cartItemId" value="@item.Id" />
+									<input type="submit" value="+" class="btn btn-primary" />
+								</form>
+								<form method="post" action="/Cart/ReduceQuantity">
+									<input type="hidden" name="cartItemId" value="@item.Id" />
+									<input type="submit" value="-" class="btn btn-primary" />
+								</form>
+								<form method="post" action="/Cart/RemoveFromCart">
+									<input type="hidden" name="cartItemId" value="@item.Id" />
+									<input type="submit" value="Remove" class="btn btn-danger" />
+								</form>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+
+			<form method="post" action="/Cart/ClearCart">
+				<input type="submit" value="Clear Cart" class="btn btn-danger" />
+			</form>
+			<h2>Payment</h2>
+			<table class="table">
+				<tr>
+					<td>Payment Method:</td>
+					<td>
+					<th>Cash Only</th>
+					</td>
+				</tr>
+				<tr>
+					<td>Total: @Model.CartItems.Sum(item => item.Quantity * item.Book.Price)</td>
+
+				</tr>
+			</table>
+			<a href="/Order" class="btn btn-primary">Proceed to Checkout</a>
+		}
+
+		else
+		{
+			<p>Your cart is empty.</p>
+		}
+
+		<a href="/Book" class="btn btn-primary">Continue Shopping</a>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
