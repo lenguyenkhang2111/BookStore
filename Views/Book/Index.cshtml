@@ -34,7 +34,7 @@
                                 <form name="sortby-form" asp-controller="Book" asp-action="Index"
                                     asp-route-categoryId="@Model?.CurrentCategoryId"
                                     asp-route-bookPage="@Model?.PagingInfo?.CurrentPage"
-                                    asp-route-sortby="Model?.CurrentSortby">
+                                    asp-route-sortby="@Model?.CurrentSortby">
                                     <select name="sortby" id="sortby" class="form-control">
                                         <option value="Name" selected="@(Model?.CurrentSortby == "Name")">Name</option>
                                         <option value="Year" selected="@(Model?.CurrentSortby == "Year")">Year</option>

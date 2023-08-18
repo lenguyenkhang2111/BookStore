@@ -54,7 +54,24 @@
                                     <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
                                     <li><a href="about.html">Help</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a>
+                                    <li class="navbar-nav">
+
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                                        <li><a asp-controller="Account" asp-action="Profile" type="submit">@User.Identity.Name</a></li>
+
+                                                        <li class="nav-item">
+                                                                                <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post" class="form-inline">
+                                                                                    <button type="submit" class="btn btn-link nav-link">Logout</button>
+                                                                                </form>
+                                                                            </li>
+                                        }
+                                        else
+                                        {
+                                                                            <li class="nav-item">
+                                                                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                                                            </li>
+                                        }
                                     </li>
                                 </ul>
                             </li>
