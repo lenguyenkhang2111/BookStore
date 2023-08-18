@@ -24158,11 +24158,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment.cshtml",
-      "TargetPath": "Views\\Order\\comment.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Account\\ChangePassword.cshtml",
       "TargetPath": "Views\\Account\\ChangePassword.cshtml",
       "FileKind": "mvc"
@@ -24193,11 +24188,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\Index.cshtml",
-      "TargetPath": "Views\\Order\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -24223,11 +24213,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Home\\Help.cshtml",
-      "TargetPath": "Views\\Home\\Help.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -24238,18 +24223,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Cart\\comment.cshtml",
-      "TargetPath": "Views\\Cart\\comment.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Admin\\Index.cshtml",
-      "TargetPath": "Views\\Admin\\Index.cshtml",
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Home\\Help.cshtml",
+      "TargetPath": "Views\\Home\\Help.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\Index.cshtml",
+      "TargetPath": "Views\\Order\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment.cshtml",
+      "TargetPath": "Views\\Order\\comment.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -24258,8 +24248,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment3.cshtml",
-      "TargetPath": "Views\\Order\\comment3.cshtml",
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment2.cshtml",
+      "TargetPath": "Views\\Order\\comment2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Cart\\comment.cshtml",
+      "TargetPath": "Views\\Cart\\comment.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Admin\\Index.cshtml",
+      "TargetPath": "Views\\Admin\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -24268,8 +24268,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment2.cshtml",
-      "TargetPath": "Views\\Order\\comment2.cshtml",
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment3.cshtml",
+      "TargetPath": "Views\\Order\\comment3.cshtml",
       "FileKind": "mvc"
     }
   ]
