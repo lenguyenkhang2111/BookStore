@@ -4,23 +4,36 @@ using BookStore.Models;
 using BookStore.Data;
 using BookStore.Models.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.Controllers;
 
 public class StoreOwnerController : Controller
 {
     private StoreDbContext _context;
+    private readonly UserManager<User> _userManager;
     public int PageSize = 6;
 
-    public StoreOwnerController(StoreDbContext context)
+    public StoreOwnerController(StoreDbContext context, UserManager<User> userManager)
     {
         _context = context;
+        _userManager = userManager;
     }
-    public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
+    public ViewResult Index(int? categoryId, string? sortby, string? searchQuery, int bookPage = 1)
     {
         IQueryable<Book> booksQuery = _context.Books
         .Include(b => b.Category)
         .Where(b => categoryId == null || b.CategoryId == categoryId);
+
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            searchQuery = searchQuery.ToLower();
+
+            booksQuery = booksQuery.Where(b => b.Title.ToLower().Contains(searchQuery));
+        }
+
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
@@ -28,6 +41,7 @@ public class StoreOwnerController : Controller
             "Id" => booksQuery.OrderBy(b => b.Id),
             _ => booksQuery.OrderBy(b => b.Title),
         };
+
 
         return View(new BookListViewModel
         {
@@ -41,11 +55,12 @@ public class StoreOwnerController : Controller
                 TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
+            CurrentCategoryName = _context.Categories.Find(categoryId)?.CategoryName,
             Categories = _context.Categories.Include(c => c.Books),
             CurrentSortby = sortby,
+            CurrentSearchQuery = searchQuery
         });
     }
-
 
 
     [HttpGet]
@@ -133,6 +148,32 @@ public class StoreOwnerController : Controller
             return RedirectWithReturnUrl("Goodjob!", "You deleted a book!", "success");
         }
         return RedirectWithReturnUrl("Failed!", "Cannot delete this book because error!", "error");
+    }
+
+    [HttpGet]
+    [Authorize]
+    public async Task<IActionResult> CategoryRequest()
+    {
+        if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            User? user = await _userManager.FindByNameAsync(User!.Identity!.Name!);
+        }
+        return View();
+    }
+
+    [HttpPost]
+    [Authorize]
+    public async Task<IActionResult> CategoryRequest([FromForm] CategoryRequest categoryRequest)
+    {
+        string Name = categoryRequest.CategoryName;
+        if (_context.Categories.Any(c => c.CategoryName == Name) || _context.CategoryRequests.Any(c => c.CategoryName == Name))
+        {
+            return RedirectWithReturnUrl("Failed!", "You request an existed category!", "error");
+        }
+        _context.CategoryRequests.Add(categoryRequest);
+        await _context.SaveChangesAsync();
+        return RedirectWithReturnUrl("Goodjob!", "You requested a new category", "success");
+
     }
 
 
