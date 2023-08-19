@@ -40,8 +40,7 @@
 										<div class="product">
 											<figure class="product-media">
 												<a href="#">
-													<img src="assets/images/products/table/product-1.jpg"
-														alt="Product image">
+													<img src="~/upload/images/@item.Book.ImageUrl" alt="Product image">
 												</a>
 											</figure>
 
@@ -123,6 +122,7 @@
 					<a asp-controller="Book" asp-action="Index"
 						class="btn btn-outline-dark-2 btn-block mb-3"><span>CONTINUE
 							SHOPPING</span><i class="icon-refresh"></i></a>
+					<a href="/Order/OrderHistory" class="btn btn-secondary">Order History</a>
 				</aside>
 
 				<!-- End .col-lg-3 -->
