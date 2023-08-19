@@ -14,9 +14,9 @@
             <div class="header-right">
                 <ul class="top-menu">
                     <li>
-                        <a href="#">Links</a>
+                        <a href="">Links</a>
                         <ul>
-                            <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
+                            <li><a href=""><i class="icon-phone"></i>Call: +0123 456 789</a></li>
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
                             {
@@ -46,7 +46,7 @@
                     <i class="icon-bars"></i>
                 </button>
 
-                <a href="index.html" class="logo">
+                <a asp-controller="Home" asp-action="Index" class="logo">
                     <img src="~/assets/images/logo.png" alt="Molla Logo" width="105" height="25">
                 </a>
                 <nav class="main-nav">

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NIZnRMNJrujniIoCNoSag8BYTa6K3vhc1GoVCh1RgII=",
+  "Hash": "JpiJ4QuNDeUrhinWr6tDrf25S76vuoZkd14yZSX+5IY=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -1054,7 +1054,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\demos\\demo-20.css",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\css\\demos\\demo-20.css",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -1071,7 +1071,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\demos\\demo-20.css"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\main.min.css",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\css\\main.min.css",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -1156,7 +1156,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\plugins\\owl-carousel\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\skins\\skin-demo-20.css",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\css\\skins\\skin-demo-20.css",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -1173,7 +1173,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\skins\\skin-demo-20.css"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\css\\style.css",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -5015,7 +5015,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\demos-img\\support_bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-1.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-1.jpg",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -5508,7 +5508,7 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-2-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\elements.png",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\elements.png",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -10455,10 +10455,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\isotope\\jquery.isotope.min.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -10472,10 +10472,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -10489,10 +10489,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -10506,10 +10506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -10523,10 +10523,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -10540,10 +10540,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -10557,10 +10557,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -10574,10 +10574,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -10591,7 +10591,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery.appear\\jquery.appear.min.js",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\lib\\jquery.appear\\jquery.appear.min.js",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
@@ -10642,10 +10642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "upload/images/3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",
       "AssetKind": "All",
@@ -10659,10 +10659,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "upload/images/3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg",
       "AssetKind": "All",
@@ -10676,10 +10676,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\images\\3fd1f95d-1e3d-47e1-ae51-9343d153074c_marxism.jpg"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\868d319b-4b39-4a2c-971b-aa74075fc60b_1314775.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\868d319b-4b39-4a2c-971b-aa74075fc60b_1314775.jpg",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "upload/images/868d319b-4b39-4a2c-971b-aa74075fc60b_1314775.jpg",
       "AssetKind": "All",
@@ -10693,10 +10693,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\images\\868d319b-4b39-4a2c-971b-aa74075fc60b_1314775.jpg"
     },
     {
-      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\debdfc5c-009a-4990-874a-266c102b3ef3_1314775.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\debdfc5c-009a-4990-874a-266c102b3ef3_1314775.jpg",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
       "RelativePath": "upload/images/debdfc5c-009a-4990-874a-266c102b3ef3_1314775.jpg",
       "AssetKind": "All",
