@@ -1,5 +1,6 @@
 using BookStore.Data;
 using BookStore.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 namespace BookStore.Models
 {
@@ -17,6 +18,7 @@ namespace BookStore.Models
             Category education = new() { CategoryName = "Education" };
             if (!context.Categories.Any())
             {
+
                 context.Categories.AddRange(romance, education);
                 context.SaveChanges();
             }
@@ -126,6 +128,7 @@ namespace BookStore.Models
                 );
                 context.SaveChanges();
             }
+
         }
     }
 }

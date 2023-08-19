@@ -21,11 +21,19 @@ public class StoreOwnerController : Controller
         _context = context;
         _userManager = userManager;
     }
-    public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
+    public ViewResult Index(int? categoryId, string? sortby, string? searchQuery, int bookPage = 1)
     {
         IQueryable<Book> booksQuery = _context.Books
         .Include(b => b.Category)
         .Where(b => categoryId == null || b.CategoryId == categoryId);
+
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            searchQuery = searchQuery.ToLower();
+
+            booksQuery = booksQuery.Where(b => b.Title.ToLower().Contains(searchQuery));
+        }
+
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
@@ -33,6 +41,7 @@ public class StoreOwnerController : Controller
             "Id" => booksQuery.OrderBy(b => b.Id),
             _ => booksQuery.OrderBy(b => b.Title),
         };
+
 
         return View(new BookListViewModel
         {
@@ -46,11 +55,12 @@ public class StoreOwnerController : Controller
                 TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
+            CurrentCategoryName = _context.Categories.Find(categoryId)?.CategoryName,
             Categories = _context.Categories.Include(c => c.Books),
             CurrentSortby = sortby,
+            CurrentSearchQuery = searchQuery
         });
     }
-
 
 
     [HttpGet]

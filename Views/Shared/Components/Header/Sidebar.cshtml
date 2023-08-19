@@ -1,0 +1,129 @@
+@model HeaderViewModel
+<!-- Mobile Menu -->
+<div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+
+<div class="mobile-menu-container">
+    <div class="mobile-menu-wrapper">
+        <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+        <form asp-controller="@Model?.SearchAspController" asp-action="Index" method="get" class="mobile-search">
+            <label for="mobile-search" class="sr-only">Search</label>
+            <input type="search" class="form-control" name="searchQuery" id="searchQuery" placeholder="Search in..."
+                required>
+            <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+        </form>
+
+        <ul class="nav nav-pills-mobile nav-fill" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab" role="tab"
+                    aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
+            </li>
+
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel"
+                aria-labelledby="mobile-menu-link">
+                <nav class="mobile-nav">
+                    <ul class="mobile-menu">
+                        @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
+                        {
+                            <li class="megamenu-container active">
+                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
+                            </li>
+                            <li>
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Book</a>
+                            </li>
+                            <li>
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Orders</a>
+                            </li>
+                            <li>
+                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
+
+                                <ul>
+                                    <li><a href="elements-products.html">Products</a></li>
+                                    <li><a href="elements-typography.html">Typography</a></li>
+                                </ul>
+                            </li>
+
+
+                            <!-- End .menu -->
+
+                        }
+                        else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                        {
+                            <li class="megamenu-container active">
+                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
+                            </li>
+                            <li>
+                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
+                            </li>
+                            <li>
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
+                            </li>
+                            <li>
+                                <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
+                            </li>
+                            <li>
+                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
+
+                                <ul>
+                                    <li><a href="elements-products.html">Products</a></li>
+                                    <li><a href="elements-typography.html">Typography</a></li>
+                                    <li><a href="elements-titles.html">Titles</a></li>
+                                    <li><a href="elements-banners.html">Banners</a></li>
+                                    <li><a href="elements-product-category.html">Product Category</a></li>
+                                    <li><a href="elements-video-banners.html">Video Banners</a></li>
+                                    <li><a href="elements-buttons.html">Buttons</a></li>
+                                    <li><a href="elements-accordions.html">Accordions</a></li>
+                                    <li><a href="elements-tabs.html">Tabs</a></li>
+                                    <li><a href="elements-testimonials.html">Testimonials</a></li>
+                                    <li><a href="elements-blog-posts.html">Blog Posts</a></li>
+                                    <li><a href="elements-portfolio.html">Portfolio</a></li>
+                                    <li><a href="elements-cta.html">Call to Action</a></li>
+                                    <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- End .menu -->
+                        }
+                        else
+                        {
+                            <li class="megamenu-container active">
+                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
+                            </li>
+                            <li>
+                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
+                            </li>
+                            <li>
+                                <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
+                            </li>
+
+                            <li>
+                                <a asp-asp-controller="Home" asp-action="Help">Help</a>
+                            </li>
+                            <li>
+                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
+
+                                <ul>
+                                    <li><a href="elements-products.html">Products</a></li>
+                                    <li><a href="elements-typography.html">Typography</a></li>
+                                </ul>
+                            </li>
+                            <!-- End .menu -->
+                        }
+                    </ul>
+                </nav><!-- End .mobile-nav -->
+            </div><!-- .End .tab-pane -->
+
+        </div><!-- End .tab-content -->
+
+        <div class="social-icons">
+            <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+            <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+            <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+            <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+        </div><!-- End .social-icons -->
+    </div><!-- End .mobile-menu-wrapper -->
+</div><!-- End .mobile-menu-container -->
