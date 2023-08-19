@@ -9,105 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookStore
 build_property.RootNamespace = BookStore
-build_property.ProjectDir = c:\Users\ADMIN\OneDrive\Máy tính\BookStore\
+build_property.ProjectDir = c:\Users\THE HAO PC\Desktop\BookStore\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ADMIN\OneDrive\Máy tính\BookStore
+build_property.MSBuildProjectDirectory = c:\Users\THE HAO PC\Desktop\BookStore
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Account/ChangePassword.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Account/EditProfile.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Account/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Account/Login.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Account/Profile.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Account/Register.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Book/Detail.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Book/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Book/Index.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Cart/comment.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Cart/comment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxjb21tZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Cart/Index.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Home/Help.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Home/Help.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Home/Index.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Order/comment.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Order/comment2.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudDIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Order/comment3.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/comment3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcY29tbWVudDMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Order/Index.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Order/OrderHistory.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/OrderHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJIaXN0b3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Shared/Error.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Shared/_Layout.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Shared/_LoginPartial.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/StoreOwner/BookEditor.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/StoreOwner/BookEditor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxCb29rRWRpdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/StoreOwner/Index.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/StoreOwner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/_ViewImports.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/ADMIN/OneDrive/Máy tính/BookStore/Views/_ViewStart.cshtml]
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
