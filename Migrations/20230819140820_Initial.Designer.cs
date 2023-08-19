@@ -11,11 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-<<<<<<<< HEAD:Migrations/20230817190322_Initial.Designer.cs
-    [Migration("20230817190322_Initial")]
-========
-    [Migration("20230819104325_Initial")]
->>>>>>>> origin/Khang:Migrations/20230819104325_Initial.Designer.cs
+    [Migration("20230819140820_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
