@@ -1,22 +1,31 @@
 using BookStore.Data;
 using BookStore.Models;
+using BookStore.Models.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 namespace BookStore.Models
 {
     public class SeedData
     {
-        public static void EnsurePopulated(IApplicationBuilder app)
+        private static object serviceProvider;
+
+        public static async Task EnsurePopulatedAsync(IApplicationBuilder app)
         {
             StoreDbContext context = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<StoreDbContext>();
+            var userManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<UserManager<User>>();
+            var roleManager = app.ApplicationServices.CreateScope().ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             if (context.Database.GetPendingMigrations().Any())
             {
                 context.Database.Migrate();
             }
 
+
             Category romance = new() { CategoryName = "Romance" };
             Category education = new() { CategoryName = "Education" };
             if (!context.Categories.Any())
             {
+
+
                 context.Categories.AddRange(romance, education);
                 context.SaveChanges();
             }
@@ -126,6 +135,40 @@ namespace BookStore.Models
                 );
                 context.SaveChanges();
             }
+
+
+            // Create Customer role if it doesn't exist
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "Customer"
+            });
+
+
+            // Create StoreOwner role if it doesn't exist
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "StoreOwner"
+            });
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "Admin"
+            });
+
+            string adminEmail = "admin@gmail.com";
+            string adminPassword = "Admin123!";
+            var adminUser = new User
+            {
+                UserName = adminEmail,
+                Email = adminEmail,
+                FullName = "Admin Full Name",
+                HomeAddress = "Admin Address Name"
+
+            };
+            var result2 = await userManager.CreateAsync(adminUser, adminPassword);
+            var result1 = await userManager.AddToRoleAsync(adminUser, "Admin");
         }
     }
 }
