@@ -7,11 +7,11 @@ namespace BookStore.Controllers;
 
 public class HomeController : Controller
 {
-    private StoreDbContext context;
+    private StoreDbContext _context;
 
     public HomeController(StoreDbContext context)
     {
-        this.context = context;
+        _context = context;
     }
 
     public IActionResult Index()

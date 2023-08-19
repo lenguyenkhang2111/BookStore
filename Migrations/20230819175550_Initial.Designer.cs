@@ -11,7 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
+<<<<<<<< HEAD:Migrations/20230819175550_Initial.Designer.cs
     [Migration("20230819175550_Initial")]
+========
+    [Migration("20230819142939_Initial")]
+>>>>>>>> origin/main:Migrations/20230819142939_Initial.Designer.cs
     partial class Initial
     {
         /// <inheritdoc />
@@ -126,6 +130,10 @@ namespace BookStore.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

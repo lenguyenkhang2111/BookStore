@@ -2,7 +2,18 @@
 
 <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
     <div class="container">
-        <h1 class="page-title">All<span>Books</span></h1>
+        @if (@Model?.CurrentCategoryName != null)
+        {
+            <h1 class="page-title">@Model?.CurrentCategoryName<span>Books</span></h1>
+        }
+        else
+        {
+            <h1 class="page-title">All<span>Books</span></h1>
+        }
+        @if (@Model?.CurrentSearchQuery != null)
+        {
+            <p class="page-title h5 mt-3 text-info">You searched "@Model?.CurrentSearchQuery"</p>
+        }
     </div><!-- End .container -->
 </div><!-- End .page-header -->
 <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
@@ -34,7 +45,8 @@
                                 <form name="sortby-form" asp-controller="Book" asp-action="Index"
                                     asp-route-categoryId="@Model?.CurrentCategoryId"
                                     asp-route-bookPage="@Model?.PagingInfo?.CurrentPage"
-                                    asp-route-sortby="@Model?.CurrentSortby">
+                                    asp-route-sortby="@Model?.CurrentSortby"
+                                    asp-route-searchQuery="@Model?.CurrentSearchQuery">
                                     <select name="sortby" id="sortby" class="form-control">
                                         <option value="Name" selected="@(Model?.CurrentSortby == "Name")">Name</option>
                                         <option value="Year" selected="@(Model?.CurrentSortby == "Year")">Year</option>
@@ -109,7 +121,8 @@
 
                 <!--Pagination link-->
                 <nav aria-label="Page navigation" page-model="@Model?.PagingInfo" page-action="Index"
-                    page-url-sortby="Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"></nav>
+                    page-url-sortby="@Model?.CurrentSortby!" page-url-categoryId="@Model?.CurrentCategoryId!"
+                    page-url-searchQuery="@Model?.CurrentSearchQuery!"></nav>
             </div><!-- End .col-lg-9 -->
 
 
@@ -136,7 +149,8 @@
                                         <div class="filter-item">
                                             <div class="custom-control custom-checkbox">
                                                 <form asp-controller="Book" asp-action="Index" asp-route-categoryId="@c.Id"
-                                                    asp-route-sortby="Model?.CurrentSortby">
+                                                    asp-route-sortby="@Model?.CurrentSortby"
+                                                    asp-route-searchQuery="@Model?.CurrentSearchQuery">
                                                     <input @(c.Id == Model?.CurrentCategoryId ? "checked" : "")
                                                         type="checkbox" class="custom-control-input" id="cat-@c.Id"
                                                         data-auto-submit>

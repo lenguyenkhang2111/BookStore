@@ -4,8 +4,8 @@
     <div class="text-center wow fadeInUp row justify-content-between" data-wow-delay="0.1s">
         <div class="col-md-3">
             <button class="btn btn-info btn-lg rounded-pill">
-                <span class="spinner-border spinner-border-sm"></span>
-                You have {{orders.count}} orders
+                <i class="bi bi-box-seam-fill"></i>
+                You have @Model.Count() orders
             </button>
         </div>
         <div class="col-md-3">
@@ -16,8 +16,8 @@
         </div>
         <div class="col-md-3">
             <button class="btn btn-warning btn-lg rounded-pill">
-                <span class="spinner-border spinner-border-sm"></span>
-                You paid {{total_paid}} $
+                Thanks you for placing orders
+                <i class="bi bi-chat-heart-fill text-white"></i>
             </button>
         </div>
 
@@ -63,14 +63,14 @@
                         <!-- The Modal -->
                         <div class="modal fade" id="orderdetail-@order.Id" tabindex="-1">
                             <div class="modal-dialog">
-                                <div class="modal-content" style="background-color: bisque;">
+                                <div class="modal-content" style="background-color: #ebebeb;">
                                     <div class="modal-header border-bottom-0">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body text-start text-black p-4">
                                         <h5 class="modal-title text-uppercase mb-5">
-                                            Gan nhiem mo
+                                            Order detail #@i
                                         </h5>
                                         <h4 class="mb-5" style="color: #35558a">
                                             Thanks for your payment

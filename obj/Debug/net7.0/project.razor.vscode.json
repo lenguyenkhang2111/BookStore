@@ -19333,6 +19333,37 @@
         }
       },
       {
+        "HashCode": 189374001,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__HeaderViewComponentTagHelper",
+        "AssemblyName": "BookStore",
+        "DisplayName": "HeaderViewComponentTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:header",
+            "CaseSensitive": false
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "view-name",
+            "TypeName": "System.String",
+            "DisplayName": "string HeaderViewComponentTagHelper.viewName",
+            "CaseSensitive": false,
+            "Metadata": {
+              "Common.PropertyName": "viewName"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__Generated__HeaderViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Header",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
         "HashCode": 1327505371,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -24148,11 +24179,6 @@
   "RootNamespace": "BookStore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Cart\\comment.cshtml",
-      "TargetPath": "Views\\Cart\\comment.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -24198,11 +24224,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment.cshtml",
-      "TargetPath": "Views\\Order\\comment.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -24218,11 +24239,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment2.cshtml",
-      "TargetPath": "Views\\Order\\comment2.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Admin\\StoreOwner.cshtml",
       "TargetPath": "Views\\Admin\\StoreOwner.cshtml",
       "FileKind": "mvc"
@@ -24230,11 +24246,6 @@
     {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Order\\comment3.cshtml",
-      "TargetPath": "Views\\Order\\comment3.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -24290,6 +24301,26 @@
     {
       "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\StoreOwner\\CategoryRequest.cshtml",
+      "TargetPath": "Views\\StoreOwner\\CategoryRequest.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\Components\\Header\\backup.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Header\\backup.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\Components\\Header\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Header\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ADMIN\\Downloads\\BookStore\\Views\\Shared\\Components\\Header\\Sidebar.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Header\\Sidebar.cshtml",
       "FileKind": "mvc"
     }
   ]

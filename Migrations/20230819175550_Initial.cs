@@ -86,6 +86,7 @@ namespace BookStore.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     CategoryName = table.Column<string>(type: "TEXT", nullable: false),
+                    Description = table.Column<string>(type: "TEXT", nullable: false),
                     RequestDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     StoreOwnerId = table.Column<int>(type: "INTEGER", nullable: false),
                     IsApproved = table.Column<bool>(type: "INTEGER", nullable: false)

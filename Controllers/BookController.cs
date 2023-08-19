@@ -9,18 +9,26 @@ namespace BookStore.Controllers;
 
 public class BookController : Controller
 {
-    private StoreDbContext context;
+    private StoreDbContext _context;
     public int PageSize = 6;
 
     public BookController(StoreDbContext context)
     {
-        this.context = context;
+        this._context = context;
     }
-    public ViewResult Index(int? categoryId, string? sortby, int bookPage = 1)
+    public ViewResult Index(int? categoryId, string? sortby, string? searchQuery, int bookPage = 1)
     {
-        IQueryable<Book> booksQuery = context.Books
+        IQueryable<Book> booksQuery = _context.Books
         .Include(b => b.Category)
         .Where(b => categoryId == null || b.CategoryId == categoryId);
+
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            searchQuery = searchQuery.ToLower();
+
+            booksQuery = booksQuery.Where(b => b.Title.ToLower().Contains(searchQuery));
+        }
+
         booksQuery = sortby switch
         {
             "Name" => booksQuery.OrderBy(b => b.Title),
@@ -42,9 +50,10 @@ public class BookController : Controller
                 TotalItems = booksQuery.Count(),
             },
             CurrentCategoryId = categoryId,
-            Categories = context.Categories.Include(c => c.Books),
+            CurrentCategoryName = _context.Categories.Find(categoryId)?.CategoryName,
+            Categories = _context.Categories.Include(c => c.Books),
             CurrentSortby = sortby,
-
+            CurrentSearchQuery = searchQuery
         });
     }
 
@@ -55,7 +64,7 @@ public class BookController : Controller
             return RedirectToAction("Index");
         }
 
-        Book? book = await context.Books
+        Book? book = await _context.Books
             .Include(b => b.Category)
             .FirstOrDefaultAsync(b => b.Id == bookId);
 

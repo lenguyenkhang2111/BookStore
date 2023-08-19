@@ -28,7 +28,7 @@ namespace BookStore.Controllers
         {
             Cart cart = GetCart();
 
-            return View("/Views/Cart/Index.cshtml", cart);
+            return View(cart);
         }
 
         // Thêm vào giỏ hàng
