@@ -20,7 +20,7 @@
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
                             {
-                                <li><a asp-controller="Account" asp-action="Login">Welcome
+                                <li><a asp-controller="Account" asp-action="Profile">Welcome
                                         @User.Identity.Name <i class="icon-user"></i></a>
                                 </li>
                                 <li><a asp-controller="Account" asp-action="Logout">Logout</a>
@@ -47,7 +47,7 @@
                 </button>
 
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="Molla Logo" width="105" height="25">
+                    <img src="~/assets/images/logo.png" alt="Molla Logo" width="105" height="25">
                 </a>
                 <nav class="main-nav">
                     <ul class="menu sf-arrows">
