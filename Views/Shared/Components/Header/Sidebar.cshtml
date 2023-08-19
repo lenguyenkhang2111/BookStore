@@ -29,13 +29,13 @@
                     <ul class="mobile-menu">
                         @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
                         {
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route>
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
+                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Book</a>
                             </li>
-                            <li>
+                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Orders</a>
                             </li>
                             <li>
@@ -46,23 +46,21 @@
                                     <li><a href="elements-typography.html">Typography</a></li>
                                 </ul>
                             </li>
-
-
                             <!-- End .menu -->
 
                         }
                         else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route class="megamenu-container active">
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
+                            <li asp-controller="Book" asp-action="Index" active-route>
                                 <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
                             </li>
-                            <li>
+                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
                             </li>
-                            <li>
+                            <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
                                 <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
                             </li>
                             <li>
@@ -90,17 +88,17 @@
                         }
                         else
                         {
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route>
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
+                            <li asp-controller="Book" asp-action="Index" active-route>
                                 <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
                             </li>
-                            <li>
+                            <li asp-controller="Order" asp-action="Index" active-route>
                                 <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
                             </li>
 
-                            <li>
+                            <li asp-asp-controller="Home" asp-action="Help" active-route>
                                 <a asp-asp-controller="Home" asp-action="Help">Help</a>
                             </li>
                             <li>
@@ -120,10 +118,10 @@
         </div><!-- End .tab-content -->
 
         <div class="social-icons">
-            <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
-            <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
-            <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
-            <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+            <a href="" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+            <a href="" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+            <a href="" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+            <a href="" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
         </div><!-- End .social-icons -->
     </div><!-- End .mobile-menu-wrapper -->
 </div><!-- End .mobile-menu-container -->
