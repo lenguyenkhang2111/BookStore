@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.Controllers;
 
+[Authorize(Roles = "StoreOwner")]
 public class StoreOwnerController : Controller
 {
     private StoreDbContext _context;

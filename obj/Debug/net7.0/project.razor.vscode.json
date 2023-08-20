@@ -24304,11 +24304,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\StoreOwner\\backup.cshtml",
-      "TargetPath": "Views\\StoreOwner\\backup.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\KHANG\\Desktop\\BookStore\\Views\\StoreOwner\\OrderManage.cshtml",
       "TargetPath": "Views\\StoreOwner\\OrderManage.cshtml",
       "FileKind": "mvc"

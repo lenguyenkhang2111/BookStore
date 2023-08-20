@@ -6,9 +6,11 @@ using BookStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookStore.Controllers
 {
+    [Authorize]
     public class OrderController : Controller
     {
         private readonly StoreDbContext _context;
@@ -30,14 +32,12 @@ namespace BookStore.Controllers
             return View(cart);
         }
 
-        // Tạo đơn hàng
         public IActionResult CreateOrder()
         {
             Cart cart = GetCart();
 
             if (cart.CartItems.Count == 0)
             {
-                // Khi giỏ hàng trống, không thể tạo đơn hàng
                 return RedirectToAction("Index", "Cart");
             }
 
@@ -46,7 +46,7 @@ namespace BookStore.Controllers
                 UserId = cart.UserId,
                 OrderItems = cart.CartItems.Select(ci => new OrderItem
                 {
-                    Order = null, // Set Order property to null here
+                    Order = null,
                     Book = null,
                     BookId = ci.BookId,
                     Quantity = ci.Quantity
@@ -55,14 +55,13 @@ namespace BookStore.Controllers
 
             foreach (var orderItem in order.OrderItems)
             {
-                orderItem.Order = order; // Assign the order to each order item
+                orderItem.Order = order;
                 orderItem.Book = _context.Books.Find(orderItem.BookId);
             }
 
             _context.Orders.Add(order);
             _context.SaveChanges();
 
-            // Xóa giỏ hàng sau khi tạo đơn hàng
             ClearCart();
 
             return RedirectToAction("OrderHistory");
@@ -75,25 +74,20 @@ namespace BookStore.Controllers
 
             if (cart?.CartItems?.Count == 0)
             {
-                // Khi giỏ hàng trống, không thể thanh toán
                 return RedirectToAction("Index", "Cart");
             }
 
-            // Thực hiện các bước thanh toán 
 
-            // Đánh dấu đơn hàng đã thanh toán
             MarkOrderAsPaid();
 
             return RedirectToAction("CheckOutComplete");
         }
 
-        // Hoàn thành thanh toán
         public IActionResult CheckOutComplete()
         {
             return View();
         }
 
-        // Xóa giỏ hàng
         private void ClearCart()
         {
             Cart cart = GetCart();
@@ -101,7 +95,6 @@ namespace BookStore.Controllers
             _context.SaveChanges();
         }
 
-        // Đánh dấu đơn hàng đã thanh toán
         private void MarkOrderAsPaid()
         {
             Cart cart = GetCart();
@@ -115,7 +108,6 @@ namespace BookStore.Controllers
             }
         }
 
-        // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()
         {
             var userId = GetUserId();
@@ -144,7 +136,6 @@ namespace BookStore.Controllers
             string userId = _userManager.GetUserId(principal);
             return userId;
         }
-        // Lấy tổng số lượng sách trong giỏ hàng
         private int GetTotal()
         {
             var cart = GetCart();

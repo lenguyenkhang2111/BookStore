@@ -24,7 +24,6 @@ namespace BookStore.Controllers
             _userManager = userManager;
         }
 
-        // View cart
         public ViewResult Index()
         {
             Cart cart = GetCart();
@@ -32,7 +31,6 @@ namespace BookStore.Controllers
             return View(cart);
         }
 
-        // Thêm vào giỏ hàng
         public IActionResult AddToCart(int bookID, int quantity)
         {
             var book = _context.Books.Find(bookID);
@@ -66,7 +64,6 @@ namespace BookStore.Controllers
             return RedirectToAction("Index");
         }
 
-        // Xóa giỏ hàng
         public IActionResult ClearCart()
         {
             var cart = GetCart();
@@ -78,7 +75,6 @@ namespace BookStore.Controllers
             return RedirectToAction("Index");
         }
 
-        // Xóa khỏi giỏ hàng
         public IActionResult RemoveFromCart(int cartItemId)
         {
             var cartItem = _context.CartItems.Find(cartItemId);
@@ -91,7 +87,6 @@ namespace BookStore.Controllers
             return RedirectToAction("Index");
         }
 
-        // Giảm số lượng
         public IActionResult ReduceQuantity(int cartItemId)
         {
             var cartItem = _context.CartItems?.Find(cartItemId);
@@ -113,7 +108,6 @@ namespace BookStore.Controllers
             return RedirectToAction("Index"); ;
         }
 
-        // Tăng số lượng
         public IActionResult IncreaseQuantity(int cartItemId)
         {
             var cartItem = _context.CartItems?.Find(cartItemId);
@@ -129,7 +123,6 @@ namespace BookStore.Controllers
 
 
 
-        // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()
         {
             var userId = GetUserId();
@@ -159,7 +152,6 @@ namespace BookStore.Controllers
             string userId = _userManager.GetUserId(principal);
             return userId;
         }
-        // Lấy tổng số lượng sách trong giỏ hàng
         private int GetTotal()
         {
             var cart = GetCart();
@@ -169,7 +161,6 @@ namespace BookStore.Controllers
             }
             return 0;
         }
-        // Tiếp tục mua sắm
         public IActionResult ContinueShopping()
         {
             return View("/Views/Book/Index.cshtml");
