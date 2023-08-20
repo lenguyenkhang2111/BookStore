@@ -9,15 +9,6 @@
 <div class="row">
     <div class="col-12">
         <form asp-controller="Admin" asp-action="Edit" method="post">
-            @* <div class="form-group">
-            <label asp-for="RoleName"></label>
-            <select asp-for="RoleName" class="form-select" aria-label="Default select example">
-
-            <option value="Customer">Customer</option>
-            <option value="StoreOwner">StoreOwner</option>
-            </select>
-            <span asp-validation-for="RoleName" class="invalid-feedback custom-invalid-feedback"></span>
-            </div> *@
             <div>
                 <label asp-for="RoleName"></label>
                 <select asp-for="RoleName" class="form-select" aria-label="Default select example">
@@ -37,9 +28,6 @@
                     <span>EditProfile</span>
                     <i class="icon-long-arrow-right"></i>
                 </button>
-                <a class="btn btn-outline-primary-2" asp-controller="Account" asp-action="ChangePassword" role="button">
-                    <span>ChangePassword</span>
-                    <i class="icon-long-arrow-right"></i>
                 </a>
             </div><!-- End .form-footer -->
         </form>
