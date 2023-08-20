@@ -179,13 +179,15 @@ public class StoreOwnerController : Controller
     [HttpGet]
     public ViewResult OrderManage()
     {
-        var orders = _context.Orders.ToList();
+        var orders = _context.Orders.Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Book).ToList();
+
 
         return View(orders);
     }
 
-    [HttpPost]
-    public IActionResult OrderManage(int orderId, string status)
+
+    public IActionResult OrderApprove(int orderId, string status)
     {
         var order = _context.Orders.FirstOrDefault(o => o.Id == orderId);
 
