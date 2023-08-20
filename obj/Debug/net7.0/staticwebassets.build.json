@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZtUqlh8GLvoTPH6xjLALag9L50/Mpv7uUsO1Gif0yAA=",
+  "Hash": "2tOdM2EzgjajTVo3ZU9tLlE3d0p0C59CgyS9hCzF3Qo=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -1666,12 +1666,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\backgrounds\\error-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\login-bg.jpg",
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\login-bg.png",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
       "BasePath": "_content/BookStore",
-      "RelativePath": "assets/images/backgrounds/login-bg.jpg",
+      "RelativePath": "assets/images/backgrounds/login-bg.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1680,7 +1680,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\backgrounds\\login-bg.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\backgrounds\\login-bg.png"
     },
     {
       "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\soon-bg.jpg",

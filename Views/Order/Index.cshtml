@@ -22,13 +22,7 @@
 <div class="page-content">
     <div class="checkout">
         <div class="container">
-            <div class="checkout-discount">
-                <form action="#">
-                    <input type="text" class="form-control" id="checkout-discount-input">
-                    <label for="checkout-discount-input" class="text-truncate">Have a coupon? <span>Click here to enter
-                            your code</span></label>
-                </form>
-            </div><!-- End .checkout-discount -->
+
             <form asp-action="CreateOrder" asp-controller="Order">
                 <div class="row">
                     <div class="col-lg-9">
@@ -41,12 +35,7 @@
                         <input type="text" class="form-control" value="@user?.HomeAddress" readonly>
 
 
-                        @* <div class="row">
-                        <div class="col-sm-6">
-                        <label>PhoneNumber *</label>
-                        <input type="tel" class="form-control">
-                        </div><!-- End .col-sm-6 -->
-                        </div><!-- End .row --> *@
+
 
                         <label>Email address *</label>
                         <input type="email" class="form-control" value="@user?.Email" readonly>
@@ -101,8 +90,7 @@
                                     </div><!-- End .card-header -->
                                     <div id="collapse-3" class="collapse" aria-labelledby="heading-3"
                                         data-parent="#accordion-payment">
-                                        <div class="card-body">Quisque volutpat mattis eros. Lorem ipsum dolor sit amet,
-                                            consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
+                                        <div class="card-body">Please prepare your money!
                                         </div><!-- End .card-body -->
                                     </div><!-- End .collapse -->
                                 </div><!-- End .card -->
