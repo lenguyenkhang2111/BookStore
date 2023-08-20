@@ -1,0 +1,38 @@
+@model List<BookStore.Models.Order>
+
+<h2>Order Management</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Order Date</th>
+            <th>User ID</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.OrderDate</td>
+                <td>@order.UserId</td>
+                <td>@order.Status</td>
+                <td>
+                    <form method="post" asp-controller="StoreOwner" asp-action="OrderManage">
+                        <input type="hidden" name="orderId" value="@order.Id" />
+                        <input type="hidden" name="status" value="Accept" />
+                        <button type="submit" class="btn btn-success">Accept</button>
+                    </form>
+                    <form method="post" asp-controller="StoreOwner" asp-action="OrderManage">
+                        <input type="hidden" name="orderId" value="@order.Id" />
+                        <input type="hidden" name="status" value="Reject" />
+                        <button type="submit" class="btn btn-danger">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

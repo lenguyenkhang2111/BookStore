@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-    [Migration("20230819142939_Initial")]
+    [Migration("20230820035353_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -154,6 +154,10 @@ namespace BookStore.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("OrderDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserId")

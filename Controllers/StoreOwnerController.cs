@@ -176,6 +176,29 @@ public class StoreOwnerController : Controller
 
     }
 
+    [HttpGet]
+    public IActionResult OrderManage()
+    {
+        var orders = _context.Orders.ToList();
+
+        return View(orders);
+    }
+
+    [HttpPost]
+    public IActionResult OrderManage(int orderId, string status)
+    {
+        var order = _context.Orders.FirstOrDefault(o => o.Id == orderId);
+
+        if (order != null)
+        {
+            order.Status = status;
+            _context.SaveChanges();
+        }
+
+        return RedirectToAction("OrderManage");
+    }
+
+
 
 
     private async Task<string?> UploadImageAsync(IFormFile? imageFile)
