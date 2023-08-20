@@ -18,29 +18,20 @@
                         <ul>
                             <li><a href=""><i class="icon-phone"></i>Call: +0123 456 789</a></li>
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
-                            <li>
-
-                                @if (User.Identity.IsAuthenticated)
-                                {
-                                <li><a asp-controller="Account" asp-action="Profile" type="submit">@User.Identity.Name</a>
+                            @if (User.Identity != null && User.Identity.IsAuthenticated)
+                            {
+                                <li><a asp-controller="Account" asp-action="Profile">Welcome
+                                        @User.Identity.Name <i class="icon-user"></i></a>
                                 </li>
-
-                                <li class="nav-item">
-                                    <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post"
-                                        class="form-inline">
-                                        <button type="submit" class="btn btn-link nav-link">Logout</button>
-                                    </form>
+                                <li><a asp-controller="Account" asp-action="Logout">Logout</a>
                                 </li>
-                                }
-                                else
-                                {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
-                                </li>
-                                }
+                            }
+                            else
+                            {
+                                <li><a asp-controller="Account" asp-action="Login"><i class="icon-user"></i>Login</a></li>
+                            }
+                        </ul>
                     </li>
-                </ul>
-                </li>
                 </ul><!-- End .top-menu -->
             </div><!-- End .header-right -->
         </div><!-- End .container -->
@@ -64,19 +55,27 @@
                         {
 
 
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route>
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Book</a>
+                            <li asp-controller="Book" asp-action="Index" active-route>
+                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
                             </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">StoreOwner Manage</a>
+                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">StoreOwner Manage</a>
                                 <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Add book</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Request Category</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="OrderManage">Orders</a>
+                                    </li>
                                 </ul>
                             </li>
+
 
 
                             <!-- End .menu -->
@@ -84,25 +83,36 @@
                         }
                         else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route class="megamenu-container active">
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
+                            <li asp-controller="Book" asp-action="Index" active-route>
                                 <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
                             </li>
-                            <li>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
-                            </li>
-                            <li>
-                                <a class="sf-with-ul">Admin</a>
+                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Admin Manage</a>
                                 <ul>
-                                    <li><a asp-controller="Admin" asp-action="Index"
-                                            asp-route-account="StoreOwner">StoreOwner </a></li>
-                                    <li><a asp-controller="Admin" asp-action="Index"
-                                            asp-route-account="Customer">Customer</a></li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                            Customer</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                            StoreOwner</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Manage Category
+                                            Requests</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                            Books</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li>
+
+
+                            <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
                                 <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
                             </li>
                             <li>
@@ -130,17 +140,17 @@
                         }
                         else
                         {
-                            <li class="megamenu-container active">
+                            <li asp-controller="Home" asp-action="Index" active-route>
                                 <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
                             </li>
-                            <li>
+                            <li asp-controller="Book" asp-action="Index" active-route>
                                 <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
                             </li>
-                            <li>
+                            <li asp-controller="Order" asp-action="Index" active-route>
                                 <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
                             </li>
 
-                            <li>
+                            <li asp-asp-controller="Home" asp-action="Help" active-route>
                                 <a asp-asp-controller="Home" asp-action="Help">Help</a>
                             </li>
                             <li>
@@ -161,7 +171,7 @@
 
             <div class="header-right">
                 <div class="header-search">
-                    <a class="search-toggle" role="button" title="Search"><i class="icon-search"></i></a>
+                    <a href="" class="search-toggle" role="button" title="Search"><i class="icon-search"></i></a>
                     <form asp-controller="@Model?.SearchAspController" asp-action="Index" method="get">
                         <div class="header-search-wrapper">
                             <label for="q" class="sr-only">Search</label>

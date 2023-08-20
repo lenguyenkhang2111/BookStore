@@ -16427,65 +16427,6 @@
         }
       },
       {
-        "HashCode": -513947033,
-        "Kind": "ITagHelper",
-        "Name": "BookStore.Utility.NoReloadLinkTagHelper",
-        "AssemblyName": "BookStore",
-        "DisplayName": "BookStore.Utility.NoReloadLinkTagHelper",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "a",
-            "CaseSensitive": false,
-            "Attributes": [
-              {
-                "Name": "asp-controller",
-                "CaseSensitive": false,
-                "DisplayName": "asp-controller"
-              },
-              {
-                "Name": "asp-action",
-                "CaseSensitive": false,
-                "DisplayName": "asp-action"
-              },
-              {
-                "Name": "no-link",
-                "CaseSensitive": false,
-                "DisplayName": "no-link"
-              }
-            ]
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-controller",
-            "TypeName": "System.String",
-            "DisplayName": "string BookStore.Utility.NoReloadLinkTagHelper.Controller",
-            "CaseSensitive": false,
-            "Metadata": {
-              "Common.PropertyName": "Controller"
-            }
-          },
-          {
-            "Kind": "ITagHelper",
-            "Name": "asp-action",
-            "TypeName": "System.String",
-            "DisplayName": "string BookStore.Utility.NoReloadLinkTagHelper.Action",
-            "CaseSensitive": false,
-            "Metadata": {
-              "Common.PropertyName": "Action"
-            }
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "BookStore.Utility.NoReloadLinkTagHelper",
-          "Common.TypeNameIdentifier": "NoReloadLinkTagHelper",
-          "Common.TypeNamespace": "BookStore.Utility",
-          "Runtime.Name": "ITagHelper"
-        }
-      },
-      {
         "HashCode": 621696682,
         "Kind": "ITagHelper",
         "Name": "BookStore.Utility.PaginationTagHelper",
@@ -16543,6 +16484,65 @@
         "Metadata": {
           "Common.TypeName": "BookStore.Utility.PaginationTagHelper",
           "Common.TypeNameIdentifier": "PaginationTagHelper",
+          "Common.TypeNamespace": "BookStore.Utility",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
+        "HashCode": -1015092575,
+        "Kind": "ITagHelper",
+        "Name": "BookStore.Utility.ActiveRouteTagHelper",
+        "AssemblyName": "BookStore",
+        "DisplayName": "BookStore.Utility.ActiveRouteTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "li",
+            "CaseSensitive": false,
+            "Attributes": [
+              {
+                "Name": "asp-controller",
+                "CaseSensitive": false,
+                "DisplayName": "asp-controller"
+              },
+              {
+                "Name": "asp-action",
+                "CaseSensitive": false,
+                "DisplayName": "asp-action"
+              },
+              {
+                "Name": "active-route",
+                "CaseSensitive": false,
+                "DisplayName": "active-route"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-controller",
+            "TypeName": "System.String",
+            "DisplayName": "string BookStore.Utility.ActiveRouteTagHelper.Controller",
+            "CaseSensitive": false,
+            "Metadata": {
+              "Common.PropertyName": "Controller"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "asp-action",
+            "TypeName": "System.String",
+            "DisplayName": "string BookStore.Utility.ActiveRouteTagHelper.Action",
+            "CaseSensitive": false,
+            "Metadata": {
+              "Common.PropertyName": "Action"
+            }
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "BookStore.Utility.ActiveRouteTagHelper",
+          "Common.TypeNameIdentifier": "ActiveRouteTagHelper",
           "Common.TypeNamespace": "BookStore.Utility",
           "Runtime.Name": "ITagHelper"
         }
