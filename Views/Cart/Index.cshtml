@@ -53,8 +53,7 @@
 									<td class="quantity-col">
 										<div class="cart-product-quantity">
 											<a asp-controller="Cart" asp-action="ReduceQuantity"
-												asp-route-cartItemId="@item.Book.Id"><i
-													class="bi bi-dash-circle-fill"></i></a>
+												asp-route-cartItemId="@item.Id"><i class="bi bi-dash-circle-fill"></i></a>
 											<span class="cart-count">@item.Quantity</span>
 											<a asp-controller="Cart" asp-action="IncreaseQuantity"
 												asp-route-cartItemId="@item.Id"><i class="bi bi-plus-circle-fill"></i></a>

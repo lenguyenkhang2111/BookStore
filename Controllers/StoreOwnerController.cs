@@ -177,7 +177,7 @@ public class StoreOwnerController : Controller
     }
 
     [HttpGet]
-    public IActionResult OrderManage()
+    public ViewResult OrderManage()
     {
         var orders = _context.Orders.ToList();
 

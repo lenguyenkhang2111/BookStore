@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 
 namespace BookStore.Controllers
 {
@@ -50,13 +51,13 @@ namespace BookStore.Controllers
                 {
                     Cart = cart!,
                     Book = book,
-                    Quantity = quantity
+                    Quantity = quantity + 1
                 };
                 _context.CartItems.Add(cartItem);
             }
             else
             {
-                cartItem.Quantity += quantity;
+                cartItem.Quantity++;
                 _context.CartItems.Update(cartItem);
             }
 
@@ -90,10 +91,32 @@ namespace BookStore.Controllers
             return RedirectToAction("Index");
         }
 
+        // Giảm số lượng
+        public IActionResult ReduceQuantity(int cartItemId)
+        {
+            var cartItem = _context.CartItems?.Find(cartItemId);
+
+            if (cartItem != null)
+            {
+                if (cartItem?.Quantity > 1)
+                {
+                    cartItem.Quantity--;
+                    _context.CartItems?.Update(cartItem);
+                }
+                else
+                {
+                    _context.CartItems?.Remove(cartItem);
+                }
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Index"); ;
+        }
+
         // Tăng số lượng
         public IActionResult IncreaseQuantity(int cartItemId)
         {
-            var cartItem = _context.CartItems.Find(cartItemId);
+            var cartItem = _context.CartItems?.Find(cartItemId);
             if (cartItem != null)
             {
                 cartItem.Quantity++;
@@ -104,26 +127,7 @@ namespace BookStore.Controllers
             return RedirectToAction("Index");
         }
 
-        // Giảm số lượng
-        public IActionResult ReduceQuantity(int cartItemId)
-        {
-            var cartItem = _context.CartItems.Find(cartItemId);
-            if (cartItem != null)
-            {
-                if (cartItem.Quantity > 1)
-                {
-                    cartItem.Quantity--;
-                    _context.CartItems.Update(cartItem);
-                }
-                else
-                {
-                    _context.CartItems.Remove(cartItem);
-                }
-                _context.SaveChanges();
-            }
 
-            return RedirectToAction("Index"); ;
-        }
 
         // Lấy giỏ hàng của người dùng hiện tại
         private Cart GetCart()

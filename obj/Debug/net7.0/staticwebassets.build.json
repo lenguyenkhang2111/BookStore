@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NIZnRMNJrujniIoCNoSag8BYTa6K3vhc1GoVCh1RgII=",
+  "Hash": "k0bZ13xKL6Z4Rloi29s0FeHUuhUQAgmFmt7rQg5dysA=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -10640,6 +10640,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\2ba9d532-6bd1-400c-ad12-7851c0a3cc6d_716813.png",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "upload/images/2ba9d532-6bd1-400c-ad12-7851c0a3cc6d_716813.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\images\\2ba9d532-6bd1-400c-ad12-7851c0a3cc6d_716813.png"
     },
     {
       "Identity": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\3c46f65e-d90c-45a3-a0a4-80afe16ec899_Python.jpg",

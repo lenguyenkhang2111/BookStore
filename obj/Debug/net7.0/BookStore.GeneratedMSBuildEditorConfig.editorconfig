@@ -60,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/THE HAO PC/Desktop/BookStore/Views/OrderManage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJNYW5hZ2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [c:/Users/THE HAO PC/Desktop/BookStore/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -110,6 +106,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [c:/Users/THE HAO PC/Desktop/BookStore/Views/StoreOwner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/StoreOwner/OrderManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxPcmRlck1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/THE HAO PC/Desktop/BookStore/Views/StoreOwner/test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclx0ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/THE HAO PC/Desktop/BookStore/Views/_ViewImports.cshtml]
