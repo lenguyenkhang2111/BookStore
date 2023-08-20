@@ -1,0 +1,117 @@
+@model List<BookStore.Models.Order>
+
+<div class="container-fluid py-5">
+    <div class="text-center wow fadeInUp row justify-content-between" data-wow-delay="0.1s">
+        <div class="col-md-3">
+            <button class="btn btn-info btn-lg rounded-pill">
+                <i class="bi bi-box-seam-fill"></i>
+                You have @Model.Count() orders
+            </button>
+        </div>
+        <div class="col-md-3">
+            <h6 class="section-title bg-white text-center text-primary px-3">
+                Orders
+            </h6>
+            <h1 class="mb-4">Order history</h1>
+        </div>
+        <div class="col-md-3">
+            <button class="btn btn-warning btn-lg rounded-pill">
+                Thanks you for placing orders
+                <i class="bi bi-chat-heart-fill text-white"></i>
+            </button>
+        </div>
+
+        <table class="table table-striped  mb-0 bg-white mt-3">
+            <thead class="bg-light thead-dark text-center fs-5">
+                <tr>
+                    <th><i class="fa-solid fa-box"></i> Order</th>
+                    <th><i class="fa-solid fa-calendar"></i> Created date</th>
+                    <th><i class="fa-solid fa-circle-info"></i> Status</th>
+                    <th><i class="fa-solid fa-money-check-dollar"></i> Total</th>
+                    <th><i class="fa-sharp fa-solid fa-file-invoice"></i> Details</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @if (Model != null && Model.Count > 0)
+                {
+                    var i = 0;
+                    @foreach (var order in Model)
+                    {
+                        i++;
+                        <tr>
+                            <td>
+                                <p class="fw-bold m-1">Order number</p>
+                                <p class="fw-bold m-1">@i</p>
+                            </td>
+                            <td>
+                                <p class="fw-semi-bold m-1 fw-5">
+                                    @order.OrderDate
+                                </p>
+                            </td>
+                            <td>
+                                <span class="btn btn-primary rounded-pill d-inline m-1">@order.Status</span>
+                            </td>
+                            <td class="fw-semi-bold fs-4">@(order.OrderItems.Sum(oi => oi.Quantity * oi.Book.Price)) $
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-info btn-rounded btn-sm fw-bold" data-toggle="modal"
+                                    data-target="#orderdetail-@order.Id">
+                                    View details
+                                </button>
+                            </td>
+                        </tr>
+                        <!-- The Modal -->
+                        <div class="modal fade" id="orderdetail-@order.Id" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content" style="background-color: #ebebeb;">
+                                    <div class="modal-header border-bottom-0">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body text-start text-black p-4">
+                                        <h5 class="modal-title text-uppercase mb-5">
+                                            Order detail #@i
+                                        </h5>
+                                        <h4 class="mb-5" style="color: #35558a">
+                                            Thanks for your payment
+                                        </h4>
+                                        <p class="mb-0" style="color: #35558a">Payment summary</p>
+                                        <hr class="mt-2 mb-4"
+                                            style="height: 0; background-color: transparent; opacity: 0.75; border-top: 2px dashed #9e9e9e;" />
+                                        @foreach (var item in order.OrderItems)
+                                        {
+                                            <div class="d-flex justify-content-between">
+                                                <p class="fw-bold mb-0">@item.Book.Title </p>
+                                                <p class="text-muted mb-0">$ @item.Book.Price</p>
+                                            </div>
+                                        }
+                                        <div class="d-flex justify-content-between">
+                                            <p class="small mb-0">Promotions</p>
+                                            <p class="small mb-0">None</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between pb-1">
+                                            <p class="small">Tax</p>
+                                            <p class="small">Included</p>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <p class="fw-bold">Total</p>
+                                            <p class="fw-bold" style="color: #35558a">$@(order.OrderItems.Sum(oi => oi.Quantity
+                                        * oi.Book.Price))</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center border-top-0 py-4">
+                                        <button type="button" class="btn btn-primary btn-lg mb-1" data-dismiss="modal"
+                                            style="background-color: #35558a">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
