@@ -11,7 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
+<<<<<<<< HEAD:Migrations/20230820171647_Initial.Designer.cs
     [Migration("20230820171647_Initial")]
+========
+    [Migration("20230819194212_Initial")]
+>>>>>>>> origin/Hoang:Migrations/20230819194212_Initial.Designer.cs
     partial class Initial
     {
         /// <inheritdoc />
@@ -207,7 +211,6 @@ namespace BookStore.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
 

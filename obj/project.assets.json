@@ -4921,19 +4921,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KHANG\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
       "projectPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
       "packagesPath": "C:\\Users\\KHANG\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\ADMIN\\Downloads\\BookStore\\BookStore.csproj",
+      "projectName": "BookStore",
+      "projectPath": "C:\\Users\\ADMIN\\Downloads\\BookStore\\BookStore.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Downloads\\BookStore\\obj\\",
+>>>>>>> origin/Hoang
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KHANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

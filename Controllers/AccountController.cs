@@ -240,15 +240,16 @@ namespace BookStore
             if (ModelState.IsValid)
             {
                 var user = new User { UserName = model.Email, Email = model.Email, FullName = model.FullName, HomeAddress = model.HomeAddress };
-                var result = await _userManager.CreateAsync(user, model.Password);
-
-                if (result.Succeeded)
+                var result1 = await _userManager.CreateAsync(user, model.Password);
+                var result2 = await _userManager.AddToRoleAsync(user, "Customer");
+                if (result1.Succeeded && result2.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
+
                 }
 
-                foreach (var error in result.Errors)
+                foreach (var error in result1.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
@@ -269,15 +270,31 @@ namespace BookStore
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(Login model, string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/");
+            // returnUrl ??= Url.Content("~/");
+
 
             if (ModelState.IsValid)
             {
+
+
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
 
                 if (result.Succeeded)
                 {
-                    return LocalRedirect(returnUrl);
+                    var test = User.Identity;
+                    User? user = await _userManager.FindByEmailAsync(model.Email);
+                    if (user != null && await _userManager.IsInRoleAsync(user, "Admin"))
+                    {
+                        return RedirectToAction("Index", "Admin", "Customer");
+                    }
+                    else if (user != null && await _userManager.IsInRoleAsync(user, "Customer"))
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else if (user != null && await _userManager.IsInRoleAsync(user, "StoreOwner"))
+                    {
+                        return RedirectToAction("Index", "StoreOwner");
+                    }
                 }
 
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
@@ -384,6 +401,7 @@ namespace BookStore
             if (ModelState.IsValid)
             {
                 var user = await _userManager.FindByNameAsync(User.Identity.Name);
+
                 if (user == null)
                 {
                     return NotFound();
@@ -407,4 +425,3 @@ namespace BookStore
         }
     }
 }
-

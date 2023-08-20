@@ -18,20 +18,29 @@
                         <ul>
                             <li><a href=""><i class="icon-phone"></i>Call: +0123 456 789</a></li>
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
-                            @if (User.Identity != null && User.Identity.IsAuthenticated)
-                            {
-                                <li><a asp-controller="Account" asp-action="Profile">Welcome
-                                        @User.Identity.Name <i class="icon-user"></i></a>
+                            <li>
+
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                <li><a asp-controller="Account" asp-action="Profile" type="submit">@User.Identity.Name</a>
                                 </li>
-                                <li><a asp-controller="Account" asp-action="Logout">Logout</a>
+
+                                <li class="nav-item">
+                                    <form id="logoutForm" asp-controller="Account" asp-action="Logout" method="post"
+                                        class="form-inline">
+                                        <button type="submit" class="btn btn-link nav-link">Logout</button>
+                                    </form>
                                 </li>
-                            }
-                            else
-                            {
-                                <li><a asp-controller="Account" asp-action="Login"><i class="icon-user"></i>Login</a></li>
-                            }
-                        </ul>
+                                }
+                                else
+                                {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                </li>
+                                }
                     </li>
+                </ul>
+                </li>
                 </ul><!-- End .top-menu -->
             </div><!-- End .header-right -->
         </div><!-- End .container -->
@@ -87,6 +96,15 @@
                             </li>
                             <li>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
+                            </li>
+                            <li>
+                                <a class="sf-with-ul">Admin</a>
+                                <ul>
+                                    <li><a asp-controller="Admin" asp-action="Index"
+                                            asp-route-account="StoreOwner">StoreOwner </a></li>
+                                    <li><a asp-controller="Admin" asp-action="Index"
+                                            asp-route-account="Customer">Customer</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
