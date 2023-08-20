@@ -19,21 +19,36 @@ public class AdminController : Controller
         _roleManager = roleManager;
     }
 
-    public IActionResult Customer()
+    public IActionResult Index(string? account)
     {
 
-        var customers = _userManager.GetUsersInRoleAsync("Customer").Result.ToList();
-        var storeowner = _userManager.GetUsersInRoleAsync("StoreOwner").Result.ToList();
+        if (account == "StoreOwner")
+        {
+            var storeowner = _userManager.GetUsersInRoleAsync("StoreOwner").Result.ToList();
+            ViewBag.Header = "Store Owner";
+            return View(storeowner);
+        }
+        else if (account == "Customer")
+        {
+            var customers = _userManager.GetUsersInRoleAsync("Customer").Result.ToList();
+            ViewBag.Header = "Customer";
+            return View(customers);
+        }
+        var customersAll = _userManager.GetUsersInRoleAsync("Customer").Result.ToList();
+        var storeownerAll = _userManager.GetUsersInRoleAsync("StoreOwner").Result.ToList();
 
-        var usersInRoles = customers.Concat(storeowner).ToList();
+        var usersInRoles = customersAll.Concat(storeownerAll).ToList();
+        ViewBag.Header = "All Users";
 
         return View(usersInRoles);
+
     }
 
     public IActionResult StoreOwner()
     {
+        var storeowner = _userManager.GetUsersInRoleAsync("StoreOwner").Result.ToList();
 
-        return View();
+        return View(storeowner);
     }
 
 
@@ -118,32 +133,34 @@ public class AdminController : Controller
             {
                 await _userManager.AddToRoleAsync(user, model.RoleName);
             }
-
-            // Xử lý đổi mật khẩu nếu cần
-            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var result = await _userManager.ResetPasswordAsync(user, token, model.changePassword);
-
-            if (result.Succeeded)
+            if (!string.IsNullOrWhiteSpace(model.changePassword))
             {
-                // Password changed successfully
-                return RedirectToAction("Customer");
-            }
-            else
-            {
-                // Handle password change failure
-                foreach (var error in result.Errors)
+                // Xử lý đổi mật khẩu nếu cần
+                var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                var result = await _userManager.ResetPasswordAsync(user, token, model.changePassword);
+
+                if (!result.Succeeded)
                 {
-                    ModelState.AddModelError("", error.Description);
+                    // Handle password change failure
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return View(model);
                 }
             }
+
+            // Password changed successfully or no password change requested
+            return RedirectToAction("Customer");
         }
         else
         {
-            // Handle user not found
-            ModelState.AddModelError("", "User not found.");
+            // Handle user not found or other model validation errors
+            ModelState.AddModelError("", "Invalid input.");
+            return View(model);
         }
 
-        return View(model);
+
     }
 
 

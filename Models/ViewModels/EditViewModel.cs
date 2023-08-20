@@ -12,7 +12,6 @@ public class EditViewModel
     public string? RoleName { get; set; }
 
     public string? changePassword { get; set; }
-
 }
 
 public class CreateByAdmin
@@ -25,5 +24,5 @@ public class CreateByAdmin
     public string? HomeAddress { get; set; }
 
     [DataType(DataType.Password)]
-    public required string Password { get; set; }
+    public required string? Password { get; set; }
 }

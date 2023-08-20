@@ -98,6 +98,15 @@
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
                             </li>
                             <li>
+                                <a class="sf-with-ul">Admin</a>
+                                <ul>
+                                    <li><a asp-controller="Admin" asp-action="Index"
+                                            asp-route-account="StoreOwner">StoreOwner </a></li>
+                                    <li><a asp-controller="Admin" asp-action="Index"
+                                            asp-route-account="Customer">Customer</a></li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
                             </li>
                             <li>

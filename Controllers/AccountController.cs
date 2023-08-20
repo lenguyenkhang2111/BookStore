@@ -285,7 +285,7 @@ namespace BookStore
                     User? user = await _userManager.FindByEmailAsync(model.Email);
                     if (user != null && await _userManager.IsInRoleAsync(user, "Admin"))
                     {
-                        return RedirectToAction("Customer", "Admin");
+                        return RedirectToAction("Index", "Admin", "Customer");
                     }
                     else if (user != null && await _userManager.IsInRoleAsync(user, "Customer"))
                     {
