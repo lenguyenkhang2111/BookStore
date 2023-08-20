@@ -20,6 +20,9 @@
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
                             {
+                                <li asp-controller="Order" asp-action="Index" active-route>
+                                    <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
+                                </li>
                                 <li><a asp-controller="Account" asp-action="Profile">Welcome
                                         @User.Identity.Name <i class="icon-user"></i></a>
                                 </li>
@@ -71,7 +74,7 @@
                                         <a asp-controller="StoreOwner" asp-action="Index">Request Category</a>
                                     </li>
                                     <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
-                                        <a asp-controller="StoreOwner" asp-action="OrderManage">Orders</a>
+                                        <a asp-controller="StoreOwner" asp-action="OrderManage">Manage Orders</a>
                                     </li>
                                 </ul>
                             </li>
@@ -92,16 +95,16 @@
                             <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Admin Manage</a>
                                 <ul>
-                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                    <li asp-controller="Admin" asp-action="Index" active-route>
+                                        <a asp-controller="Admin" asp-action="Index" asp-route-account="Customer">Manage
                                             Customer</a>
                                     </li>
-                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                    <li asp-controller="Admin" asp-action="Index" active-route>
+                                        <a asp-controller="Admin" asp-action="Index" asp-route-account="StoreOwner">Manage
                                             StoreOwner</a>
                                     </li>
-                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                        <a asp-controller="StoreOwner" asp-action="Index">Manage Category
+                                    <li asp-controller="Admin" asp-action="CategoryRequestManage" active-route>
+                                        <a asp-controller="Admin" asp-action="CategoryRequestManage">Manage Category
                                             Requests</a>
                                     </li>
                                     <li asp-controller="StoreOwner" asp-action="Index" active-route>
@@ -111,30 +114,6 @@
                                 </ul>
                             </li>
 
-
-                            <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
-                                <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
-                            </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
-                                <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
-                                    <li><a href="elements-titles.html">Titles</a></li>
-                                    <li><a href="elements-banners.html">Banners</a></li>
-                                    <li><a href="elements-product-category.html">Product Category</a></li>
-                                    <li><a href="elements-video-banners.html">Video Banners</a></li>
-                                    <li><a href="elements-buttons.html">Buttons</a></li>
-                                    <li><a href="elements-accordions.html">Accordions</a></li>
-                                    <li><a href="elements-tabs.html">Tabs</a></li>
-                                    <li><a href="elements-testimonials.html">Testimonials</a></li>
-                                    <li><a href="elements-blog-posts.html">Blog Posts</a></li>
-                                    <li><a href="elements-portfolio.html">Portfolio</a></li>
-                                    <li><a href="elements-cta.html">Call to Action</a></li>
-                                    <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
-                                </ul>
-                            </li>
 
                             <!-- End .menu -->
                         }
@@ -146,9 +125,7 @@
                             <li asp-controller="Book" asp-action="Index" active-route>
                                 <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
                             </li>
-                            <li asp-controller="Order" asp-action="Index" active-route>
-                                <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
-                            </li>
+
 
                             <li asp-asp-controller="Home" asp-action="Help" active-route>
                                 <a asp-asp-controller="Home" asp-action="Help">Help</a>

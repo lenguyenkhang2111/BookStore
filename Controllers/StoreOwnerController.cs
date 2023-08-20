@@ -204,7 +204,7 @@ public class StoreOwnerController : Controller
             _context.SaveChanges();
         }
 
-        return RedirectToAction("OrderManage");
+        return RedirectWithReturnUrl("Goodjob!", "You processed an order", "success");
     }
 
 

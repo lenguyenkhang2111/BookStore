@@ -1,4 +1,5 @@
-﻿using BookStore.Models;
+﻿using BookStore.Data;
+using BookStore.Models;
 using BookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -10,11 +11,13 @@ namespace BookStore;
 [Authorize(Roles = "Admin")]
 public class AdminController : Controller
 {
+    private readonly StoreDbContext _context;
     private UserManager<User> _userManager;
     private RoleManager<IdentityRole> _roleManager;
 
-    public AdminController(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
+    public AdminController(UserManager<User> userManager, RoleManager<IdentityRole> roleManager, StoreDbContext context)
     {
+        _context = context;
         _userManager = userManager;
         _roleManager = roleManager;
     }
@@ -75,7 +78,7 @@ public class AdminController : Controller
 
                 if (adminRoleResult.Succeeded)
                 {
-                    return RedirectToAction("Customer", "Admin"); // Redirect to admin-related page
+                    return RedirectToAction("Index", "Admin"); // Redirect to admin-related page
                 }
 
                 foreach (var error in adminRoleResult.Errors)
@@ -151,7 +154,7 @@ public class AdminController : Controller
             }
 
             // Password changed successfully or no password change requested
-            return RedirectToAction("Customer");
+            return RedirectToAction("Index", "Admin");
         }
         else
         {
@@ -173,65 +176,38 @@ public class AdminController : Controller
             await _userManager.DeleteAsync(user);
         }
 
-        return RedirectToAction("Customer");
+        return RedirectToAction("Index", "Admin");
+    }
+
+    [HttpGet]
+    public ViewResult CategoryRequestManage()
+    {
+        var orders = _context.CategoryRequests.ToList();
+
+
+        return View(orders);
     }
 
 
-}
-
-/*IdentityResult result = await _userManager.UpdateAsync(identityUser);
-
-            if (result.Succeeded && !String.IsNullOrEmpty(user.Password))
-            {
-                await _userManager.RemovePasswordAsync(identityUser);
-                result = await _userManager.AddPasswordAsync(identityUser, user.Password);
-            }
-
-            if (result.Succeeded)
-            {
-                return RedirectToAction("Index");
-            }
-
-            foreach (IdentityError error in result.Errors)
-            {
-                ModelState.AddModelError("", error.Description);
-            }*/
-
-/*
-[HttpPost]
-    public async Task<IActionResult> Edit(EditViewModel model)
+    public IActionResult CategoryRequestApprove(int catId, string status)
     {
-        if (ModelState.IsValid)
+        var cat = _context.CategoryRequests.FirstOrDefault(o => o.Id == catId);
+
+        if (cat != null)
         {
-            var identityUser = await _userManager.FindByIdAsync(model.UserId);
-
-            // Xóa vai trò cũ của người dùng
-            var userRoles = await _userManager.GetRolesAsync(identityUser);
-            if (userRoles.Any())
+            cat.Status = status;
+            if (cat.Status == "Accept")
             {
-                await _userManager.RemoveFromRolesAsync(identityUser, userRoles);
+                Category newCategory = new Category
+                {
+                    CategoryName = cat.CategoryName
+                };
+                _context.Categories.Add(newCategory);
             }
-
-            // Thêm vai trò mới cho người dùng
-            var role = await _roleManager.FindByNameAsync(model.RoleName);
-            if (role != null)
-            {
-                await _userManager.AddToRoleAsync(identityUser, model.RoleName);
-            }
-
-            // Xử lý đổi mật khẩu nếu cần
-            IdentityResult result1 = IdentityResult.Success;
-            if (!string.IsNullOrEmpty(model.changePassword))
-            {
-                var token = await _userManager.GeneratePasswordResetTokenAsync(identityUser);
-                result1 = await _userManager.ResetPasswordAsync(identityUser, token, model.changePassword);
-            }
-
-            if (result1 == IdentityResult.Success)
-            {
-                return RedirectToAction("Customer");
-            }
+            _context.SaveChanges();
         }
 
-        return View(model);
-    }*/
+        return RedirectToAction("CategoryRequestManage");
+    }
+
+}

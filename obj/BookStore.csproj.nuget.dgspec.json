@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {}
+    "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {
+    "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
+        "projectUniqueName": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
         "projectName": "BookStore",
-        "projectPath": "c:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
+        "projectPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
         "packagesPath": "C:\\Users\\KHANG\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\KHANG\\Desktop\\BookStore\\obj\\",
+        "outputPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
