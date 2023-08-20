@@ -23,18 +23,7 @@ internal class Program
             options.LoginPath = "/Account/Login";
             options.AccessDeniedPath = "/Account/AccessDenied";
         });
-        //
 
-        // builder.Services.AddAuthorization(options =>
-        //     {
-        //         options.AddPolicy("AdminOnly", policy =>
-        //         {
-        //             policy.RequireAuthenticatedUser();
-        //             policy.RequireRole("Admin"); // Make sure this matches the role name if you're using roles
-        //             // You can customize the policy further if needed
-        //         });
-        //     });
-        // //
 
 
         var app = builder.Build();
