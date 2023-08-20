@@ -13,9 +13,9 @@ public class CategoryRequest
     public DateTime RequestDate { get; set; } = DateTime.Now;
 
 
-    public required int StoreOwnerId { get; set; }
+    public string? StoreOwnerId { get; set; }
 
 
-    public bool IsApproved { get; set; }
+    public string Status { get; set; } = "Pending";
 
 }

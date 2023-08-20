@@ -152,12 +152,8 @@ public class StoreOwnerController : Controller
 
     [HttpGet]
     [Authorize]
-    public async Task<IActionResult> CategoryRequest()
+    public ViewResult CategoryRequest()
     {
-        if (User.Identity != null && User.Identity.IsAuthenticated)
-        {
-            User? user = await _userManager.FindByNameAsync(User!.Identity!.Name!);
-        }
         return View();
     }
 
@@ -165,10 +161,20 @@ public class StoreOwnerController : Controller
     [Authorize]
     public async Task<IActionResult> CategoryRequest([FromForm] CategoryRequest categoryRequest)
     {
+        if (!ModelState.IsValid)
+        {
+            return View(categoryRequest);
+        }
         string Name = categoryRequest.CategoryName;
         if (_context.Categories.Any(c => c.CategoryName == Name) || _context.CategoryRequests.Any(c => c.CategoryName == Name))
         {
             return RedirectWithReturnUrl("Failed!", "You request an existed category!", "error");
+        }
+        if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            User? user = await _userManager.GetUserAsync(User);
+            categoryRequest.StoreOwnerId = user?.Id;
+            categoryRequest.Status = "Pending";
         }
         _context.CategoryRequests.Add(categoryRequest);
         await _context.SaveChangesAsync();
