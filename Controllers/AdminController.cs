@@ -75,7 +75,7 @@ public class AdminController : Controller
 
                 if (adminRoleResult.Succeeded)
                 {
-                    return RedirectToAction("Customer", "Admin"); // Redirect to admin-related page
+                    return RedirectToAction("Index", "Admin"); // Redirect to admin-related page
                 }
 
                 foreach (var error in adminRoleResult.Errors)
@@ -151,7 +151,7 @@ public class AdminController : Controller
             }
 
             // Password changed successfully or no password change requested
-            return RedirectToAction("Customer");
+            return RedirectToAction("Index", "Admin");
         }
         else
         {
@@ -173,7 +173,7 @@ public class AdminController : Controller
             await _userManager.DeleteAsync(user);
         }
 
-        return RedirectToAction("Customer");
+        return RedirectToAction("Index", "Admin");
     }
 
 
