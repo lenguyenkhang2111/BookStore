@@ -7,6 +7,6 @@ public class Order
     public DateTime OrderDate { get; set; } = DateTime.Now;
 
     public required string UserId { get; set; }
-
+    public string Status { get; set; } = "Pending";
     public required List<OrderItem> OrderItems { get; set; }
 }

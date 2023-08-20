@@ -49,7 +49,7 @@
                                 </p>
                             </td>
                             <td>
-                                <span class="btn btn-primary rounded-pill d-inline m-1">In progress</span>
+                                <span class="btn btn-primary rounded-pill d-inline m-1">@order.Status</span>
                             </td>
                             <td class="fw-semi-bold fs-4">@(order.OrderItems.Sum(oi => oi.Quantity * oi.Book.Price)) $
                             </td>

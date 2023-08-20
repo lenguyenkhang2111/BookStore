@@ -1,4 +1,9 @@
 @model BookStore.Models.Cart
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
 <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
     <div class="container">
         <h1 class="page-title">Checkout<span>Shop</span></h1>
@@ -29,22 +34,22 @@
                     <div class="col-lg-9">
                         <h2 class="checkout-title">Billing Details</h2><!-- End .checkout-title -->
 
-                        <label>Full Name (Optional)</label>
-                        <input type="text" class="form-control">
+                        <label>Full Name </label>
+                        <input type="text" class="form-control" value="@user?.FullName" readonly>
 
                         <label>Home address *</label>
-                        <input type="text" class="form-control" placeholder="House number and Street name">
+                        <input type="text" class="form-control" value="@user?.HomeAddress" readonly>
 
 
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <label>PhoneNumber *</label>
-                                <input type="tel" class="form-control">
-                            </div><!-- End .col-sm-6 -->
-                        </div><!-- End .row -->
+                        @* <div class="row">
+                        <div class="col-sm-6">
+                        <label>PhoneNumber *</label>
+                        <input type="tel" class="form-control">
+                        </div><!-- End .col-sm-6 -->
+                        </div><!-- End .row --> *@
 
                         <label>Email address *</label>
-                        <input type="email" class="form-control">
+                        <input type="email" class="form-control" value="@user?.Email" readonly>
 
 
                     </div><!-- End .col-lg-9 -->
