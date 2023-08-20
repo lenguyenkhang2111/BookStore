@@ -1,5 +1,6 @@
 using BookStore.Data;
 using BookStore.Models;
+using BookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 namespace BookStore.Models
@@ -23,6 +24,7 @@ namespace BookStore.Models
             Category education = new() { CategoryName = "Education" };
             if (!context.Categories.Any())
             {
+
 
                 context.Categories.AddRange(romance, education);
                 context.SaveChanges();
@@ -134,6 +136,39 @@ namespace BookStore.Models
                 context.SaveChanges();
             }
 
+
+            // Create Customer role if it doesn't exist
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "Customer"
+            });
+
+
+            // Create StoreOwner role if it doesn't exist
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "StoreOwner"
+            });
+
+            await roleManager.CreateAsync(new IdentityRole
+            {
+                Name = "Admin"
+            });
+
+            string adminEmail = "admin@gmail.com";
+            string adminPassword = "Admin123!";
+            var adminUser = new User
+            {
+                UserName = adminEmail,
+                Email = adminEmail,
+                FullName = "Admin Full Name",
+                HomeAddress = "Admin Address Name"
+
+            };
+            var result2 = await userManager.CreateAsync(adminUser, adminPassword);
+            var result1 = await userManager.AddToRoleAsync(adminUser, "Admin");
         }
     }
 }

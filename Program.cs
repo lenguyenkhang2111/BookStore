@@ -15,7 +15,9 @@ internal class Program
         {
             opts.UseSqlite(builder.Configuration.GetConnectionString("BookStoreSQLiteConnection"));
         });
-        builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<StoreDbContext>();
+        builder.Services.AddIdentity<User, IdentityRole>()
+        .AddEntityFrameworkStores<StoreDbContext>()
+        .AddTokenProvider<DataProtectorTokenProvider<User>>(TokenOptions.DefaultProvider);
         builder.Services.ConfigureApplicationCookie(options =>
         {
             options.LoginPath = "/Account/Login";

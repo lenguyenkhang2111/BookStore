@@ -103,34 +103,44 @@ public class AdminController : Controller
     {
         if (ModelState.IsValid)
         {
-            var identityUser = await _userManager.FindByIdAsync(model.UserId);
+            var user = await _userManager.FindByIdAsync(model.UserId);
 
             // Xóa vai trò cũ của người dùng
-            var userRoles = await _userManager.GetRolesAsync(identityUser);
+            var userRoles = await _userManager.GetRolesAsync(user);
             if (userRoles.Any())
             {
-                await _userManager.RemoveFromRolesAsync(identityUser, userRoles);
+                await _userManager.RemoveFromRolesAsync(user, userRoles);
             }
 
             // Thêm vai trò mới cho người dùng
             var role = await _roleManager.FindByNameAsync(model.RoleName);
             if (role != null)
             {
-                await _userManager.AddToRoleAsync(identityUser, model.RoleName);
+                await _userManager.AddToRoleAsync(user, model.RoleName);
             }
 
             // Xử lý đổi mật khẩu nếu cần
-            IdentityResult result1 = IdentityResult.Success;
-            if (!string.IsNullOrEmpty(model.changePassword))
-            {
-                var token = await _userManager.GeneratePasswordResetTokenAsync(identityUser);
-                result1 = await _userManager.ResetPasswordAsync(identityUser, token, model.changePassword);
-            }
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await _userManager.ResetPasswordAsync(user, token, model.changePassword);
 
-            if (result1 == IdentityResult.Success)
+            if (result.Succeeded)
             {
+                // Password changed successfully
                 return RedirectToAction("Customer");
             }
+            else
+            {
+                // Handle password change failure
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+            }
+        }
+        else
+        {
+            // Handle user not found
+            ModelState.AddModelError("", "User not found.");
         }
 
         return View(model);
@@ -169,3 +179,42 @@ public class AdminController : Controller
             {
                 ModelState.AddModelError("", error.Description);
             }*/
+
+/*
+[HttpPost]
+    public async Task<IActionResult> Edit(EditViewModel model)
+    {
+        if (ModelState.IsValid)
+        {
+            var identityUser = await _userManager.FindByIdAsync(model.UserId);
+
+            // Xóa vai trò cũ của người dùng
+            var userRoles = await _userManager.GetRolesAsync(identityUser);
+            if (userRoles.Any())
+            {
+                await _userManager.RemoveFromRolesAsync(identityUser, userRoles);
+            }
+
+            // Thêm vai trò mới cho người dùng
+            var role = await _roleManager.FindByNameAsync(model.RoleName);
+            if (role != null)
+            {
+                await _userManager.AddToRoleAsync(identityUser, model.RoleName);
+            }
+
+            // Xử lý đổi mật khẩu nếu cần
+            IdentityResult result1 = IdentityResult.Success;
+            if (!string.IsNullOrEmpty(model.changePassword))
+            {
+                var token = await _userManager.GeneratePasswordResetTokenAsync(identityUser);
+                result1 = await _userManager.ResetPasswordAsync(identityUser, token, model.changePassword);
+            }
+
+            if (result1 == IdentityResult.Success)
+            {
+                return RedirectToAction("Customer");
+            }
+        }
+
+        return View(model);
+    }*/
