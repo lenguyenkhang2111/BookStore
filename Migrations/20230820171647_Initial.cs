@@ -89,7 +89,7 @@ namespace BookStore.Migrations
                     Description = table.Column<string>(type: "TEXT", nullable: false),
                     RequestDate = table.Column<DateTime>(type: "TEXT", nullable: false),
                     StoreOwnerId = table.Column<string>(type: "TEXT", nullable: true),
-                    Status = table.Column<bool>(type: "INTEGER", nullable: false)
+                    Status = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {

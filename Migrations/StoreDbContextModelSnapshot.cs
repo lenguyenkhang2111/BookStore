@@ -133,8 +133,9 @@ namespace BookStore.Migrations
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("StoreOwnerId")
                         .HasColumnType("TEXT");

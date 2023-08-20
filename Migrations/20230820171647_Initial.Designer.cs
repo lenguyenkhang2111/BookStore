@@ -11,11 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookStore.Migrations
 {
     [DbContext(typeof(StoreDbContext))]
-<<<<<<<< HEAD:Migrations/20230820154020_Initial.Designer.cs
-    [Migration("20230820154020_Initial")]
-========
-    [Migration("20230820083922_Initial")]
->>>>>>>> origin/Hao:Migrations/20230820083922_Initial.Designer.cs
+    [Migration("20230820171647_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -140,8 +136,9 @@ namespace BookStore.Migrations
                     b.Property<DateTime>("RequestDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<bool>("Status")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("StoreOwnerId")
                         .HasColumnType("TEXT");
