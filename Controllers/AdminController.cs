@@ -47,21 +47,11 @@ public class AdminController : Controller
 
     }
 
-    public IActionResult StoreOwner()
-    {
-        var storeowner = _userManager.GetUsersInRoleAsync("StoreOwner").Result.ToList();
-
-        return View(storeowner);
-    }
-
 
     public IActionResult Create()
     {
         return View();
     }
-
-
-
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(CreateByAdmin model)
@@ -70,15 +60,13 @@ public class AdminController : Controller
         {
             var user = new User { UserName = model.Email, Email = model.Email, FullName = model.FullName, HomeAddress = model.HomeAddress };
             var result = await _userManager.CreateAsync(user, model.Password);
-
             if (result.Succeeded)
             {
-                // You might want to assign admin role here, assuming you have a role named "Admin"
                 var adminRoleResult = await _userManager.AddToRoleAsync(user, "Customer");
 
                 if (adminRoleResult.Succeeded)
                 {
-                    return RedirectToAction("Index", "Admin"); // Redirect to admin-related page
+                    return RedirectToAction("Index", "Admin");
                 }
 
                 foreach (var error in adminRoleResult.Errors)
@@ -92,7 +80,6 @@ public class AdminController : Controller
                 ModelState.AddModelError(string.Empty, error.Description);
             }
         }
-
         return View(model);
     }
 
@@ -101,13 +88,11 @@ public class AdminController : Controller
     [HttpGet]
     public async Task<IActionResult> Edit(string id)
     {
-
         User? user = await _userManager.FindByIdAsync(id);
         if (user == null)
         {
             return NotFound();
         }
-
         return View(new EditViewModel
         {
             UserId = id
@@ -115,22 +100,17 @@ public class AdminController : Controller
         );
     }
 
-
     [HttpPost]
     public async Task<IActionResult> Edit(EditViewModel model)
     {
         if (ModelState.IsValid)
         {
             var user = await _userManager.FindByIdAsync(model.UserId);
-
-            // Xóa vai trò cũ của người dùng
             var userRoles = await _userManager.GetRolesAsync(user);
             if (userRoles.Any())
             {
                 await _userManager.RemoveFromRolesAsync(user, userRoles);
             }
-
-            // Thêm vai trò mới cho người dùng
             var role = await _roleManager.FindByNameAsync(model.RoleName);
             if (role != null)
             {
@@ -138,13 +118,11 @@ public class AdminController : Controller
             }
             if (!string.IsNullOrWhiteSpace(model.changePassword))
             {
-                // Xử lý đổi mật khẩu nếu cần
                 var token = await _userManager.GeneratePasswordResetTokenAsync(user);
                 var result = await _userManager.ResetPasswordAsync(user, token, model.changePassword);
 
                 if (!result.Succeeded)
                 {
-                    // Handle password change failure
                     foreach (var error in result.Errors)
                     {
                         ModelState.AddModelError("", error.Description);
@@ -152,18 +130,13 @@ public class AdminController : Controller
                     return View(model);
                 }
             }
-
-            // Password changed successfully or no password change requested
             return RedirectToAction("Index", "Admin");
         }
         else
         {
-            // Handle user not found or other model validation errors
             ModelState.AddModelError("", "Invalid input.");
             return View(model);
         }
-
-
     }
 
 
@@ -183,12 +156,8 @@ public class AdminController : Controller
     public ViewResult CategoryRequestManage()
     {
         var orders = _context.CategoryRequests.ToList();
-
-
         return View(orders);
     }
-
-
     public IActionResult CategoryRequestApprove(int catId, string status)
     {
         var cat = _context.CategoryRequests.FirstOrDefault(o => o.Id == catId);
