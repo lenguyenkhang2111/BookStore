@@ -19,10 +19,9 @@ namespace BookStore.Models
             {
                 context.Database.Migrate();
             }
-
-
-            Category Romance = new Category { CategoryName = "Romance" };
             Category Travel = new Category { CategoryName = "Travel" };
+            Category Romance = new Category { CategoryName = "Romance" };
+            Category Environment = new Category { CategoryName = "Environment" };
             Category Economic = new Category { CategoryName = "Economic" };
             Category ForChildren = new Category { CategoryName = "For Children" };
             Category SelfHelp = new Category { CategoryName = "Self help" };
@@ -32,7 +31,7 @@ namespace BookStore.Models
             if (!context.Categories.Any())
             {
 
-                context.Categories.AddRange(Romance, Travel, Economic, ForChildren, SelfHelp, Cuisine);
+                context.Categories.AddRange(Travel, Romance, Environment, Economic, ForChildren, SelfHelp, Cuisine);
                 context.SaveChanges();
             }
 
@@ -83,7 +82,35 @@ namespace BookStore.Models
                 YearPublished = "2019",
                 Author = "Olivia Parker",
                 Category = Romance
-            }, new Book
+            },
+            new Book
+            {
+                Title = "Journey to Serenity",
+                ShortReview = "Discover inner peace through the author's transformative travel experiences.",
+                Price = 18.99m,
+                YearPublished = "2019",
+                Author = "Ella Bennett",
+                Category = Travel
+            },
+            new Book
+            {
+                Title = "Roaming Free",
+                ShortReview = "Escape the ordinary and embrace the extraordinary in this travel memoir.",
+                Price = 22.99m,
+                YearPublished = "2021",
+                Author = "Jacob Foster",
+                Category = Travel
+            },
+            new Book
+            {
+                Title = "Uncharted Horizons",
+                ShortReview = "Explore the unexplored and find the beauty in the lesser-known corners of the world.",
+                Price = 19.99m,
+                YearPublished = "2020",
+                Author = "Lila Thompson",
+                Category = Travel
+            },
+            new Book
             {
                 Title = "Wealth Beyond Measure",
                 ShortReview = "Unlock the secrets of building and managing wealth for a prosperous future.",
@@ -100,6 +127,41 @@ namespace BookStore.Models
                 YearPublished = "2021",
                 Author = "Sophie Evans",
                 Category = Economic
+            },
+            new Book
+            {
+                Title = "Eco Warriors: Champions of the Earth",
+                ShortReview = "Join a group of dedicated individuals as they lead the charge to protect and restore our planet's delicate ecosystems.",
+                Price = 19.99m,
+                YearPublished = "2022",
+                Author = "Emily Green",
+                Category = Environment
+            },
+            new Book
+            {
+                Title = "Planet in Peril: A Call to Action",
+                ShortReview = "An urgent and comprehensive look at the threats facing our environment today and the actions we must take to secure a sustainable future.",
+                Price = 21.99m,
+                YearPublished = "2021",
+                Author = "David Thompson",
+                Category = Environment
+            }, new Book
+            {
+                Title = "Sustainable Living Made Simple",
+                ShortReview = "Discover practical tips and strategies to live a more sustainable and eco-friendly lifestyle, reducing your carbon footprint and contributing to a greener planet.",
+                Price = 17.99m,
+                YearPublished = "2020",
+                Author = "Sophia Adams",
+                Category = Environment
+            },
+            new Book
+            {
+                Title = "The Green Revolution: Innovations for a Sustainable Future",
+                ShortReview = "Explore groundbreaking innovations and technologies that are driving the green revolution, offering hope for a more environmentally conscious tomorrow.",
+                Price = 23.99m,
+                YearPublished = "2018",
+                Author = "Linda Parker",
+                Category = Environment
             },
             new Book
             {

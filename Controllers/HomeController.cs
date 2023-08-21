@@ -16,7 +16,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var books = _context.Books.Take(10);
+        return View(books);
     }
     public IActionResult Help()
     {

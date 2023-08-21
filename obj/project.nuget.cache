@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lwwE2gPeZ3KAdKYT5lnLClStlkuUNWI7cFY5FJzgRfa4wWj44zHEdA21frIBvQhA8nreRIfn9m/bKrn+Wwerdg==",
+  "dgSpecHash": "eLy3yYdXfZxvkYgx8nizQ6RNc3Nm76U+e4wbSuUgBbRI5ajoOBe66IXIheyUOpVU3T4PjX9B36a4PgUrn99rbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
   "expectedPackageFiles": [
@@ -73,6 +73,7 @@
     "C:\\Users\\KHANG\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\KHANG\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\KHANG\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\KHANG\\.nuget\\packages\\sixlabors.imagesharp\\3.0.1\\sixlabors.imagesharp.3.0.1.nupkg.sha512",
     "C:\\Users\\KHANG\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.4\\sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "C:\\Users\\KHANG\\.nuget\\packages\\sqlitepclraw.core\\2.1.4\\sqlitepclraw.core.2.1.4.nupkg.sha512",
     "C:\\Users\\KHANG\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.4\\sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",

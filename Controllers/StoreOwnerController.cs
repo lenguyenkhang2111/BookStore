@@ -7,6 +7,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authorization;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
+using SixLabors.ImageSharp.Formats.Jpeg;
+using SixLabors.ImageSharp.Formats;
+using SixLabors.ImageSharp.Formats.Png;
+using SixLabors.ImageSharp.Formats.Webp;
 
 namespace BookStore.Controllers;
 
@@ -210,20 +216,26 @@ public class StoreOwnerController : Controller
 
 
 
-    private async Task<string?> UploadImageAsync(IFormFile? imageFile)
+    private Task<string?> UploadImageAsync(IFormFile? imageFile)
     {
         if (imageFile != null && imageFile.Length > 0)
         {
             string uniqueFileName = Guid.NewGuid().ToString() + "_" + imageFile.FileName;
             string imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\upload", "images", uniqueFileName);
-            using (var stream = new FileStream(imagePath, FileMode.Create))
+
+            using (var image = Image.Load(imageFile.OpenReadStream()))
             {
-                await imageFile.CopyToAsync(stream);
+                int targetWidth = 200;
+                int targetHeight = 200;
+                image.Mutate(c => c.Resize(targetWidth, targetHeight));
+                image.Save(imagePath);
+                // Return the unique file name
+                return Task.FromResult<string?>(uniqueFileName);
             }
-            return uniqueFileName;
         }
-        return null;
+        return Task.FromResult<string?>(null);
     }
+
 
 
 
@@ -242,7 +254,4 @@ public class StoreOwnerController : Controller
         return RedirectToAction("Index");
     }
 }
-
-
-
 

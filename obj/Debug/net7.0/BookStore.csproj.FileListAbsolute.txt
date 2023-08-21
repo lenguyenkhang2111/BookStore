@@ -1102,3 +1102,4 @@ C:\Users\KHANG\Desktop\BookStore\obj\Debug\net7.0\refint\BookStore.dll
 C:\Users\KHANG\Desktop\BookStore\obj\Debug\net7.0\BookStore.pdb
 C:\Users\KHANG\Desktop\BookStore\obj\Debug\net7.0\BookStore.genruntimeconfig.cache
 C:\Users\KHANG\Desktop\BookStore\obj\Debug\net7.0\ref\BookStore.dll
+C:\Users\KHANG\Desktop\BookStore\bin\Debug\net7.0\SixLabors.ImageSharp.dll

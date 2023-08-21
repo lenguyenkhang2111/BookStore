@@ -1,65 +1,66 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
+﻿@model IEnumerable<Book>
 <section id="home-page">
     <div class="intro-section pt-lg-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-6">
                     <div class="banner banner-big banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-1.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
-                            <h4 class="banner-subtitle text-white"><a href="#">Your Guide To The World</a></h4>
+                            <h4 class="banner-subtitle text-white"><a href="">Your Guide To The World</a></h4>
                             <!-- End .banner-subtitle -->
-                            <h2 class="banner-title text-white"><a href="#">Must-Read <br>Travel Books</a></h2>
+                            <h2 class="banner-title text-white"><a href="">Must-Read <br>Travel Books</a></h2>
                             <!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Find out more<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="1"
+                                class="btn btn-outline-white-3 banner-link">Find out more<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
                 </div><!-- End .col-lg-6 -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-2.jpg" alt="Banner">
                         </a>
                         <div class="banner-content banner-content-stretch">
-                            <h4 class="banner-subtitle text-white"><a href="#">New This Week</a></h4>
+                            <h4 class="banner-subtitle text-white"><a href="">New This Week</a></h4>
                             <!-- End .banner-subtitle -->
-                            <h3 class="banner-title text-white"><a href="#">Discover Our <br>Best Romance
+                            <h3 class="banner-title text-white"><a href="">Discover Our <br>Best Romance
                                     <br>Books</a></h3><!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Discover Now<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="2"
+                                class="btn btn-outline-white-3 banner-link">Discover Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
                 </div><!-- End .col-lg-3 -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="banner banner-small banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-3.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
-                            <h4 class="banner-subtitle text-white d-lg-none d-xl-block"><a href="#">Deal Of The
-                                    Day</a></h4><!-- End .banner-subtitle -->
-                            <h3 class="banner-title text-white"><a href="#">20% Off Use <br>Code:
-                                    <span>mybook</span></a></h3><!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Shop Now<i
+                            <h4 class="banner-subtitle text-white d-lg-none d-xl-block"><a href="">Way to save the
+                                    world</a></h4><!-- End .banner-subtitle -->
+                            <h3 class="banner-title text-white"><a href="">Category: <br>
+                                    <span>Environment</span></a></h3><!-- End .banner-title -->
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="3"
+                                class="btn btn-outline-white-3 banner-link">Shop Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
                     <div class="banner banner-small banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-4.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
-                            <h4 class="banner-subtitle text-white d-lg-none d-xl-block"><a href="#">New
+                            <h4 class="banner-subtitle text-white d-lg-none d-xl-block"><a href="">New
                                     Arrivals</a></h4><!-- End .banner-subtitle -->
-                            <h3 class="banner-title text-white"><a href="#">Business <br>& Economics</a></h3>
+                            <h3 class="banner-title text-white"><a href="">Business <br>& Economics</a></h3>
                             <!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Discover Now<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="4"
+                                class="btn btn-outline-white-3 banner-link">Discover Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
@@ -153,40 +154,37 @@
                                             }
                                         }
                                     }'>
-                        <div class="product">
-                            <span class="product-label label-sale">Sale</span>
-                            <figure class="product-media">
-                                <a href="product.html">
-                                    <img src="assets/images/demos/demo-20/products/product-1.jpg" alt="Product image"
-                                        class="product-image">
-                                </a>
-                            </figure><!-- End .product-media -->
-                            <div class="product-body">
-                                <div class="product-cat">
-                                    by <a href="#">Michelle Obama</a>
-                                </div><!-- End .product-cat -->
-                                <h3 class="product-title"><a href="product.html">Becoming</a></h3>
-                                <!-- End .product-title -->
-                                <div class="product-price">
-                                    <span class="new-price">$19.50</span>
-                                    <span class="old-price">Was $32.50</span>
-                                </div><!-- End .product-price -->
-                                <div class="product-footer">
-                                    <div class="ratings-container">
-                                        <div class="ratings">
-                                            <div class="ratings-val" style="width: 80%;"></div>
-                                            <!-- End .ratings-val -->
-                                        </div><!-- End .ratings -->
-                                        <span class="ratings-text">( 10 Reviews )</span>
-                                    </div><!-- End .rating-container -->
-                                    <div class="product-action">
-                                        <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
-                                        <a href="#" class="btn-product btn-wishlist"><span>Add to
-                                                Wishlist</span></a>
-                                    </div><!-- End .product-action -->
-                                </div><!-- End .product-footer -->
-                            </div><!-- End .product-body -->
-                        </div><!-- End .product -->
+                        @foreach (var b in Model ?? Enumerable.Empty<Book>())
+                        {
+                            <div class="product">
+                                <span class="product-label label-sale">Sale</span>
+                                <figure class="product-media">
+                                    <a asp-controller="Book" asp-action="Detail" asp-route-bookId="@b.Id">
+                                        <img style="width: 18.7rem; height: 29rem;" src="~/upload/images/@b.ImageUrl"
+                                            alt="Product image" class="product-image">
+                                    </a>
+                                </figure><!-- End .product-media -->
+                                <div class="product-body">
+                                    <div class="product-cat">
+                                        by <a href="">@b.Author</a>
+                                    </div><!-- End .product-cat -->
+                                    <h3 class="product-title"><a asp-controller="Book" asp-action="Detail"
+                                            asp-route-bookId="@b.Id">@b.Title</a></h3>
+                                    <!-- End .product-title -->
+                                    <div class="product-price">
+                                        <span class="new-price">$@b.Price</span>
+                                    </div><!-- End .product-price -->
+                                    <div class="product-footer">
+                                        <div class="product-action">
+                                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-bookID="@b.Id"
+                                                class="btn-product btn-cart"><span>add to cart</span></a>
+                                        </div><!-- End .product-action -->
+                                    </div><!-- End .product-footer -->
+                                </div><!-- End .product-body -->
+                            </div>
+
+                            <!-- End .product -->
+                        }
                     </div><!-- End .owl-carousel -->
                 </div><!-- End .container -->
             </div><!-- End .block-wrapper -->
@@ -199,22 +197,23 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-6.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
-                            <h4 class="banner-subtitle text-white"><a href="#">A Perfect Choice For Your
+                            <h4 class="banner-subtitle text-white"><a href="">A Perfect Choice For Your
                                     Children</a></h4><!-- End .banner-subtitle -->
-                            <h3 class="banner-title text-white"><a href="#">Children's <br>Bestselling Books</a>
+                            <h3 class="banner-title text-white"><a href="">Children's <br>Bestselling Books</a>
                             </h3><!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Discover Now<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="5"
+                                class="btn btn-outline-white-3 banner-link">Discover Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
                 </div><!-- End .col-lg-4 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-7.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
@@ -222,14 +221,15 @@
                             </h4><!-- End .banner-subtitle -->
                             <h3 class="banner-title text-white"><a href="#">Self-Help For <br>Your Future.</a>
                             </h3><!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Discover Now<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="6"
+                                class="btn btn-outline-white-3 banner-link">Discover Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
                 </div><!-- End .col-lg-4 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="banner banner-overlay">
-                        <a href="#">
+                        <a href="">
                             <img src="assets/images/demos/demo-20/banners/banner-8.jpg" alt="Banner">
                         </a>
                         <div class="banner-content">
@@ -237,7 +237,8 @@
                             </h4><!-- End .banner-subtitle -->
                             <h3 class="banner-title text-white"><a href="#">Bestselling Food <br>and Drink
                                     Books.</a></h3><!-- End .banner-title -->
-                            <a href="#" class="btn btn-outline-white-3 banner-link">Discover Now<i
+                            <a asp-controller="Book" asp-action="Index" asp-route-categoryId="7"
+                                class="btn btn-outline-white-3 banner-link">Discover Now<i
                                     class="icon-long-arrow-right"></i></a>
                         </div><!-- End .banner-content -->
                     </div><!-- End .banner -->
