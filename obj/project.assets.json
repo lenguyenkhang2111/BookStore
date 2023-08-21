@@ -4954,19 +4954,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\THE HAO PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\BookStore.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\obj\\",
+      "projectPath": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\BookStore.csproj",
+      "packagesPath": "C:\\Users\\THE HAO PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\THE HAO PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

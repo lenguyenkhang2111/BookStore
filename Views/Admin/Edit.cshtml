@@ -26,28 +26,29 @@
                 <div class="tab-content">
                     <div class="tab-pane fade show active" role="tabpanel">
 
-                        <form asp-controller="Admin" asp-action="Edit" method="post">
-                            <div class="form-group">
+        <form asp-controller="Admin" asp-action="Edit" method="post">
+            <div>
+                <label asp-for="RoleName"></label>
+                <select asp-for="RoleName" class="form-select" aria-label="Default select example">
+                    <option value="Customer">Customer</option>
+                    <option value="StoreOwner">StoreOwner</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="changePassword"></label>
+                <input asp-for="changePassword" class="form-control" />
+                <span asp-validation-for="changePassword" class="invalid-feedback custom-invalid-feedback"></span>
+            </div>
+            <input type="text" value="@Model.UserId" asp-for="UserId" readonly />
 
-                                <select asp-for="RoleName" class="form-select" aria-label="Default select example">
-                                    <option selected><Label asp-for="RoleName"></Label></option>
-                                    <option value="Customer">Customer</option>
-                                    <option value="StoreOwner">StoreOwner</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label asp-for="changePassword"></label>
-                                <input asp-for="changePassword" class="form-control" />
-                                <span asp-validation-for="changePassword"
-                                    class="invalid-feedback custom-invalid-feedback"></span>
-                            </div>
-                            <div class="form-footer">
-                                <button type="submit" class="btn btn-outline-primary-2">
-                                    <span>EditProfile</span>
-                                    <i class="icon-long-arrow-right"></i>
-                                </button>
-                            </div><!-- End .form-footer -->
-                        </form>
+            <div class="form-footer">
+                <button type="submit" class="btn btn-outline-primary-2">
+                    <span>EditProfile</span>
+                    <i class="icon-long-arrow-right"></i>
+                </button>
+                </a>
+            </div><!-- End .form-footer -->
+        </form>
                     </div><!-- .End .tab-pane -->
                 </div><!-- End .tab-content -->
             </div><!-- End .form-tab -->

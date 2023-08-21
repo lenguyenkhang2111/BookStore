@@ -1,2343 +1,2343 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\demos\\demo-20.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\demos\\demo-20.css",
       "PackagePath": "staticwebassets\\assets\\css\\demos\\demo-20.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\main.min.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\main.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\main.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\plugins\\jquery.countdown.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\plugins\\jquery.countdown.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery.countdown.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\plugins\\magnific-popup\\magnific-popup.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\plugins\\magnific-popup\\magnific-popup.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins\\magnific-popup\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\plugins\\nouislider\\nouislider.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\plugins\\nouislider\\nouislider.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins\\nouislider\\nouislider.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\plugins\\owl-carousel\\owl.carousel.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\plugins\\owl-carousel\\owl.carousel.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins\\owl-carousel\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\skins\\skin-demo-20.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\skins\\skin-demo-20.css",
       "PackagePath": "staticwebassets\\assets\\css\\skins\\skin-demo-20.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\css\\style.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\flaming\\flaming-webfont.woff",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\flaming\\flaming-webfont.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\flaming\\flaming-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\flaming\\flaming-webfont.woff2",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\flaming\\flaming-webfont.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\flaming\\flaming-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.eot",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\icon51c1.eot"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.svg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\icon51c1.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.ttf",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\icon51c1.ttf"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.woff",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\icon51c1.woff"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.woff2",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\icon51c1.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\icon51c1.woff2"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.eot",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.eot"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.svg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.ttf",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.ttf"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.woff",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.woff"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.woff2",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\fonts\\molla0ab2.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.woff2"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\FPTLogo.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\FPTLogo.png",
       "PackagePath": "staticwebassets\\assets\\images\\FPTLogo.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\about-header-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\about-header-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\about-header-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\about\\about-2\\img-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\about\\about-2\\img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\about\\about-2\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\about\\about-2\\signature.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\about\\about-2\\signature.png",
       "PackagePath": "staticwebassets\\assets\\images\\about\\about-2\\signature.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\about\\img-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\about\\img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\about\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\about\\img-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\about\\img-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\about\\img-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\bg-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\bg-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\bg-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\bg-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\cta\\bg-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\cta\\bg-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\error-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\error-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\error-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\login-bg.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\login-bg.png",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\login-bg.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\backgrounds\\soon-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\backgrounds\\soon-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\backgrounds\\soon-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\3cols\\banner-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\3cols\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\banner-fullwidth.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\banner-fullwidth.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\banner-fullwidth.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\3cols\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\3cols\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\3cols\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\3cols\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\4cols\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\4cols\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\4cols\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\grid\\4cols\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\grid\\4cols\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\intro\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\intro\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\intro\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\banners\\home\\intro\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\banners\\home\\intro\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\banners\\home\\intro\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\3cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\3cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\3cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\3cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\4cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\4cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\4cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\4cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\4cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\comments\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\comments\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\comments\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\comments\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\2cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\2cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\3cols\\post-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\3cols\\post-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\grid\\4cols\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\grid\\4cols\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\home\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\home\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\home\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\home\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\listing\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\listing\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\grid\\post-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\grid\\post-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\mask\\masonry\\post-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\mask\\masonry\\post-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-4-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-4-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-4-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\2cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\2cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-3-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-3-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-3-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-9-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-9-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-9-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\3cols\\post-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\3cols\\post-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-10.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-10.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-11.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-11.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-11.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-12.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-12.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-12.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-3-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-3-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-3-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-8-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-8-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-8-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\4cols\\post-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\4cols\\post-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-8-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-8-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-8-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\masonry\\with-sidebar\\post-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\masonry\\with-sidebar\\post-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\post-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\post-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\post-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\banner.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\banner.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\sidebar\\banner.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\sidebar\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\sidebar\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\sidebar\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\sidebar\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\sidebar\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\author.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\author.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\author.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth-sidebar\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth-sidebar\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth-sidebar\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth-sidebar\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth-sidebar\\5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth-sidebar\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\blog\\single\\fullwidth\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\blog\\single\\fullwidth\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\1.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\1.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\1.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\2.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\2.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\2.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\3.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\3.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\4.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\4.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\4.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\5.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\5.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\5.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\6.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\6.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\6.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\7.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\7.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\7.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\8.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\8.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\8.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\brands\\9.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\brands\\9.png",
       "PackagePath": "staticwebassets\\assets\\images\\brands\\9.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\3cols\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\3cols\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\3cols\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\3cols\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\4cols\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\4cols\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\4cols\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\4cols\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\4cols\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\boxed\\banner-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\boxed\\banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth-page\\banner-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth-page\\banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\fullwidth\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\fullwidth\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid2\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid2\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid2\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid2\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\category\\grid\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\category\\grid\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\contact-header-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\contact-header-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\contact-header-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos-img\\elements.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos-img\\elements.png",
       "PackagePath": "staticwebassets\\assets\\images\\demos-img\\elements.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos-img\\header_splash.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos-img\\header_splash.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos-img\\header_splash.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos-img\\lazy.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos-img\\lazy.png",
       "PackagePath": "staticwebassets\\assets\\images\\demos-img\\lazy.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos-img\\logo.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos-img\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\demos-img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos-img\\support_bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos-img\\support_bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos-img\\support_bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\banners\\banner-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\banners\\banner-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\blog\\post-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\blog\\post-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\blog\\post-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\blog\\post-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\blog\\post-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\logo-footer.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\logo-footer.png",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\logo-footer.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\logo.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-10.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-10.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-11.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-11.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-11.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-12.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-12.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-12.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-14.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-14.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-14.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-1-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-1-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-big-1-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-big-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-2-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\demos\\demo-20\\products\\product-big-2-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\demos\\demo-20\\products\\product-big-2-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\elements.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\elements.png",
       "PackagePath": "staticwebassets\\assets\\images\\elements.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\apple-touch-icon.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\apple-touch-icon.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\browserconfig.xml",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\browserconfig.xml",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\browserconfig.xml"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-16x16.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon-16x16.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-2.ico",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-2.ico",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon-2.ico"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-32x32.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon-32x32.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\favicon.ico",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\safari-pinned-tab.svg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\safari-pinned-tab.svg",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\safari-pinned-tab.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\icons\\site.html",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\site.html",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\site.html"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\logo-footer.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\logo-footer.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo-footer.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\logo-icon.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\logo-icon.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo-icon.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\logo.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\banner-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\banner-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\banner-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\banner-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\banner-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\banner-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\10.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\10.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\11.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\11.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\12.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\12.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\13.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\13.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\14.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\14.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\14.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\15.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\15.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\15.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\16.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\16.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\16.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\17.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\17.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\17.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\18.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\18.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\18.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\19.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\19.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\19.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\20.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\20.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\20.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\21.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\21.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\21.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\22.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\22.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\22.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\23.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\23.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\23.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\24.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\24.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\24.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\menu\\demos\\9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\menu\\demos\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\nav-next-shadow.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\nav-next-shadow.png",
       "PackagePath": "staticwebassets\\assets\\images\\nav-next-shadow.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\nav-prev-shadow.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\nav-prev-shadow.png",
       "PackagePath": "staticwebassets\\assets\\images\\nav-prev-shadow.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\page-header-bg.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\page-header-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\page-header-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\payments-summary.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\payments-summary.png",
       "PackagePath": "staticwebassets\\assets\\images\\payments-summary.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\payments.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\payments.png",
       "PackagePath": "staticwebassets\\assets\\images\\payments.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\popup\\newsletter\\img-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\popup\\newsletter\\img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\popup\\newsletter\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\popup\\newsletter\\logo.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\popup\\newsletter\\logo.png",
       "PackagePath": "staticwebassets\\assets\\images\\popup\\newsletter\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\4cols\\item-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\4cols\\item-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\fullwidth\\item-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\fullwidth\\item-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\item-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-3cols\\item-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-3cols\\item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\portfolio\\masonry-4cols\\item-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\portfolio\\masonry-4cols\\item-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\cart\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\cart\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\cart\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\cart\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\cart\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\cart\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\5cols\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\5cols\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\5cols\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\5cols\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\5cols\\product-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\5cols\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-1-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-1-3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-1-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-3-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-3-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-3-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-thumb-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-thumb-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-thumb-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-thumb-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\elements\\product-thumb-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\elements\\product-thumb-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-10.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-10.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-10.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-11-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-11-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-11-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-11-3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-11-3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-11-3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-11-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-11-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-11-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-11.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-11.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-11.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-12.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-12.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-12.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-13-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-13-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-13-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-13-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-13-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-13-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-13.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-13.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-13.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-14-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-14-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-14-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-14-3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-14-3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-14-3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-14-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-14-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-14-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-14.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-14.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-14.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-15.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-15.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-15.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-4-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-4-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-4-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-4-3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-4-3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-4-3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-4-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-4-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-4-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-5-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-5-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-5-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-5-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-5-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-5-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-8-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-8-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-8-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-8-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-8-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-8-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-9-2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-9-2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-9-2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-9-3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-9-3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-9-3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-9-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-9-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-9-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\product-9.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\product-9.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\product-9.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\1-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\1-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\1-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\1-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\1-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\1-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\centered\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\centered\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\1-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\1-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\1-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\1-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\1-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\1-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\bg-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\bg-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\bg-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\bg-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\sign.png",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\extended\\sign.png",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\extended\\sign.png"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\1-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\1-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\1-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\1-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\fullwidth\\4-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\fullwidth\\4-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\gallery\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\gallery\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\gallery\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\gallery\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\gallery\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\1-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\1-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\1-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\2-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\2-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-thumb.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\3-thumb.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\3-thumb.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\masonry\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\masonry\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\1-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\1-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\2-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\2-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\2-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\2-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\2-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\2-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\3-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\3-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\3-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\3-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\3-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\3-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\4-big.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\4-big.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\4-big.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\4-small.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar-gallery\\4-small.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar-gallery\\4-small.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sidebar\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sidebar\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sticky\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sticky\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sticky\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\single\\sticky\\4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\single\\sticky\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\sticky\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\sticky\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\sticky\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\table\\product-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\table\\product-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\products\\table\\product-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\products\\table\\product-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-1-480w.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-1-480w.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-1-480w.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-2-480w.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-2-480w.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-2-480w.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-3-480w.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-3-480w.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-3-480w.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\slider\\slide-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\slider\\slide-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\slide-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\stores\\img-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\stores\\img-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\stores\\img-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\stores\\img-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\stores\\img-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\stores\\img-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-4.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-4.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-5.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-5.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-6.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-6.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-6.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-7.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-7.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-7.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-8.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\about-2\\member-8.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\about-2\\member-8.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\member-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\member-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\member-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\member-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\member-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\member-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\team\\member-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\team\\member-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\team\\member-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\testimonials\\user-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\testimonials\\user-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\testimonials\\user-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\testimonials\\user-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\testimonials\\user-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\testimonials\\user-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\video\\bg-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\video\\bg-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\bg-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\video\\bg-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\video\\bg-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\bg-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\video\\poster-1.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\video\\poster-1.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\poster-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\video\\poster-2.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\video\\poster-2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\poster-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\images\\video\\poster-3.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\images\\video\\poster-3.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\video\\poster-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\bootstrap-input-spinner.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\bootstrap-input-spinner.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap-input-spinner.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-10.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-10.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-10.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-11.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-11.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-11.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-12.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-12.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-12.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-13.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-13.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-13.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-14.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-14.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-14.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-15.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-15.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-15.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-16.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-16.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-16.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-17.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-17.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-17.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-18.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-18.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-18.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-19.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-19.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-19.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-2.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-2.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-2.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-20.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-20.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-20.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-21.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-21.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-21.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-24.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-24.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-24.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-3.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-3.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-3.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-4.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-4.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-4.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-5.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-5.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-5.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-6.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-6.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-6.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-7.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-7.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-7.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-8.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-8.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-8.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\demos\\demo-9.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\demos\\demo-9.js",
       "PackagePath": "staticwebassets\\assets\\js\\demos\\demo-9.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.countTo.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.countTo.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.countTo.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.countdown.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.countdown.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.elevateZoom.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.elevateZoom.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.elevateZoom.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.hoverIntent.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.hoverIntent.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.hoverIntent.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.magnific-popup.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.plugin.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.plugin.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.plugin.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.sticky-kit.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.sticky-kit.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.sticky-kit.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\jquery.waypoints.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\jquery.waypoints.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\jquery.waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\nouislider.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\nouislider.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\superfish.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\superfish.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\superfish.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\js\\wNumb.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\js\\wNumb.js",
       "PackagePath": "staticwebassets\\assets\\js\\wNumb.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\main.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\main.js",
       "PackagePath": "staticwebassets\\assets\\main.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\css\\line-awesome.min.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\css\\line-awesome.min.css",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\css\\line-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesome0176.eot",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesome0176.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesome0176.eot"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.eot",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.eot",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.eot"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.svg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.svg",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.svg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.ttf",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.ttf",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.ttf"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff2",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff2",
       "PackagePath": "staticwebassets\\assets\\vendor\\line-awesome\\line-awesome\\line-awesome\\fonts\\line-awesomeeb4f.woff2"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\isotope\\jquery.isotope.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\isotope\\jquery.isotope.min.js",
       "PackagePath": "staticwebassets\\lib\\isotope\\jquery.isotope.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery.appear\\jquery.appear.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery.appear\\jquery.appear.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery.appear\\jquery.appear.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery.lazyload\\jquery.lazyload.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery.lazyload\\jquery.lazyload.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery.lazyload\\jquery.lazyload.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\lib\\jquery\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\0c3dbef9-be4a-4247-9ae6-099a2e22ea7d_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\0c3dbef9-be4a-4247-9ae6-099a2e22ea7d_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\0c3dbef9-be4a-4247-9ae6-099a2e22ea7d_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\1426c1c7-4699-4e2a-8bdb-e4dd06a028ab_graphic design.webp",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\1426c1c7-4699-4e2a-8bdb-e4dd06a028ab_graphic design.webp",
       "PackagePath": "staticwebassets\\upload\\images\\1426c1c7-4699-4e2a-8bdb-e4dd06a028ab_graphic design.webp"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\3a7a84bb-d04d-44b7-9eba-e7a00908ade6_graphic design.webp",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\3a7a84bb-d04d-44b7-9eba-e7a00908ade6_graphic design.webp",
       "PackagePath": "staticwebassets\\upload\\images\\3a7a84bb-d04d-44b7-9eba-e7a00908ade6_graphic design.webp"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\3d2a83fb-ae8b-4d22-b612-a46bfc9aee8f_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\3d2a83fb-ae8b-4d22-b612-a46bfc9aee8f_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\3d2a83fb-ae8b-4d22-b612-a46bfc9aee8f_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\6025d01f-69a5-470b-bd5e-011833e290f6_Django.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\6025d01f-69a5-470b-bd5e-011833e290f6_Django.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\6025d01f-69a5-470b-bd5e-011833e290f6_Django.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\7013301d-57ba-492f-b54b-87e12f701ec9_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\7013301d-57ba-492f-b54b-87e12f701ec9_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\7013301d-57ba-492f-b54b-87e12f701ec9_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\9098d96e-ac0d-4358-8c5e-f8852232a826_test.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\9098d96e-ac0d-4358-8c5e-f8852232a826_test.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\9098d96e-ac0d-4358-8c5e-f8852232a826_test.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\c0d14333-02d9-44e3-8853-366905a6524c_Django.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\c0d14333-02d9-44e3-8853-366905a6524c_Django.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\c0d14333-02d9-44e3-8853-366905a6524c_Django.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\c41bb4e9-fb3a-4360-8ec3-73792e82fc05_graphic design.webp",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\c41bb4e9-fb3a-4360-8ec3-73792e82fc05_graphic design.webp",
       "PackagePath": "staticwebassets\\upload\\images\\c41bb4e9-fb3a-4360-8ec3-73792e82fc05_graphic design.webp"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\c8b64618-f4f2-42f9-9253-6db21ffdcffb_Working in group skill.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\c8b64618-f4f2-42f9-9253-6db21ffdcffb_Working in group skill.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\c8b64618-f4f2-42f9-9253-6db21ffdcffb_Working in group skill.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\cb0f4337-501e-41d6-b72b-a54eea872f18_graphic design.webp",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\cb0f4337-501e-41d6-b72b-a54eea872f18_graphic design.webp",
       "PackagePath": "staticwebassets\\upload\\images\\cb0f4337-501e-41d6-b72b-a54eea872f18_graphic design.webp"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\d0c57f78-26a7-47f4-ba5e-e3ac318136f4_marxism.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\d0c57f78-26a7-47f4-ba5e-e3ac318136f4_marxism.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\d0c57f78-26a7-47f4-ba5e-e3ac318136f4_marxism.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\d0f91f1f-80d3-43ae-b964-85422ed2b06c_marxism.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\d0f91f1f-80d3-43ae-b964-85422ed2b06c_marxism.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\d0f91f1f-80d3-43ae-b964-85422ed2b06c_marxism.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\d8f0a994-c894-4a7a-bdab-4b45fadef3c2_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\d8f0a994-c894-4a7a-bdab-4b45fadef3c2_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\d8f0a994-c894-4a7a-bdab-4b45fadef3c2_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\e21078f9-b41c-4f9d-804a-176472ba62f7_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\e21078f9-b41c-4f9d-804a-176472ba62f7_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\e21078f9-b41c-4f9d-804a-176472ba62f7_book.jpg"
     },
     {
-      "Id": "C:\\Users\\ADMIN\\OneDrive\\Máy tính\\BookStore\\wwwroot\\upload\\images\\e8a354fa-5585-4301-83b1-3f6b03a6b562_book.jpg",
+      "Id": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\wwwroot\\upload\\images\\e8a354fa-5585-4301-83b1-3f6b03a6b562_book.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\e8a354fa-5585-4301-83b1-3f6b03a6b562_book.jpg"
     },
     {
