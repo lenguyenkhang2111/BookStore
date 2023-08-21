@@ -1,3 +1,5 @@
+/* The above code is a C# controller class for managing the bookstore application. It includes various
+actions for handling book management, category requests, and order management. */
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using BookStore.Models;
