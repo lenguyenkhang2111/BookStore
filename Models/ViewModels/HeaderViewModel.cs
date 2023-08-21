@@ -5,5 +5,7 @@ public class HeaderViewModel
 
     public string SearchAspController { get; set; } = String.Empty;
 
+    public IEnumerable<Category> Categories { get; set; } = Enumerable.Empty<Category>();
+
 
 }

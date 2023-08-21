@@ -22,7 +22,8 @@ public class HeaderViewComponent : ViewComponent
     {
         HeaderViewModel model = new HeaderViewModel
         {
-            SearchAspController = "Book"
+            SearchAspController = "Book",
+            Categories = _context.Categories
         };
         if (User.Identity != null && User.Identity.IsAuthenticated)
         {
@@ -37,6 +38,7 @@ public class HeaderViewComponent : ViewComponent
                 model.SearchAspController = "StoreOwner";
             }
             model.CartCount = itemCount;
+
         }
 
 

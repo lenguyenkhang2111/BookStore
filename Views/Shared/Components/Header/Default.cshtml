@@ -20,8 +20,9 @@
                             <li><a asp-controller="Home" asp-action="Help">Help</a></li>
                             @if (User.Identity != null && User.Identity.IsAuthenticated)
                             {
-                                <li asp-controller="Order" asp-action="Index" active-route>
-                                    <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
+                                <li asp-controller="Order" asp-action="OrderHistory" active-route>
+                                    <a asp-controller="Order" asp-action="OrderHistory" class="sf-with-ul">My history
+                                        orders</a>
                                 </li>
                                 <li><a asp-controller="Account" asp-action="Profile">Welcome
                                         @User.Identity.Name <i class="icon-user"></i></a>
@@ -54,24 +55,32 @@
                 </a>
                 <nav class="main-nav">
                     <ul class="menu sf-arrows">
+                        <li asp-controller="Home" asp-action="Index" active-route>
+                            <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
+                        </li>
+                        <li asp-controller="Book" asp-action="Index" active-route>
+                            <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Categories</a>
+                            <ul>
+                                @foreach (Category c in Model?.Categories ?? Enumerable.Empty<Category>())
+                                {
+                                    <li>
+                                        <a asp-controller="Book" asp-action="Index"
+                                            asp-route-categoryId="@c.Id">@c.CategoryName</a>
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+
                         @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
                         {
-
-
-                            <li asp-controller="Home" asp-action="Index" active-route>
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
-                            <li asp-controller="Book" asp-action="Index" active-route>
-                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
-                            </li>
                             <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                 <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">StoreOwner Manage</a>
                                 <ul>
                                     <li asp-controller="StoreOwner" asp-action="Index" active-route>
                                         <a asp-controller="StoreOwner" asp-action="Index">Add book</a>
                                     </li>
-                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                        <a asp-controller="StoreOwner" asp-action="Index">Request Category</a>
+                                    <li asp-controller="StoreOwner" asp-action="CategoryRequest" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="CategoryRequest">Request Category</a>
                                     </li>
                                     <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
                                         <a asp-controller="StoreOwner" asp-action="OrderManage">Manage Orders</a>
@@ -86,14 +95,8 @@
                         }
                         else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <li asp-controller="Home" asp-action="Index" active-route class="megamenu-container active">
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
-                            <li asp-controller="Book" asp-action="Index" active-route>
-                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
-                            </li>
-                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Admin Manage</a>
+                            <li asp-controller="Admin" asp-action="Index" active-route>
+                                <a asp-controller="Admin" asp-action="Index" class="sf-with-ul">Admin Manage</a>
                                 <ul>
                                     <li asp-controller="Admin" asp-action="Index" active-route>
                                         <a asp-controller="Admin" asp-action="Index" asp-route-account="Customer">Manage
@@ -119,26 +122,7 @@
                         }
                         else
                         {
-                            <li asp-controller="Home" asp-action="Index" active-route>
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
-                            <li asp-controller="Book" asp-action="Index" active-route>
-                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
-                            </li>
 
-
-                            <li asp-asp-controller="Home" asp-action="Help" active-route>
-                                <a asp-asp-controller="Home" asp-action="Help">Help</a>
-                            </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
-                                <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
-                                </ul>
-                            </li>
-                            <!-- End .menu -->
                         }
                     </ul>
                 </nav>
