@@ -16,7 +16,7 @@ using SixLabors.ImageSharp.Formats.Webp;
 
 namespace BookStore.Controllers;
 
-[Authorize(Roles = "StoreOwner")]
+[Authorize(Roles = "StoreOwner,Admin")]
 public class StoreOwnerController : Controller
 {
     private StoreDbContext _context;

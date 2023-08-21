@@ -16,8 +16,7 @@ namespace BookStore.Controllers
         private readonly UserManager<User> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public CartController(StoreDbContext context, UserManager<User> userManager,
-             IHttpContextAccessor httpContextAccessor)
+        public CartController(StoreDbContext context, UserManager<User> userManager, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _httpContextAccessor = httpContextAccessor;
