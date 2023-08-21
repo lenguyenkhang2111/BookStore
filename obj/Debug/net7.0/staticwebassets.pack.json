@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\assets\\fonts\\molla0ab2.woff2"
     },
     {
+      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\FPTLogo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\FPTLogo.png"
+    },
+    {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\about-header-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\about-header-bg.jpg"
     },
@@ -1067,6 +1071,10 @@
     {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-2.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\favicon-2.ico"
     },
     {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-32x32.png",
@@ -2291,6 +2299,10 @@
     {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg",
       "PackagePath": "staticwebassets\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg",
+      "PackagePath": "staticwebassets\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg"
     },
     {
       "Id": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\c0d14333-02d9-44e3-8853-366905a6524c_Django.jpg",

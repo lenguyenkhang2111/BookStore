@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FZClIlik3dU/7DXIg5Fs6hR33DP3+l2A8YdgeBeqftc=",
+  "Hash": "im14kIZ4LAWkv+e+dSEpLibuXRm0kvflyDs31qTurPc=",
   "Source": "BookStore",
   "BasePath": "_content/BookStore",
   "Mode": "Default",
@@ -5525,6 +5525,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\elements.png"
     },
     {
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\FPTLogo.png",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "assets/images/FPTLogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\FPTLogo.png"
+    },
+    {
       "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\apple-touch-icon.png",
       "SourceId": "BookStore",
       "SourceType": "Discovered",
@@ -5574,6 +5591,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\icons\\favicon-16x16.png"
+    },
+    {
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-2.ico",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "assets/images/icons/favicon-2.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\icons\\favicon-2.ico"
     },
     {
       "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\assets\\images\\icons\\favicon-32x32.png",
@@ -10776,6 +10810,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\upload\\images\\93c28823-c162-42c8-9f00-1c61a0dc2894_Django.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg",
+      "SourceId": "BookStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\",
+      "BasePath": "_content/BookStore",
+      "RelativePath": "upload/images/c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\images\\c05dad5b-d2d9-43fc-897e-529c1df5a990_book.jpg"
     },
     {
       "Identity": "C:\\Users\\KHANG\\Desktop\\BookStore\\wwwroot\\upload\\images\\c0d14333-02d9-44e3-8853-366905a6524c_Django.jpg",

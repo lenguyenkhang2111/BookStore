@@ -27,90 +27,72 @@
                 aria-labelledby="mobile-menu-link">
                 <nav class="mobile-nav">
                     <ul class="mobile-menu">
+                        <li asp-controller="Home" asp-action="Index" active-route>
+                            <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
+                        </li>
+                        <li asp-controller="Book" asp-action="Index" active-route>
+                            <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Categories</a>
+                            <ul>
+                                @foreach (Category c in Model?.Categories ?? Enumerable.Empty<Category>())
+                                {
+                                    <li>
+                                        <a asp-controller="Book" asp-action="Index"
+                                            asp-route-categoryId="@c.Id">@c.CategoryName</a>
+                                    </li>
+                                }
+                            </ul>
+                        </li>
+
                         @if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("StoreOwner"))
                         {
-                            <li asp-controller="Home" asp-action="Index" active-route>
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
                             <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Book</a>
-                            </li>
-                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Orders</a>
-                            </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
+                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">StoreOwner Manage</a>
                                 <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Add book</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="CategoryRequest" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="CategoryRequest">Request Category</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="OrderManage">Manage Orders</a>
+                                    </li>
                                 </ul>
                             </li>
+
+
+
                             <!-- End .menu -->
 
                         }
                         else if (User.Identity != null && User.Identity.IsAuthenticated && User.IsInRole("Admin"))
                         {
-                            <li asp-controller="Home" asp-action="Index" active-route class="megamenu-container active">
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
-                            <li asp-controller="Book" asp-action="Index" active-route>
-                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Books</a>
-                            </li>
-                            <li asp-controller="StoreOwner" asp-action="Index" active-route>
-                                <a asp-controller="StoreOwner" asp-action="Index" class="sf-with-ul">Manage Books</a>
-                            </li>
-                            <li asp-controller="StoreOwner" asp-action="OrderManage" active-route>
-                                <a asp-controller="StoreOwner" asp-action="OrderManage" class="sf-with-ul">Orders</a>
-                            </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
+                            <li asp-controller="Admin" asp-action="Index" active-route>
+                                <a asp-controller="Admin" asp-action="Index" class="sf-with-ul">Admin Manage</a>
                                 <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
-                                    <li><a href="elements-titles.html">Titles</a></li>
-                                    <li><a href="elements-banners.html">Banners</a></li>
-                                    <li><a href="elements-product-category.html">Product Category</a></li>
-                                    <li><a href="elements-video-banners.html">Video Banners</a></li>
-                                    <li><a href="elements-buttons.html">Buttons</a></li>
-                                    <li><a href="elements-accordions.html">Accordions</a></li>
-                                    <li><a href="elements-tabs.html">Tabs</a></li>
-                                    <li><a href="elements-testimonials.html">Testimonials</a></li>
-                                    <li><a href="elements-blog-posts.html">Blog Posts</a></li>
-                                    <li><a href="elements-portfolio.html">Portfolio</a></li>
-                                    <li><a href="elements-cta.html">Call to Action</a></li>
-                                    <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
+                                    <li asp-controller="Admin" asp-action="Index" active-route>
+                                        <a asp-controller="Admin" asp-action="Index" asp-route-account="Customer">Manage
+                                            Customer</a>
+                                    </li>
+                                    <li asp-controller="Admin" asp-action="Index" active-route>
+                                        <a asp-controller="Admin" asp-action="Index" asp-route-account="StoreOwner">Manage
+                                            StoreOwner</a>
+                                    </li>
+                                    <li asp-controller="Admin" asp-action="CategoryRequestManage" active-route>
+                                        <a asp-controller="Admin" asp-action="CategoryRequestManage">Manage Category
+                                            Requests</a>
+                                    </li>
+                                    <li asp-controller="StoreOwner" asp-action="Index" active-route>
+                                        <a asp-controller="StoreOwner" asp-action="Index">Manage
+                                            Books</a>
+                                    </li>
                                 </ul>
                             </li>
 
+
                             <!-- End .menu -->
                         }
-                        else
-                        {
-                            <li asp-controller="Home" asp-action="Index" active-route>
-                                <a asp-controller="Home" asp-action="Index" class="sf-with-ul">Home</a>
-                            </li>
-                            <li asp-controller="Book" asp-action="Index" active-route>
-                                <a asp-controller="Book" asp-action="Index" class="sf-with-ul">Book</a>
-                            </li>
-                            <li asp-controller="Order" asp-action="Index" active-route>
-                                <a asp-controller="Order" asp-action="Index" class="sf-with-ul">Orders</a>
-                            </li>
 
-                            <li asp-asp-controller="Home" asp-action="Help" active-route>
-                                <a asp-asp-controller="Home" asp-action="Help">Help</a>
-                            </li>
-                            <li>
-                                <a href="elements-list.html" class="sf-with-ul">Elements</a>
-
-                                <ul>
-                                    <li><a href="elements-products.html">Products</a></li>
-                                    <li><a href="elements-typography.html">Typography</a></li>
-                                </ul>
-                            </li>
-                            <!-- End .menu -->
-                        }
                     </ul>
                 </nav><!-- End .mobile-nav -->
             </div><!-- .End .tab-pane -->
