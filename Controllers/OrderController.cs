@@ -17,8 +17,7 @@ namespace BookStore.Controllers
         private readonly UserManager<User> _userManager;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public OrderController(StoreDbContext context, UserManager<User> userManager,
-             IHttpContextAccessor httpContextAccessor)
+        public OrderController(StoreDbContext context, UserManager<User> userManager, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _httpContextAccessor = httpContextAccessor;
@@ -98,8 +97,7 @@ namespace BookStore.Controllers
         private void MarkOrderAsPaid()
         {
             Cart cart = GetCart();
-            var order = _context.Orders.Include(o => o.OrderItems)
-                                       .FirstOrDefault(o => o.UserId == cart.UserId && o.OrderItems.Any());
+            var order = _context.Orders.Include(o => o.OrderItems).FirstOrDefault(o => o.UserId == cart.UserId && o.OrderItems.Any());
 
             if (order != null)
             {
