@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using BookStore.Data;
-namespace BookStore.Models;
+﻿namespace BookStore.Models;
 
 public class Category
 {
@@ -12,3 +10,4 @@ public class Category
 
 
 }
+
