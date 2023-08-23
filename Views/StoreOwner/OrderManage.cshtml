@@ -65,14 +65,21 @@
                                         data-target="#orderdetail-@order.Id">
                                         View details
                                     </button>
-                                    <a role="button" asp-controller="StoreOwner" asp-action="OrderApprove"
-                                        asp-route-orderId="@order.Id" asp-route-status="Accept" class="btn btn-success"
-                                        style="background-color:rgb(29, 250, 0); border-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">Accept
-                                    </a>
-                                    <a role="button" asp-controller="StoreOwner" asp-action="OrderApprove"
-                                        asp-route-orderId="@order.Id" asp-route-status="Reject" class="btn btn-danger"
-                                        style="background-color:rgb(247, 63, 63); border-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">Reject
-                                    </a>
+                                    @if (@order.Status == "Pending")
+                                    {
+                                        <a role="button" asp-controller="StoreOwner" asp-action="OrderApprove"
+                                            asp-route-orderId="@order.Id" asp-route-status="Accept" class="btn btn-success"
+                                            style="background-color:rgb(29, 250, 0); border-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">Accept
+                                        </a>
+                                        <a role="button" asp-controller="StoreOwner" asp-action="OrderApprove"
+                                            asp-route-orderId="@order.Id" asp-route-status="Reject" class="btn btn-danger"
+                                            style="background-color:rgb(247, 63, 63); border-color:rgb(0, 0, 0); color:rgb(0, 0, 0)">Reject
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-sm btn-secondary">This order has been rocessed</button>
+                                    }
                                 </div>
                             </td>
                         </tr>
