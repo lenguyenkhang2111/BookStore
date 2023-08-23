@@ -59,15 +59,10 @@ namespace BookStore
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(Login model, string returnUrl = null)
+        public async Task<IActionResult> Login(Login model)
         {
-            // returnUrl ??= Url.Content("~/");
-
-
             if (ModelState.IsValid)
             {
-
-
                 var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
 
                 if (result.Succeeded)
@@ -87,10 +82,8 @@ namespace BookStore
                         return RedirectToAction("Index", "StoreOwner");
                     }
                 }
-
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
-
             return View(model);
         }
 
@@ -129,14 +122,12 @@ namespace BookStore
             {
                 return NotFound();
             }
-
             var model = new EditProfileViewModel
             {
                 FullName = user.FullName,
                 HomeAddress = user.HomeAddress,
                 Email = user.Email
             };
-
             return View(model);
         }
 
@@ -151,28 +142,21 @@ namespace BookStore
                 {
                     return NotFound();
                 }
-
                 user.FullName = model.FullName;
                 user.HomeAddress = model.HomeAddress;
                 user.Email = model.Email;
                 user.UserName = model.Email;
-
                 var result = await _userManager.UpdateAsync(user);
-
                 if (result.Succeeded)
                 {
-                    // Sign the user back in with updated information
                     await _signInManager.RefreshSignInAsync(user);
-
                     return RedirectToAction("Index", "Home");
                 }
-
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
-
             return View(model);
         }
 

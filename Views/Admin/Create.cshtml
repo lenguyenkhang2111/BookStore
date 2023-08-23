@@ -1,49 +1,75 @@
 ﻿@model CreateByAdmin
-
-
 @{
         ViewData["Title"] = "Create";
 }
 
 <h1>Create</h1>
 
-<hr />
-<div class="row">
-        <div class="col-12">
-                <form asp-controller="Admin" asp-action="Create" method="post">
-                        <div class="form-group">
-                                <label asp-for="Email">Your email address *</label>
-                                <input type="email" asp-for="Email" class="form-control" />
-                                <span asp-validation-for="Email" class="invalid-feedback custom-invalid-feedback">
-                                </span>
-                        </div><!-- End .form-group -->
-                        <div class="form-group">
-                                <label asp-for="FullName"></label>
-                                <input asp-for="FullName" class="form-control" />
-                                <span asp-validation-for="FullName"
-                                        class="invalid-feedback custom-invalid-feedback"></span>
-                        </div>
-                        <div class="form-group">
-                                <label asp-for="HomeAddress"></label>
-                                <input asp-for="HomeAddress" class="form-control" />
-                                <span asp-validation-for="HomeAddress"
-                                        class="invalid-feedback custom-invalid-feedback"></span>
-                        </div>
+<nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
+        <div class="container">
+                <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">EditProfile</li>
+                </ol>
+        </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
 
-                        <div class="form-group">
-                                <label asp-for="Password"></label>
-                                <input asp-for="Password" class="form-control" />
-                                <span asp-validation-for="Password" class="invalid-feedback custom-invalid-feedback">
-                                </span>
-                        </div>
+<div class="login-page bg-image pt-8 pb-8 pt-md-12 pb-md-12 pt-lg-17 pb-lg-17"
+        style="background-image: url('assets/images/backgrounds/login-bg.jpg')">
+        <div class="container">
+                <div class="form-box">
+                        <div class="form-tab">
+                                <ul class="nav nav-pills nav-fill" role="tablist">
+                                        <li class="nav-item">
+                                                <a class="nav-link active" aria-selected="true">EditProfile</a>
+                                        </li>
+                                </ul>
+                                <div class="tab-content">
+                                        <div class="tab-pane fade show active" role="tabpanel">
 
-                        <div class="form-group">
-                                <button class="btn btn-primary mt-2">Submit</button>
-                        </div>
-                </form>
-        </div>
-</div>
+                                                <form asp-controller="Admin" asp-action="Create" method="post">
+                                                        <div class="form-group">
+                                                                <label asp-for="Email">Your email address *</label>
+                                                                <input type="email" asp-for="Email"
+                                                                        class="form-control" />
+                                                                <span asp-validation-for="Email"
+                                                                        class="invalid-feedback custom-invalid-feedback">
+                                                                </span>
+                                                        </div><!-- End .form-group -->
+                                                        <div class="form-group">
+                                                                <label asp-for="FullName"></label>
+                                                                <input asp-for="FullName" class="form-control" />
+                                                                <span asp-validation-for="FullName"
+                                                                        class="invalid-feedback custom-invalid-feedback"></span>
+                                                        </div>
+                                                        <div class="form-group">
+                                                                <label asp-for="HomeAddress"></label>
+                                                                <input asp-for="HomeAddress" class="form-control" />
+                                                                <span asp-validation-for="HomeAddress"
+                                                                        class="invalid-feedback custom-invalid-feedback"></span>
+                                                        </div>
 
-<div>
-        <a asp-action="Customer">Back to List</a>
-</div>
+                                                        <div class="form-group">
+                                                                <label asp-for="Password"></label>
+                                                                <input asp-for="Password" class="form-control" />
+                                                                <span asp-validation-for="Password"
+                                                                        class="invalid-feedback custom-invalid-feedback">
+                                                                </span>
+                                                        </div>
+                                                        <div class="form-footer">
+                                                                <button type="submit" class="btn btn-outline-primary-2">
+                                                                        <span>EditProfile</span>
+                                                                        <i class="icon-long-arrow-right"></i>
+                                                                </button>
+                                                        </div><!-- End .form-footer -->
+                                                </form>
+                                        </div><!-- .End .tab-pane -->
+                                </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                </div><!-- End .form-box -->
+        </div><!-- End .container -->
+</div><!-- End .login-page section-bg -->
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}

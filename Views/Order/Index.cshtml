@@ -26,7 +26,7 @@
             <form asp-action="CreateOrder" asp-controller="Order">
                 <div class="row">
                     <div class="col-lg-9">
-                        <h2 class="checkout-title">Billing Details</h2><!-- End .checkout-title -->
+                        <h2 class="checkout-title">Billing Details</h2>
 
                         <label>Full Name </label>
                         <input type="text" class="form-control" value="@user?.FullName" readonly>
@@ -41,10 +41,10 @@
                         <input type="email" class="form-control" value="@user?.Email" readonly>
 
 
-                    </div><!-- End .col-lg-9 -->
+                    </div>
                     <aside class="col-lg-3">
                         <div class="summary">
-                            <h3 class="summary-title">Your Order</h3><!-- End .summary-title -->
+                            <h3 class="summary-title">Your Order</h3>
 
                             <table class="table table-summary">
                                 <thead>
@@ -72,11 +72,10 @@
                                         <td>$@Model.CartItems.Sum(item => item.Quantity * item.Book.Price)</ /td>
                                     </tr>
 
-                                    <!-- End .summary-total -->
+
                                 </tbody>
                             </table>
 
-                            <!-- End .table table-summary -->
 
                             <div class="accordion-summary" id="accordion-payment">
                                 <div class="card">
@@ -87,17 +86,14 @@
                                                 Cash on delivery
                                             </a>
                                         </h2>
-                                    </div><!-- End .card-header -->
+                                    </div>
                                     <div id="collapse-3" class="collapse" aria-labelledby="heading-3"
                                         data-parent="#accordion-payment">
                                         <div class="card-body">Please prepare your money!
-                                        </div><!-- End .card-body -->
-                                    </div><!-- End .collapse -->
-                                </div><!-- End .card -->
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
-                            <!-- End .accordion -->
-
                             <button type="submit" class="btn btn-outline-primary-2 btn-order btn-block">
                                 <span class="btn-text">Place Order</span>
                                 <span class="btn-hover-text">Checkout</span>
