@@ -4954,19 +4954,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\THE HAO PC\\.nuget\\packages\\": {}
+    "C:\\Users\\KHANG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\BookStore.csproj",
+      "projectUniqueName": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
       "projectName": "BookStore",
-      "projectPath": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\BookStore.csproj",
-      "packagesPath": "C:\\Users\\THE HAO PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\THE HAO PC\\Desktop\\BookStore\\obj\\",
+      "projectPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\BookStore.csproj",
+      "packagesPath": "C:\\Users\\KHANG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KHANG\\Desktop\\BookStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\THE HAO PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KHANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4974,7 +4974,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.307\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5059,8 +5059,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\KHANG\\Desktop\\BookStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

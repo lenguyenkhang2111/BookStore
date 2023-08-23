@@ -8,7 +8,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Pages</a></li>
-            <li class="breadcrumb-item active" aria-current="page">EditUser</li>
+            <li class="breadcrumb-item active" aria-current="page">Edit User</li>
         </ol>
     </div><!-- End .container -->
 </nav><!-- End .breadcrumb-nav -->
@@ -20,7 +20,7 @@
             <div class="form-tab">
                 <ul class="nav nav-pills nav-fill" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-selected="true">Edit</a>
+                        <a class="nav-link active" aria-selected="true">Edit User</a>
                     </li>
                 </ul>
                 <div class="tab-content">
@@ -35,13 +35,16 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label asp-for="changePassword"></label>
+                                <label asp-for="changePassword">New password</label>
                                 <input asp-for="changePassword" class="form-control" />
                                 <span asp-validation-for="changePassword"
                                     class="invalid-feedback custom-invalid-feedback"></span>
                             </div>
-                            <input type="text" value="@Model.UserId" asp-for="UserId" readonly />
-
+                            <div class="form-group">
+                                <label asp-for="UserId">Id of user</label>
+                                <input class="form-control" type="text" value="@Model.UserId" asp-for="UserId" readonly
+                                    disabled />
+                            </div>
                             <div class="form-footer">
                                 <button type="submit" class="btn btn-outline-primary-2">
                                     <span>EditProfile</span>
