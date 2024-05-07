@@ -992,3 +992,4 @@ C:\Users\KHANG\Desktop\BookStore\bin\Debug\net7.0\SixLabors.ImageSharp.dll
 C:\Users\ADMIN\OneDrive\Máy tính\BookStore\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\ADMIN\OneDrive\Máy tính\BookStore\bin\Debug\net7.0\SixLabors.ImageSharp.dll
 C:\Users\THE HAO PC\Desktop\BookStore\bin\Debug\net7.0\SixLabors.ImageSharp.dll
+C:\Users\ADMIN\OneDrive\Máy tính\BookStore\obj\Debug\net7.0\BookStore.sourcelink.json
